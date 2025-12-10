@@ -196,6 +196,14 @@ This resume system is **itself** a portfolio piece, demonstrating:
 - Markdown for portability and maintainability
 - Systematic approach to career documentation
 
+### **Front-End & CSS Architecture** (HTML Resume)
+- **Responsive Design:** Mobile-first CSS with three breakpoints (mobile, tablet, desktop)
+- **WCAG AA Accessibility:** Semantic HTML, skip links, focus states, contrast-compliant colors
+- **CSS Architecture:** Separation of concerns (colors.css, styles.css, index.html)
+- **DRY Principles:** Centralized color system using CSS variables
+- **Dark Mode Support:** Automatic light/dark theme switching with `prefers-color-scheme`
+- **Print Optimization:** Single-page PDF output with optimized typography
+
 ---
 
 ## **File Structure**

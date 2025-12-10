@@ -7,13 +7,13 @@ Orlando, FL 32839 | abe.raise@gmail.com | [needthisdone.com](https://needthisdon
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer with production-grade architecture expertise and comprehensive testing practices. Built automated systems reducing weeks of work to minutes at EdTech company. Co-founded needthisdone.com implementing advanced caching that reduced database queries by 60-80% and improved response times by 15-50x. Demonstrates DevOps maturity through multi-environment Docker containerization, comprehensive E2E/unit/accessibility testing, and professional CI/CD workflows. Self-taught from CS fundamentals (2023) to professional developer (2025), consistently solving complex technical problems.
+Full-stack developer who ships production systems demonstrating mastery across the entire technology stack. Co-founded needthisdone.com—a three-tier architecture platform (Nginx → Next.js/Medusa → Supabase/Redis) that showcases: advanced caching reducing queries 60-80% and response times 15-50x; comprehensive testing (5+ E2E flows, unit/integration, WCAG AA accessibility); multi-environment Docker containerization; AI-powered features using pgvector semantic search; and professional DevOps workflows. At Acadio, built automated systems reducing manual work from weeks to minutes. Self-taught from CS fundamentals (2023) to professional developer (2025), consistently solving complex technical problems and delivering measurable results.
 
 ---
 
 ## TECHNICAL SKILLS
 
-**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Playwright (E2E), Vitest (unit/integration), Storybook, WCAG AA accessibility testing
+**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Responsive Design (mobile-first), Playwright (E2E), Vitest (unit/integration), Storybook, WCAG AA accessibility testing
 
 **Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth authentication, Excel/XLSX automation
 

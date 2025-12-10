@@ -11,7 +11,19 @@
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer with solid foundation in computer science fundamentals and production-grade architecture expertise. Self-taught MEVN stack mastery in 2023, applied through freelance projects in 2024, and elevated to professional work in 2025 by combining technical depth with modern development tools like Claude Code. Shipped production applications using Next.js, Node.js, PostgreSQL, Docker, and comprehensive testing practices. Consistently solves complex technical problems and delivers measurable results—from automated systems reducing weeks of work to minutes, to implementing advanced caching strategies that reduce database queries by 60-80% and improve response times by 15-50x. Demonstrates DevOps maturity through multi-environment containerization, comprehensive testing (E2E, unit, integration, accessibility), and professional development workflows. Early adopter who leverages modern tooling to accelerate development without sacrificing technical rigor.
+Full-stack developer who ships production systems demonstrating mastery across the entire technology stack. Self-taught from CS fundamentals (2023) through MEVN stack, freelance projects (2024), to professional developer (2025) combining technical depth with modern tools like Claude Code.
+
+**Primary Portfolio Piece: needthisdone.com** — A three-tier production platform showcasing:
+- **Architecture**: Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure
+- **Performance**: Advanced caching strategy achieving 60-80% database query reduction and 15-50x response time improvement
+- **Testing Excellence**: 5+ E2E test suites (Playwright), comprehensive unit/integration tests (Vitest), WCAG AA accessibility compliance across all components
+- **DevOps Maturity**: Multi-environment Docker containerization (production, development, E2E testing, unit testing), Docker Compose orchestration, GitHub Actions CI/CD pipeline
+- **AI Integration**: Context-aware chatbots using pgvector semantic search and OpenAI embeddings
+- **E-Commerce**: Headless architecture with Medusa backend, cart management, checkout flows, payment processing
+
+**Professional Experience**: At Acadio (EdTech), built automated content generation systems reducing manual work from weeks to minutes and consistently solved complex technical problems others struggled with.
+
+Demonstrates ability to architect scalable systems, optimize for performance, implement comprehensive testing, manage production infrastructure, and deliver measurable business impact.
 
 ---
 
@@ -19,6 +31,7 @@ Full-stack developer with solid foundation in computer science fundamentals and 
 
 **Frontend Development**
 React, Next.js (SSR, API routes), Vue.js, Quasar Framework, HTML/CSS, JavaScript, TypeScript
+Responsive Design: Mobile-first approach, CSS Grid/Flexbox, flexible layouts, cross-device optimization
 Modern tooling: Puck (visual page builder), Storybook, Playwright (E2E testing), Vitest (unit/integration testing)
 Accessibility & Testing: WCAG AA compliance, dark mode implementation, visual regression testing
 
