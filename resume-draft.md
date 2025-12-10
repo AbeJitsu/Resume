@@ -13,14 +13,14 @@
 
 I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Self-taught from CS fundamentals (2023) through MEVN stack, freelance projects (2024), to professional developer (2025) combining technical depth with modern tools like Claude Code.
 
-**Primary Portfolio Piece: needthisdone.com** — A three-tier production platform demonstrating full-stack capability:
+**Primary Portfolio Piece: needthisdone.com** — A production platform demonstrating full-stack capability:
 - **Architecture**: Built the entire system myself—Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching. Designed for performance and reliability.
 - **Testing**: E2E test suite covering critical user flows. Unit and integration tests across the application. WCAG AA accessibility compliance verified.
 - **DevOps**: Multi-environment Docker setup for production, development, and testing. Automated CI/CD pipeline with GitHub Actions. Professional git workflow for managing releases.
 - **AI Features**: Context-aware chatbots using semantic search and OpenAI embeddings
 - **E-Commerce**: Headless architecture with Medusa backend—handles payments, user authentication, cart management, checkout flows
 
-**Professional Experience**: At Acadio (EdTech), I identified manual workflows consuming weeks of team time and automated them away. I consistently solved complex technical problems that other team members struggled with.
+**Professional Experience**: At Acadio (EdTech), I identified manual workflows consuming weeks of team time and automated them away. I became the go-to problem-solver for complex technical challenges.
 
 Can architect scalable systems, automate manual processes, implement comprehensive testing, manage production infrastructure, and deliver measurable results.
 

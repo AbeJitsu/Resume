@@ -7,7 +7,7 @@ Orlando, FL 32839 | abe.raise@gmail.com | [needthisdone.com](https://needthisdon
 
 ## PROFESSIONAL SUMMARY
 
-I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Co-founded needthisdone.com—a three-tier production platform with payments, user authentication, and comprehensive testing. I architected the entire system myself: React frontend, Node.js backend, PostgreSQL with Redis caching, Nginx proxy, Playwright E2E tests. At Acadio, I identified manual workflows consuming weeks of team time and automated them away. Self-taught since 2023, shipped multiple production systems, and consistently deliver measurable results.
+I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Co-founded needthisdone.com, a production platform handling payments, user authentication, and complex business logic with comprehensive testing. I architected the entire system myself. At Acadio, I identified manual workflows consuming weeks of team time and automated them away. Self-taught since 2023, consistently delivering measurable results.
 
 ---
 
@@ -32,7 +32,7 @@ I build complete full-stack systems from scratch—frontend, backend, database, 
 
 - Identified manual workflows consuming weeks of team time and automated them away using Claude Code—flashcard generation, validation, and correction now runs in minutes
 - Built multi-phase validation pipelines that catch errors programmatically instead of requiring manual review
-- Solved complex technical problems that other team members couldn't, establishing credibility as the go-to problem-solver
+- Became the go-to problem-solver for complex technical challenges others couldn't resolve
 
 ---
 
