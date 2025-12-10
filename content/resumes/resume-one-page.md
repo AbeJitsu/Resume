@@ -21,15 +21,15 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 <div style="margin-left: 20px;">
 
-**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, TailwindCSS, HTML/CSS, Responsive Design (mobile-first), Playwright, Vitest, Storybook, WCAG AA
+**Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS, Responsive Design, Playwright, Vitest, Storybook, WCAG AA
 
-**Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth, Excel/XLSX
+**Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth
 
 **Databases & Caching:** PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
-**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions (CI/CD pipelines), Vercel, Monorepo architecture, Google Cloud Platform (OAuth, APIs)
+**DevOps & Infrastructure:** Docker, Nginx, Git/GitHub, GitHub Actions, Vercel, Monorepo, GCP, DigitalOcean
 
-**AI & Vector Search:** RAG (Retrieval-Augmented Generation) systems, OpenAI API (embeddings, completions), Supabase pgvector (semantic search), Vercel AI SDK (real-time streaming chat), Prompt engineering, Claude Code
+**AI & Vector Search:** RAG systems, OpenAI API, Supabase pgvector, Vercel AI SDK, Prompt engineering, Claude Code
 
 **E-commerce:** Medusa, Stripe, Product Management, Checkout Flows
 

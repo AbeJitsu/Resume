@@ -20,33 +20,22 @@ Transitioned to software development in 2023 with the same commitment that earne
 ## TECHNICAL SKILLS
 
 **Frontend Development**
-React, Next.js (SSR, API routes), Vue.js, Quasar Framework, TailwindCSS, HTML/CSS, JavaScript, TypeScript
-Responsive Design: Mobile-first approach, CSS Grid/Flexbox, flexible layouts, cross-device optimization
-Modern tooling: Puck (component-based page builder), Storybook, Playwright (E2E testing), Vitest (unit/integration testing)
-Accessibility & Testing: WCAG AA compliance, dark mode implementation, visual regression testing
+React, Next.js, Vue.js, TailwindCSS, Responsive Design, Playwright, Vitest, Storybook, WCAG AA
 
 **Backend & APIs**
-Node.js, Express.js, Python
-RESTful API design, OAuth authentication, Google APIs integration
+Node.js, Express.js, Python, RESTful APIs, OAuth
 
 **Databases & Caching**
-PostgreSQL (Supabase with pgvector for semantic search), MongoDB Atlas, MySQL, Redis
+PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
 **DevOps & Infrastructure**
-Docker (multi-environment containerization: prod, dev, e2e, test), Nginx (reverse proxy, load balancing, SSL/TLS)
-Docker Compose (multi-service orchestration), Redis (in-memory caching with pattern invalidation and TTL management)
-Git/GitHub (version control, CI/CD pipelines with GitHub Actions, professional branch strategy), Monorepo architecture
-Google Cloud Platform (OAuth, Calendar/Meet APIs, cloud services), Vercel, Heroku, Railway, DigitalOcean
+Docker, Nginx, Git/GitHub, GitHub Actions, Vercel, Monorepo, GCP, DigitalOcean
 
 **AI & RAG Systems**
-RAG (Retrieval-Augmented Generation) implementation: semantic search, vector embeddings, intelligent content retrieval
-OpenAI API (embeddings, completions, prompt engineering), Vercel AI SDK (real-time streaming chat interfaces)
-Supabase pgvector for vector storage and similarity search
-Context-aware chatbots with intelligent indexing and hash-based change detection
-Claude Code (agentic workflows, development automation)
+RAG systems, OpenAI API, Supabase pgvector, Vercel AI SDK, Prompt engineering, Claude Code
 
 **E-commerce & CMS**
-Medusa (headless e-commerce)
+Medusa
 
 ---
 
