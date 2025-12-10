@@ -16,10 +16,20 @@
 - **Puck:** Visual page builder that enables non-technical users to compose pages with React components
 - **Storybook:** Component development environment for building, testing, and documenting UI components in isolation
 
+### Game Development & Algorithms
+- **JavaScript Game Development:** Solitaire card game with multiple game modes
+  - Object-oriented game state management
+  - Undo/redo functionality implementation
+  - Algorithm design: Fisher-Yates shuffle, move validation, win condition checking
+  - AI decision systems with priority-based logic
+  - DRY principles in game-aware function design
+  - LocalStorage-based persistence
+
 ### Practical Experience
 - Built 25+ CSS/HTML projects demonstrating design capability
 - Created responsive web designs and modern SPA applications
 - Developed interactive UI components (cards, forms, panels, media players)
+- Implemented complex game logic with state management and algorithms
 
 ---
 
@@ -30,14 +40,24 @@
 - **Express.js:** Lightweight web framework for building RESTful APIs and server applications
 
 ### Languages
-- **JavaScript:** Full-stack development, async/await, modern ES6+ features
-- **Python:** Automation scripts, data processing, utility tools
+- **JavaScript:** Full-stack development, async/await, modern ES6+ features, game development, algorithm implementation
+- **Python:** Automation scripts, data processing, utility tools, Excel/XLSX file processing, batch operations
 
 ### API Development
 - **RESTful API Design:** Proper HTTP methods, status codes, error handling, resource structuring
 - **OAuth Authentication:** Secure third-party authentication integration
 - **Google APIs Integration:** Calendar, Meet, authentication integrations
 - **Third-party Integrations:** Shopify, DocuSign, various SaaS platforms
+
+### File Processing & Automation
+- **Excel/XLSX Processing:** Reading, writing, merging, and automating spreadsheet operations
+  - Managing large datasets (534+ flashcard entries)
+  - Data validation and consolidation workflows
+  - Batch file operations and automated transformations
+  - Quality assurance verification and logging
+- **VBA/Excel Automation:** Macro development for business process automation
+- **File Conversion & Data Migration:** Transforming data between formats
+- **Systematic Automation:** Reusable scripts for repetitive tasks and bulk operations
 
 ---
 
@@ -62,22 +82,30 @@
   - Foundation for RAG (Retrieval Augmented Generation) systems
 
 ### Caching & Performance
-- **Redis:** In-memory data store for:
-  - Session management
-  - Frequently accessed data caching
-  - Reducing database load
-  - Real-time features
+- **Redis:** In-memory caching and session management with:
+  - Cache-aside pattern implementation for optimal performance
+  - TTL-based key expiration for automatic cache invalidation
+  - Pattern-based cache key management for organized data storage
+  - Session management and real-time features
+  - Quantified impact: 60-80% reduction in database queries, 15-50x improvement in response times
 
 ---
 
 ## DevOps & Infrastructure
 
 ### Containerization & Orchestration
-- **Docker:** Container technology for:
-  - Containerizing development environments
+- **Docker:** Multi-environment containerization:
+  - Production-optimized containers for performance and security
+  - Development containers with hot reload and debugging support
+  - E2E testing containers with Playwright and test dependencies
+  - Unit testing containers with Vitest and testing frameworks
   - Ensuring consistency across machines ("works on my machine" problem solved)
-  - Reproducible deployments
-  - Multi-service orchestration
+  - Reproducible deployments and environment parity
+
+- **Docker Compose:** Multi-service orchestration for local development:
+  - Orchestrating Next.js, Medusa, PostgreSQL, Redis, and Supabase services
+  - Development overrides for different environments
+  - Easy setup and teardown of complete application stacks
 
 ### Web Server & Reverse Proxy
 - **Nginx:** High-performance web server and reverse proxy for:
@@ -107,6 +135,37 @@
 - **Railway:** Modern deployment platform for full-stack apps
 - **DigitalOcean:** VPS hosting for custom infrastructure
 - **Google Cloud:** Cloud services including OAuth and API integrations
+
+---
+
+## Testing & QA
+
+### End-to-End Testing
+- **Playwright:** Browser automation and E2E testing:
+  - Comprehensive user flow testing (5+ complete user journeys)
+  - Visual regression testing for UI consistency
+  - Cross-browser and cross-device testing
+  - Test automation with reliable selectors and waits
+
+### Unit & Integration Testing
+- **Vitest:** Lightning-fast unit and integration testing:
+  - Multiple test configurations for different testing needs
+  - Jest compatibility layer for smooth migration
+  - Integration testing with database and API operations
+  - Fast feedback loop for development
+
+### Accessibility & Compliance Testing
+- **Accessibility Testing:** WCAG AA compliance:
+  - Contrast ratio validation (minimum 5:1)
+  - Semantic HTML verification
+  - Screen reader compatibility
+  - Keyboard navigation testing
+  - Dark mode compatibility testing
+
+### Testing Practices
+- Testing pyramid approach: E2E (5+ user flows) → Integration (API/DB) → Unit (utilities)
+- Test environment separation with dedicated Docker containers
+- Automated testing in CI/CD pipeline with GitHub Actions
 
 ---
 
@@ -192,6 +251,55 @@
 - Backend API routes for LLM integration
 - Vector database (pgvector) for semantic search
 - OpenAI API for embeddings and completions
+
+### Application Architecture (needthisdone.com)
+**Three-Tier System Design:**
+```
+User Browser
+    ↓
+Nginx (Reverse Proxy + SSL/TLS)
+    ↓
+┌──────────────┬──────────────┬──────────────┐
+│  Next.js     │   Medusa     │  Supabase    │
+│  (Frontend   │  (Commerce   │  (Auth &     │
+│  + API)      │   Engine)    │   Database)  │
+└────────┬─────┴──────┬───────┴────────┬─────┘
+         └────────────┴────────────────┘
+              Redis Cache Layer
+```
+
+**State Management Architecture:**
+- Frontend: React Context (CartContext, AuthContext)
+- Backend: Medusa in-memory cart storage
+- Cache: Redis with TTL-based invalidation
+- Persistence: localStorage + PostgreSQL
+
+**Separation of Concerns:**
+- Commerce logic handled by Medusa backend
+- Authentication managed by Supabase
+- UI/UX delivered via Next.js
+- Independent service scaling capability
+
+### Testing Infrastructure (needthisdone.com)
+**E2E Testing with Playwright:**
+- Shop flow: Browse products, filter, add to cart
+- Cart flow: Update quantities, remove items, persist across sessions
+- Checkout flow: Order processing, payment integration
+- Authentication flow: Sign up, login, logout, session management
+- Dark mode flow: Component compatibility across themes
+- Admin flow: Dashboard access, content management
+
+**Unit & Integration Testing with Vitest:**
+- Business logic: Calculation utilities, data transformations
+- Component testing: React component rendering, props, state
+- Integration tests: Database operations, API calls, Redis caching
+- Accessibility tests: WCAG AA compliance, contrast ratios
+
+**Test Environment Separation:**
+- Dockerfile.dev: Development with hot reload
+- Dockerfile.test: Unit testing with Vitest
+- Dockerfile.e2e: E2E testing with Playwright
+- docker-compose configurations for each environment
 
 ---
 

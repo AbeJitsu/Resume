@@ -37,6 +37,19 @@
 * **v2v Monorepo:** Vue.js architecture with serverless capabilities, demonstrating full-stack knowledge
 * **Jewelry Website Projects:** Multiple client projects showing design and development capability
 * **Full-Stack Connection Kits:** Reusable templates and patterns for rapid development
+* **Flashcard Management System (Combine-xlsx-files-into-1):** Python/HTML automation tool managing 534+ flashcard entries across 39 sections
+  - Excel/XLSX file processing and data consolidation
+  - Automated flashcard creation with add_flashcards_reusable.py
+  - Dynamic HTML viewer for flashcard presentation
+  - Systematic data validation and QA workflows
+  - 431+ commits demonstrating iterative development
+  - Foundation for professional Acadio flashcard automation work
+* **Andreataire:** JavaScript solitaire card game with two game modes (Merge 52 and Klondike)
+  - Object-oriented game state management with undo/redo functionality
+  - Algorithm implementation (Fisher-Yates shuffle, move validation, win condition checking)
+  - AI move finder with priority-based decision system
+  - DRY principles with game-aware wrapper functions
+  - LocalStorage persistence for game mode selection
 
 **Continuous Learning:**
 * Expanded from MEVN foundation to additional frameworks and tools
@@ -79,23 +92,43 @@
 
 **Business Model:** Virtual assistant services + custom web development for business professionals
 
-**Technical Architecture (Foundation Four):**
-* **Next.js:** Full-stack framework for frontend UI and backend API routes
-* **Supabase (PostgreSQL):** Database with pgvector extension for semantic search
-* **Docker:** Containerized development environment ensuring consistency
-* **Nginx:** Reverse proxy for production deployment and load balancing
+**Architecture & Performance:**
+* Three-tier system: Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure
+* Advanced caching strategy reducing database queries by 60-80% and improving response times by 15-50x
+* Headless e-commerce with Medusa backend supporting product management, cart logic, checkout flows
+* Context-aware AI chatbots using pgvector semantic search and OpenAI embeddings for intelligent assistance
 
-**Advanced Features:**
-* Context-aware AI chatbots using pgvector semantic search and OpenAI embeddings
-* Visual page builder (Puck) for client content management
-* Vercel AI SDK for chat interfaces and streaming responses
-* Complete e-commerce capability through Medusa integration
+**Testing Excellence:**
+* Comprehensive E2E test suite with Playwright: 5+ complete user flows (shop, cart, checkout, auth, dark mode, admin)
+* Unit and integration tests with Vitest across utilities, components, and business logic
+* Accessibility testing ensuring WCAG AA compliance (minimum 5:1 contrast ratios)
+* Dark mode implementation and testing for cross-theme compatibility
+
+**Infrastructure & DevOps:**
+* Multi-environment Docker containerization (4 configs): production-optimized, development with hot reload, E2E testing, unit testing
+* Docker Compose orchestration for local development with Next.js, Medusa, PostgreSQL, Redis, Supabase
+* Nginx reverse proxy with SSL/TLS, load balancing, static asset optimization
+* GitHub Actions CI/CD pipeline with automated testing and deployment workflows
+* Database migrations and version-controlled schema management
+
+**Code Quality:**
+* TypeScript with strict type safety throughout the application
+* Storybook component library documentation with comprehensive examples
+* Professional git workflow: main (production-ready), dev (active development), experiment (long-term R&D)
+* Clear architecture documentation and developer setup guides (30-second quick start)
+
+**Foundation Four Stack:**
+* **Next.js 14:** Full-stack React framework with SSR and API routes
+* **Supabase (PostgreSQL):** Backend-as-a-service with built-in auth, pgvector for semantic search
+* **Docker:** Multi-environment containerization with specialized configs
+* **Nginx:** Reverse proxy with SSL/TLS and load balancing
 
 **Significance:**
-* Demonstrates ability to architect complete systems independently
-* Shows DevOps knowledge (Docker, Nginx, deployment)
-* Proves early adoption of modern tooling (Claude Code for development acceleration)
-* Live production business platform (needthisdone.com)
+* Demonstrates production-grade architecture design and DevOps expertise
+* Proves ability to implement comprehensive testing practices (E2E, unit, integration, accessibility)
+* Shows advanced performance optimization (60-80% query reduction, 15-50x speed improvement)
+* Live production business platform with professional development workflows
+* Early adopter of modern tooling (Claude Code, Playwright, Vitest, pgvector)
 
 ---
 
@@ -105,14 +138,23 @@
 - 2023: Fundamentals → 2024: Applied skills → 2025: Professional + Modern tooling integration
 
 **Skill Expansion:**
-- Started: MEVN stack
-- Added: Python, DevOps (Docker/Nginx), AI integration
-- Current: Full-stack architect with modern development practices
+- Started: MEVN stack (MongoDB, Express.js, Vue.js, Node.js)
+- Added: Python, DevOps (Docker/Nginx/Docker Compose), AI integration, Advanced Caching, Testing (Playwright/Vitest/Accessibility)
+- Current: Full-stack architect with production-grade DevOps, comprehensive testing, and performance optimization expertise
 
 **Growth Velocity:**
 - 2023: Foundation building (intentional, rigorous learning)
 - 2024: 4-5 freelance projects + continuous learning
 - 2025: Professional employment + founding own business simultaneously
+
+**Key Achievements:**
+- **Architecture Design:** Designed and implemented three-tier system architecture supporting independent service scaling
+- **Performance Optimization:** Built advanced caching strategy achieving 60-80% database query reduction and 15-50x response time improvement
+- **Testing Excellence:** Implemented comprehensive testing suite with 5+ E2E flows, unit/integration tests, and WCAG AA accessibility compliance
+- **DevOps Expertise:** Demonstrated mastery of multi-environment containerization with 4 specialized Docker configurations
+- **Professional Workflow:** Managed complex development workflow with main/dev/experiment branch strategy
+- **AI Integration:** Successfully integrated context-aware chatbots using pgvector semantic search and OpenAI embeddings
+- **Problem-Solving:** Established credibility as primary technical problem-solver at Acadio, solving complex problems others struggled with
 
 **Claude Code Adoption:**
 - Not a shortcut or replacement for technical knowledge
