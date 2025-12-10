@@ -11,18 +11,22 @@
 
 ## PROFESSIONAL SUMMARY
 
-I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Self-taught from CS fundamentals (2023) through MEVN stack, freelance projects (2024), to professional developer (2025) combining technical depth with modern tools like Claude Code.
+Full-stack developer focused on solving real problems that matter to teams. Self-taught since 2023, progressing from fundamentals through freelance work to professional development with a focus on practical impact.
 
-**Primary Portfolio Piece: needthisdone.com** — A production platform demonstrating full-stack capability:
-- **Architecture**: Built the entire system myself—Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching. Designed for performance and reliability.
+**What gets delivered:**
+- Complete full-stack systems from concept to production
+- Automation that transforms weeks of manual work into minutes
+- Production infrastructure that handles real user traffic and payments
+- Comprehensive testing that catches issues before they reach users
+
+**Primary Portfolio Piece: needthisdone.com** — A production platform handling real payments and transactions:
+- **Architecture**: Three-tier system—Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching. Designed for performance and reliability.
 - **Testing**: E2E test suite covering critical user flows. Unit and integration tests across the application. WCAG AA accessibility compliance verified.
 - **DevOps**: Multi-environment Docker setup for production, development, and testing. Automated CI/CD pipeline with GitHub Actions. Professional git workflow for managing releases.
 - **AI Features**: Context-aware chatbots using semantic search and OpenAI embeddings
-- **E-Commerce**: Headless architecture with Medusa backend—handles payments, user authentication, cart management, checkout flows
+- **E-Commerce**: Handles payments, authentication, shopping flows, and order management at scale
 
-**Professional Experience**: At Acadio (EdTech), I identified manual workflows consuming weeks of team time and automated them away. I became the go-to problem-solver for complex technical challenges.
-
-Can architect scalable systems, automate manual processes, implement comprehensive testing, manage production infrastructure, and deliver measurable results.
+**Professional Experience**: At Acadio, tackled a critical bottleneck by automating weeks of repetitive workflows. Became the go-to problem-solver the team could rely on for complex technical challenges.
 
 ---
 
