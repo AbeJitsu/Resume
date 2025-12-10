@@ -29,11 +29,11 @@ This repository demonstrates how to organize career information for maximum flex
 
 ### **Source Documents** (Information Arsenal)
 
-**[timeline.md](timeline.md)** - Career progression narrative
-- Year-by-year breakdown (2023-2025)
-- Projects, accomplishments, and impact
-- Skills learned at each stage
-- Professional context and growth trajectory
+**[timeline.md](timeline.md)** - Complete career history
+- Full progression from Army (1996) through present
+- Army paramedic, Toyota career growth, software transition
+- Projects, accomplishments, and transferable skills
+- Professional context showing discipline and growth trajectory
 
 **[tech-stack.md](tech-stack.md)** - Comprehensive technical documentation
 - Organized by category (Frontend, Backend, DevOps, Testing, AI, etc.)
@@ -50,18 +50,18 @@ This repository demonstrates how to organize career information for maximum flex
 
 ### **Output Documents** (Tailored Deliverables)
 
-**resume-one-page.md** (Future)
-- Generic one-page resume for most full-stack dev roles
-- Condensed from source documents
-- Emphasizes strongest skills and recent work
+**[resume-one-page.md](resume-one-page.md)**
+- One-page resume emphasizing career discipline and proven growth
+- Condensed from source documents with strongest skills and recent work
+- Ready for most full-stack developer applications
 
-**resume-html/** (Future)
-- HTML/CSS version demonstrating front-end skills
-- Clean, professional design
-- Converts cleanly to PDF
-- Can be hosted online
+**[resume-html/](resume-html/)**
+- Professional HTML/CSS resume demonstrating front-end skills
+- WCAG AA accessible with semantic HTML and proper contrast
+- Print-optimized for clean PDF output
+- Mobile-responsive design
 
-**cover-letter-template.md** (Future)
+**cover-letter-template.md** (Planned)
 - Framework for job-specific cover letters
 - Pull relevant accomplishments from source docs
 - Customizable for each application
@@ -70,9 +70,19 @@ This repository demonstrates how to organize career information for maximum flex
 
 ## **Key Accomplishments Documented**
 
-This resume system captures a career transition from self-taught learner to professional developer:
+This resume system captures a career built on discipline and proven growth—from high-stakes military service through progressive corporate leadership to software development:
 
-### **2023: Foundation Year**
+### **1996-2001: U.S. Army (Paramedic)**
+- 5 years delivering emergency medical care under high-pressure conditions
+- Developed discipline, systematic thinking, and attention to detail
+- Foundation of work ethic that carries through entire career
+
+### **2017-2023: Toyota (Finance Manager)**
+- 7 years advancing through three roles: Salesperson → Sales Manager → Finance Manager
+- Mastered financial analysis, customer relationship management, and complex processes
+- Built reputation for systematic problem-solving and process optimization
+
+### **2023: Foundation Year (Software Transition)**
 - Self-taught computer science fundamentals
 - Mastered MEVN stack (MongoDB, Express.js, Vue.js, Node.js)
 - Built 15+ learning projects demonstrating progressive skill growth
@@ -82,19 +92,18 @@ This resume system captures a career transition from self-taught learner to prof
 - Full-stack web development (Node.js, Express, databases)
 - Python automation and data processing
 - Built flashcard management system (534+ entries, 431+ commits)
-- Developed JavaScript game with complex state management
+- Developed Merge 52 card game with complex state management
 
 ### **2025: Professional Year**
-- **Acadio (Apr-Dec 2025):** Junior Full-Stack Developer at EdTech company
+- **Acadio (Spring-Winter 2025):** Full-Stack Developer at EdTech company
   - Automated flashcard generation reducing weeks to minutes
   - Built validation pipelines with auto-correction
   - Primary technical problem-solver on team
 
-- **needthisdone.com (Nov 2025-Present):** Co-Founder & Full-Stack Developer
-  - Production-grade platform with three-tier architecture
-  - 60-80% database query reduction, 15-50x response time improvement
+- **needthisdone.com (Nov 2025-Present):** Founder & Full-Stack Developer
+  - Production e-commerce platform with layered architecture
   - Comprehensive testing (Playwright E2E, Vitest unit/integration, WCAG AA accessibility)
-  - Multi-environment Docker containerization (4 specialized configs)
+  - Multi-environment Docker containerization
   - Professional git workflow (main/dev/experiment branches)
 
 ---
@@ -197,11 +206,10 @@ This resume system is **itself** a portfolio piece, demonstrating:
 - Systematic approach to career documentation
 
 ### **Front-End & CSS Architecture** (HTML Resume)
-- **Responsive Design:** Mobile-first CSS with three breakpoints (mobile, tablet, desktop)
+- **Responsive Design:** Mobile-first CSS with breakpoints for tablet and desktop
 - **WCAG AA Accessibility:** Semantic HTML, skip links, focus states, contrast-compliant colors
-- **CSS Architecture:** Separation of concerns (colors.css, styles.css, index.html)
+- **CSS Architecture:** Separation of concerns (colors.css for theming, styles.css for layout)
 - **DRY Principles:** Centralized color system using CSS variables
-- **Dark Mode Support:** Automatic light/dark theme switching with `prefers-color-scheme`
 - **Print Optimization:** Single-page PDF output with optimized typography
 
 ---
@@ -211,15 +219,15 @@ This resume system is **itself** a portfolio piece, demonstrating:
 ```
 Resume/
 ├── README.md                    # This file - system documentation
-├── timeline.md                  # Career progression (2023-2025)
+├── timeline.md                  # Career progression (1996-2025)
 ├── tech-stack.md               # Comprehensive technical skills
 ├── resume-draft.md             # Master resume (full version)
-├── resume-one-page.md          # (Future) Generic one-page resume
-├── cover-letter-template.md    # (Future) Cover letter framework
-└── resume-html/                # (Future) HTML/CSS version
-    ├── index.html
-    ├── styles.css
-    └── resume.pdf              # Generated from HTML
+├── resume-one-page.md          # One-page resume for applications
+└── resume-html/                # HTML/CSS version
+    ├── index.html              # Semantic, accessible markup
+    ├── styles.css              # Layout and typography
+    ├── colors.css              # Centralized color system
+    └── resume.pdf              # Print-optimized output
 ```
 
 ---
@@ -234,10 +242,9 @@ Resume/
 
 ## **Future Enhancements**
 
-- [ ] One-page resume generator (pulls from source docs)
-- [ ] HTML/CSS resume version (demonstrates frontend skills)
+- [x] One-page resume (resume-one-page.md)
+- [x] HTML/CSS resume version (resume-html/)
 - [ ] Cover letter template with placeholders
-- [ ] PDF generation from markdown
 - [ ] Job-specific resume variants (DevOps focus, AI focus, etc.)
 
 ---

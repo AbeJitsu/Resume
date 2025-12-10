@@ -103,7 +103,7 @@
   - Systematic data validation and QA workflows
   - 431+ commits demonstrating iterative development
   - Foundation for professional Acadio flashcard automation work
-* **Andreataire:** JavaScript solitaire card game with two game modes (Merge 52 and Klondike)
+* **Merge 52:** JavaScript card game with two game modes (Merge 52 and Klondike)
   - Object-oriented game state management with undo/redo functionality
   - Algorithm implementation (Fisher-Yates shuffle, move validation, win condition checking)
   - AI move finder with priority-based decision system
@@ -147,7 +147,7 @@
 
 **Impact:** 8 months of production experience at an established EdTech company, solving real problems at scale
 
-### November 2025 - Present: needthisdone.com (Co-Founder & Full-Stack Developer)
+### November 2025 - Present: needthisdone.com (Founder & Full-Stack Developer)
 
 **Business Model:** Virtual assistant services + custom web development for business professionals
 
