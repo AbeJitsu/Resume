@@ -21,15 +21,15 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 <div style="margin-left: 20px;">
 
-**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Responsive Design (mobile-first), Playwright, Vitest, Storybook, WCAG AA
+**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, TailwindCSS, HTML/CSS, Responsive Design (mobile-first), Playwright, Vitest, Storybook, WCAG AA
 
 **Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth, Excel/XLSX
 
 **Databases & Caching:** PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
-**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions (CI/CD pipelines), Google Cloud Platform (OAuth, APIs)
+**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions (CI/CD pipelines), Vercel, Monorepo architecture, Google Cloud Platform (OAuth, APIs)
 
-**AI & Vector Search:** RAG (Retrieval-Augmented Generation) systems, OpenAI API (embeddings, completions), Supabase pgvector (semantic search), Vercel AI SDK (streaming chat), Prompt engineering, Claude Code
+**AI & Vector Search:** RAG (Retrieval-Augmented Generation) systems, OpenAI API (embeddings, completions), Supabase pgvector (semantic search), Vercel AI SDK (real-time streaming chat), Prompt engineering, Claude Code
 
 **E-commerce:** Medusa, Stripe, Product Management, Checkout Flows
 
@@ -73,11 +73,11 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 <div style="margin-left: 20px;">
 
-**Production e-commerce platform:** Complete system with shopping flows, user authentication, order management, admin dashboard, and visual page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.
+**Production e-commerce platform:** Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.
 
 **Testing & quality:** Comprehensive testing that simulates real customer behavior - from browsing products to completing checkout. Accessibility verified to ensure the site works for users with disabilities. Tests run automatically before every release.
 
-**Infrastructure:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Organized codebase with documented, reusable components. Dark mode implemented and tested throughout.
+**Infrastructure:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Shared design system with Storybook component library. Admin dashboard with system monitoring, user management, and real-time status indicators. Dark mode implemented and tested throughout.
 
 **AI-powered features:** Built context-aware chatbot using RAG (Retrieval-Augmented Generation) pattern - combines semantic search via Supabase pgvector with OpenAI API for intelligent responses. System generates embeddings from content, stores vectors in PostgreSQL, and retrieves contextually relevant information to answer user questions naturally. Includes intelligent indexing with hash-based change detection to keep chatbot knowledge current. Demonstrates prompt engineering to optimize response quality and relevance.
 

@@ -20,9 +20,9 @@ Transitioned to software development in 2023 with the same commitment that earne
 ## TECHNICAL SKILLS
 
 **Frontend Development**
-React, Next.js (SSR, API routes), Vue.js, Quasar Framework, HTML/CSS, JavaScript, TypeScript
+React, Next.js (SSR, API routes), Vue.js, Quasar Framework, TailwindCSS, HTML/CSS, JavaScript, TypeScript
 Responsive Design: Mobile-first approach, CSS Grid/Flexbox, flexible layouts, cross-device optimization
-Modern tooling: Puck (visual page builder), Storybook, Playwright (E2E testing), Vitest (unit/integration testing)
+Modern tooling: Puck (component-based page builder), Storybook, Playwright (E2E testing), Vitest (unit/integration testing)
 Accessibility & Testing: WCAG AA compliance, dark mode implementation, visual regression testing
 
 **Backend & APIs**
@@ -35,12 +35,12 @@ PostgreSQL (Supabase with pgvector for semantic search), MongoDB Atlas, MySQL, R
 **DevOps & Infrastructure**
 Docker (multi-environment containerization: prod, dev, e2e, test), Nginx (reverse proxy, load balancing, SSL/TLS)
 Docker Compose (multi-service orchestration), Redis (in-memory caching with pattern invalidation and TTL management)
-Git/GitHub (version control, CI/CD pipelines with GitHub Actions, professional branch strategy)
+Git/GitHub (version control, CI/CD pipelines with GitHub Actions, professional branch strategy), Monorepo architecture
 Google Cloud Platform (OAuth, Calendar/Meet APIs, cloud services), Vercel, Heroku, Railway, DigitalOcean
 
 **AI & RAG Systems**
 RAG (Retrieval-Augmented Generation) implementation: semantic search, vector embeddings, intelligent content retrieval
-OpenAI API (embeddings, completions, prompt engineering), Vercel AI SDK (streaming chat interfaces)
+OpenAI API (embeddings, completions, prompt engineering), Vercel AI SDK (real-time streaming chat interfaces)
 Supabase pgvector for vector storage and similarity search
 Context-aware chatbots with intelligent indexing and hash-based change detection
 Claude Code (agentic workflows, development automation)
@@ -91,7 +91,7 @@ Medusa (headless e-commerce)
 
 **needthisdone.com** | *Founder & Full-Stack Developer | November 2025 - Present*
 
-Built a complete e-commerce platform that demonstrates full-stack mastery across architecture, DevOps, testing, and production thinking. This isn't a learning project—it's a production system handling real user traffic, real payments, and real complexity. Includes features that require serious engineering: e-commerce shopping flows, user authentication, order management, admin dashboard, and a visual page builder (Puck) so non-technical users can create pages without touching code.
+Built a complete e-commerce platform that demonstrates full-stack mastery across architecture, DevOps, testing, and production thinking. This isn't a learning project—it's a production system handling real user traffic, real payments, and real complexity. Includes features that require serious engineering: e-commerce shopping flows, user authentication, order management, admin dashboard, and a component-based page builder (Puck) so non-technical users can create pages without touching code.
 
 **Architecture & Performance:**
 * Three-tier system that scales intelligently: Nginx reverse proxy handles traffic distribution and SSL termination, Next.js handles the frontend and API routes, Medusa manages headless e-commerce logic, Supabase (PostgreSQL with pgvector) handles authentication and user data separately. This separation of concerns means each component scales independently
@@ -114,13 +114,13 @@ Built a complete e-commerce platform that demonstrates full-stack mastery across
 
 **Code Quality & Professional Standards:**
 * TypeScript with strict type safety throughout the application. Type safety catches errors at compile time, preventing bugs from reaching users
-* Storybook component library with comprehensive examples for every component. Non-developers can see how components behave and developers have a single source of truth
+* Shared design system with Storybook component library - comprehensive examples for every component. Non-developers can see how components behave and developers have a single source of truth. Admin dashboard with system monitoring, user management, and real-time status indicators
 * Professional git workflow: main branch (production-ready code only), dev branch (active development), experiment branch (R&D and long-term explorations). Release management is systematic and transparent
 * Clear architecture documentation and developer setup guides. Future developers can understand how the system works without needing to reverse-engineer it
 * Component library design allowing code reuse across the application. Dark mode support baked in from the component level
 
 **Why This Matters:**
-This project demonstrates the difference between building features and architecting systems. Every decision—from how to structure the Docker environments to how to organize the component library to the git branching strategy—reflects production thinking and a commitment to quality that persists beyond the initial launch. Building the visual page builder wasn't the hardest part. The hard part was architecting a system that's easy to use, easy to understand, easy to test, and easy to scale.
+This project demonstrates the difference between building features and architecting systems. Every decision—from how to structure the Docker environments to how to organize the component library to the git branching strategy—reflects production thinking and a commitment to quality that persists beyond the initial launch. Building the component-based page builder wasn't the hardest part. The hard part was architecting a system that's easy to use, easy to understand, easy to test, and easy to scale.
 
 ---
 
