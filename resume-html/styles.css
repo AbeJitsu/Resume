@@ -38,7 +38,6 @@ body {
     color: var(--text);
     line-height: 1.5;
     padding: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ============================================================================
@@ -97,7 +96,7 @@ header {
 
 .title {
     font-size: 11px;
-    color: var(--muted);
+    color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 8px;
@@ -105,7 +104,7 @@ header {
 
 .contact {
     font-size: 11px;
-    color: var(--muted);
+    color: var(--text-muted);
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -114,7 +113,7 @@ header {
 }
 
 .contact a {
-    color: var(--accent);
+    color: var(--accent-primary);
     text-decoration: none;
     word-break: break-word;
     transition: color 0.2s ease, text-decoration 0.2s ease;
@@ -122,11 +121,11 @@ header {
 
 .contact a:hover {
     text-decoration: underline;
-    color: var(--accent-hover);
+    color: var(--accent-primary);
 }
 
 .contact a:focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--accent-primary);
     outline-offset: 2px;
     border-radius: 2px;
 }
@@ -136,7 +135,7 @@ header {
 }
 
 .contact a:active {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--accent-primary);
     outline-offset: 2px;
 }
 
@@ -144,27 +143,26 @@ header {
    Main Content
    ============================================================================ */
 
-main {
-    /* Semantic structure support */
-}
-
 /* ============================================================================
    Sections
    ============================================================================ */
 
 section {
     margin-bottom: 20px;
+    background: var(--bg-section);
+    padding: 12px;
+    border-radius: 4px;
 }
 
 .section-title {
     font-size: 11px;
     font-weight: 700;
-    color: var(--accent);
+    color: var(--accent-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 8px;
     padding-bottom: 5px;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--accent-primary);
 }
 
 /* ============================================================================
@@ -172,8 +170,8 @@ section {
    ============================================================================ */
 
 .summary {
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.7;
     color: var(--text);
     margin-bottom: 16px;
 }
@@ -193,15 +191,15 @@ section {
 }
 
 .skill-category strong {
-    color: var(--accent);
+    color: var(--accent-skills);
     display: block;
     margin-bottom: 4px;
     font-weight: 600;
 }
 
 .skill-category p {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
     color: var(--text);
 }
 
@@ -217,39 +215,39 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .job-title {
     font-weight: 700;
     font-size: 11px;
-    color: var(--text);
+    color: var(--accent-job-title);
 }
 
 .job-meta {
     display: flex;
     gap: 6px;
     font-size: 10px;
-    color: var(--muted);
+    color: var(--text-muted);
     flex-wrap: wrap;
 }
 
 .job-company {
     font-size: 10px;
-    color: var(--muted);
-    margin-bottom: 4px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
 }
 
 .job-bullets {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
     color: var(--text);
     margin-left: 14px;
     list-style-position: outside;
 }
 
 .job-bullets li {
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 
 /* ============================================================================
@@ -264,48 +262,48 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .project-title {
     font-weight: 700;
     font-size: 11px;
-    color: var(--text);
+    color: var(--accent-primary);
 }
 
 .project-role {
     font-size: 10px;
-    color: var(--muted);
+    color: var(--text-muted);
 }
 
 .project-content {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
     color: var(--text);
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .project-content strong {
-    color: var(--accent-hover);
+    color: var(--accent-highlight);
     font-weight: 600;
 }
 
 .project-bullets {
     margin-left: 14px;
     margin-top: 2px;
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
     list-style-position: outside;
 }
 
 .project-bullets li {
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 
 .project-tech {
     font-size: 9px;
-    color: var(--muted);
-    margin-top: 3px;
+    color: var(--text-muted);
+    margin-top: 8px;
     font-style: italic;
 }
 
@@ -314,10 +312,10 @@ section {
    ============================================================================ */
 
 .project-summary {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
     color: var(--text);
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .project-summary strong {
@@ -330,8 +328,8 @@ section {
    ============================================================================ */
 
 .education {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.7;
 }
 
 .education strong {
@@ -375,7 +373,8 @@ section {
     }
 
     .summary {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-bottom: 14px;
     }
 
@@ -413,7 +412,8 @@ section {
     }
 
     .job-bullets {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-left: 16px;
     }
 
@@ -434,11 +434,13 @@ section {
     }
 
     .project-content {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
     }
 
     .project-bullets {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-left: 16px;
     }
 
@@ -490,8 +492,8 @@ section {
     }
 
     .summary {
-        font-size: 12px;
-        line-height: 1.6;
+        font-size: 13px;
+        line-height: 1.7;
         margin-bottom: 16px;
     }
 
@@ -505,8 +507,8 @@ section {
     }
 
     .skill-category p {
-        font-size: 11px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.7;
     }
 
     .job {
@@ -530,7 +532,8 @@ section {
     }
 
     .job-bullets {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-left: 16px;
     }
 
@@ -555,12 +558,14 @@ section {
     }
 
     .project-content {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-bottom: 3px;
     }
 
     .project-bullets {
-        font-size: 11px;
+        font-size: 12px;
+        line-height: 1.7;
         margin-left: 16px;
     }
 
@@ -611,8 +616,8 @@ section {
     }
 
     .summary {
-        font-size: 10px;
-        line-height: 1.5;
+        font-size: 11px;
+        line-height: 1.6;
         margin-bottom: 12px;
     }
 
@@ -631,7 +636,8 @@ section {
 
     .job-bullets,
     .project-bullets {
-        font-size: 9px;
+        font-size: 10px;
+        line-height: 1.6;
     }
 
     .job,
