@@ -67,7 +67,8 @@
     --border: var(--color-border-gray);
 
     /* Primary accent (section titles, main emphasis) */
-    --accent-primary: var(--color-accent-blue);
+    /* Using darker blue for better WCAG AA contrast (4.5:1+) against light backgrounds */
+    --accent-primary: var(--color-accent-blue-dark);
 
     /* Secondary accents for different content types */
     --accent-job-title: var(--color-accent-red);

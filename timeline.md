@@ -1,6 +1,64 @@
-# Career Timeline: 2023-2025
+# Career Timeline: Complete Professional History
 
-## 2023: Foundation Year
+---
+
+## 1996-2001: U.S. Army (Paramedic)
+**Focus:** Emergency medical care and high-pressure decision-making
+
+**Role:** Paramedic
+**Duration:** 5 years
+
+**Responsibilities:**
+* Delivered emergency medical care under high-pressure conditions
+* Made rapid, life-or-death decisions with zero margin for error
+* Maintained critical medical systems and protocols
+* Worked in team environments requiring clear communication and trust
+
+**Transferable Skills:**
+* Discipline and systematic thinking
+* Attention to detail in high-stakes situations
+* Problem-solving under extreme pressure
+* Protocol adherence and process execution
+* Technical system maintenance
+
+**Significance:** Foundation of work ethic, discipline, and systematic approach that carries through entire career
+
+---
+
+## 2017-2023: Toyota (Finance Manager)
+**Focus:** Career progression through sales and finance management
+
+**Timeline:**
+* Spring 2017: Started as Salesperson
+* Promoted to Sales Manager
+* Promoted to Finance Manager
+* Winter 2023: Left to pursue software development
+
+**Duration:** 7 years (Spring 2017 - Winter 2023)
+
+**Career Progression:**
+* **Salesperson:** Built customer relationships, mastered consultative sales approach
+* **Sales Manager:** Led team, developed systematic sales processes, mentored new team members
+* **Finance Manager:** Advanced financial analysis, deal structuring, regulatory compliance
+
+**Key Achievements:**
+* Advanced through three progressive roles demonstrating consistent leadership growth
+* Developed expertise in financial analysis and customer relationship management
+* Mastered complex sales processes and business operations
+* Built reputation for systematic problem-solving and process optimization
+
+**Transferable Skills:**
+* Understanding user needs through customer interaction (translates to software UX)
+* Complex process management (translates to system architecture)
+* Systematic approach to problem-solving (translates to debugging and optimization)
+* Communication skills across technical and non-technical audiences
+* Leadership and mentorship capabilities
+
+**Significance:** Demonstrated ability to advance through progressive roles, earn promotions through results, and master complex business systems
+
+---
+
+## 2023: Foundation Year (Software Development Transition)
 **Focus:** Building CS fundamentals and MEVN stack mastery
 
 **January 2023:**
@@ -20,8 +78,9 @@
 
 ---
 
-## 2024: Freelance Year
+## Fall 2023 - Spring 2025: Freelance Web Development
 **Focus:** Applied learning through real-world client projects and continuous skill development
+**Duration:** November 2023 - April 2025 (16 months)
 
 **Full-Stack Client Work:**
 * Built multiple full-stack web applications for small business clients
@@ -63,7 +122,7 @@
 ## 2025: Professional Year
 **Focus:** Professional development work + building own business
 
-### April - December 2025: Acadio (Junior Full-Stack Developer)
+### Spring 2025 - Winter 2025: Acadio (Full-Stack Developer)
 
 **Company:** Acadio - Educational LMS (Learning Management System) Platform
 

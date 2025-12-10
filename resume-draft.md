@@ -11,22 +11,9 @@
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer focused on solving real problems that matter to teams. Self-taught since 2023, progressing from fundamentals through freelance work to professional development with a focus on practical impact.
+Career built on discipline and proven growth: Army paramedic (5 years) making life-or-death decisions under pressure, then Toyota (7 years) advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives software development work.
 
-**What gets delivered:**
-- Complete full-stack systems from concept to production
-- Automation that transforms weeks of manual work into minutes
-- Production infrastructure that handles real user traffic and payments
-- Comprehensive testing that catches issues before they reach users
-
-**Primary Portfolio Piece: needthisdone.com** — A production platform handling real payments and transactions:
-- **Architecture**: Three-tier system—Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching. Designed for performance and reliability.
-- **Testing**: E2E test suite covering critical user flows. Unit and integration tests across the application. WCAG AA accessibility compliance verified.
-- **DevOps**: Multi-environment Docker setup for production, development, and testing. Automated CI/CD pipeline with GitHub Actions. Professional git workflow for managing releases.
-- **AI Features**: Context-aware chatbots using semantic search and OpenAI embeddings
-- **E-Commerce**: Handles payments, authentication, shopping flows, and order management at scale
-
-**Professional Experience**: At Acadio, tackled a critical bottleneck by automating weeks of repetitive workflows. Became the go-to problem-solver the team could rely on for complex technical challenges.
+Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army.
 
 ---
 
@@ -64,33 +51,37 @@ Medusa (headless e-commerce)
 ## PROFESSIONAL EXPERIENCE
 
 **Full-Stack Developer**
-*Acadio | Educational LMS Company | April 2025 - December 2025*
+*Acadio | Educational LMS Platform | Spring 2025 - Winter 2025*
 
-* Developed automated flashcard generation system using Claude Code that reduced manual content creation from weeks to minutes, demonstrating ability to solve problems through modern development practices
-* Built multi-phase validation pipelines with programmatic quality checks and auto-correction, ensuring content quality at scale
-* Consistently solved complex technical problems that other team members struggled with, establishing credibility in a challenging technical environment
+* Identified manual workflows consuming weeks of team time and automated them away. Flashcard generation, validation, and correction now runs in minutes
+* Built multi-phase validation pipelines that catch errors programmatically instead of requiring manual review
+* Became the go-to problem-solver for complex technical challenges others couldn't resolve
 
 **Freelance Web Developer**
-*Self-Employed | 2024*
+*Self-Employed | Independent Contractor | Fall 2023 - Spring 2025*
 
-* Built full-stack web applications for small business clients using Node.js, Express, and database solutions
-* Created automated data processing and file conversion tools using Python, reducing manual workflows for clients
-* Managed projects end-to-end from client consultation through deployment and support
+* Built custom web applications and automation tools for clients while developing full-stack expertise
+* Mastered modern development workflow including Git, testing, and deployment pipelines
+* Transitioned from learning fundamentals to delivering production-ready solutions for real clients
 
-**Financial Services Representative**
-*Toyota | Orlando, FL | 2017 - 2023*
+**Finance Manager**
+*Toyota | Career Progression: Salesperson → Sales Manager → Finance Manager | Spring 2017 - Winter 2023*
 
-* Developed customer relationship management and financial services operations expertise, contributing to strong client service reputation
+* Advanced through three progressive roles demonstrating consistent leadership growth and business acumen
+* Mastered financial analysis, customer relationship management, and sales processes. Communication skills directly transfer to understanding user needs in software development
+* Developed systematic approach to problem-solving and process optimization that translates to building efficient, user-focused software systems
 
 **Admissions Representative**
 *Full Sail University | Winter Park, FL | 2012 - 2017*
 
 * Excelled in role requiring strong interpersonal and communication skills, aiding students in educational decision-making
 
-**Army Paramedic**
-*U.S. Army | Various locations in the US | 1996 - 2001*
+**Paramedic**
+*U.S. Army | 1996 - 2001*
 
-* Provided critical medical care in challenging environments, developing quick decision-making, communication, and teamwork abilities
+* Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving
+* Maintained critical systems and protocols with zero-margin-for-error responsibility
+* Developed discipline, systematic thinking, and attention to detail. Core skills transferable to software architecture and testing
 
 ---
 
@@ -98,34 +89,36 @@ Medusa (headless e-commerce)
 
 **needthisdone.com** | *Founder & Full-Stack Developer | November 2025 - Present*
 
-Production-grade professional services platform demonstrating full-stack expertise, DevOps maturity, and comprehensive testing practices.
+Built a complete e-commerce platform that demonstrates full-stack mastery across architecture, DevOps, testing, and production thinking. This isn't a learning project—it's a production system handling real user traffic, real payments, and real complexity. Includes features that require serious engineering: e-commerce shopping flows, user authentication, order management, admin dashboard, and a visual page builder (Puck) so non-technical users can create pages without touching code.
 
 **Architecture & Performance:**
-* Three-tier system design: Nginx reverse proxy → Next.js/Medusa backend → Supabase database with Redis caching layer
-* Advanced caching strategy: 60-80% reduction in database queries, 15-50x improvement in response times
-* Headless e-commerce integration with Medusa backend supporting product catalog, cart management, and order processing
-* Context-aware AI chatbots using Supabase pgvector semantic search and OpenAI embeddings for intelligent assistance
+* Three-tier system that scales intelligently: Nginx reverse proxy handles traffic distribution and SSL termination, Next.js handles the frontend and API routes, Medusa manages headless e-commerce logic, Supabase (PostgreSQL with pgvector) handles authentication and user data separately. This separation of concerns means each component scales independently
+* Intelligent indexing strategy: Built a system that indexes pages on load and uses hash-based checks to detect changes, preventing unnecessary reindexing every time a user accesses the system. This solves the metadata maintenance nightmare that typically plagued smaller systems—pages stay up-to-date without constant regeneration overhead
+* Headless e-commerce integration with Medusa supporting product catalog with variants, cart management, order processing, order history, and payment flows. The architecture allows adding mobile or third-party integrations without rebuilding the core system
+* AI chatbots powered by that intelligent indexing and semantic search (pgvector embeddings). Because pages are intelligently indexed, the chatbots can understand context deeply instead of relying on keyword matching. Users ask questions naturally and get intelligent responses using RAG (Retrieval-Augmented Generation) patterns
 
-**Testing & Quality:**
-* Comprehensive E2E test suite with Playwright covering 5+ complete user flows (shop, cart, checkout, authentication, dark mode, admin)
-* Unit and integration tests with Vitest across utilities, components, and business logic
-* Accessibility testing ensuring WCAG AA compliance across all components with minimum 5:1 contrast ratios
-* Dark mode implementation and testing demonstrating component compatibility across light/dark themes
+**Testing & Quality (Comprehensive, Not Afterthought):**
+* E2E test suite with Playwright covering complete user journeys: detailed shopping flows (product browsing, variant selection, cart operations), checkout process with payment, authentication flows, admin dashboard functions, dark mode functionality. Not just happy path testing—tests cover real user scenarios
+* Unit and integration tests with Vitest across utilities, components, and business logic. Accessibility testing verifying WCAG AA compliance across all components with minimum 5:1 contrast ratios
+* Dark mode implementation demonstrating component design that adapts seamlessly across light/dark themes. Tests verify that theme switching doesn't introduce visual regressions
+* Tests are automated—GitHub Actions runs the full test suite on every push before deployment
 
-**Infrastructure & DevOps:**
-* Multi-environment Docker containerization: production-optimized, development with hot reload, E2E testing, and unit testing configs
-* Docker Compose orchestration for local development with all services (Next.js, Medusa, PostgreSQL, Redis, Supabase)
-* Nginx reverse proxy with SSL/TLS, load balancing, and static asset optimization
-* GitHub Actions CI/CD pipeline with automated testing and deployment workflows
-* Database migrations and version-controlled schema management with PostgreSQL
+**Infrastructure & DevOps (Production-Grade Thinking):**
+* Multi-environment Docker containerization: production-optimized builds for minimal image size and fastest startup, development with hot reload for rapid iteration, separate E2E testing environment with Playwright support, unit testing configs. Development environment mirrors production exactly—if it works locally, it works in production
+* Docker Compose orchestration managing all services together (Next.js, Medusa, PostgreSQL, Redis, Supabase connection). New developers can spin up the entire system with one command
+* Nginx reverse proxy handling SSL/TLS encryption, load balancing, static asset optimization and caching. The configuration reflects production concerns: security headers, proper cache control, efficient asset serving
+* GitHub Actions CI/CD pipeline automating testing and deployment. Code doesn't ship without passing tests—verification is automatic and systematic
+* Database migrations and version-controlled schema management with Supabase. Database changes are tracked, reversible, and applied consistently across environments
 
-**Code Quality & Documentation:**
-* TypeScript with strict type safety throughout the application
-* Storybook component library documentation with comprehensive examples
-* Professional git workflow with main (production-ready), dev (active development), and experiment (long-term R&D) branches
-* Clear architecture documentation and developer setup guides
+**Code Quality & Professional Standards:**
+* TypeScript with strict type safety throughout the application. Type safety catches errors at compile time, preventing bugs from reaching users
+* Storybook component library with comprehensive examples for every component. Non-developers can see how components behave and developers have a single source of truth
+* Professional git workflow: main branch (production-ready code only), dev branch (active development), experiment branch (R&D and long-term explorations). Release management is systematic and transparent
+* Clear architecture documentation and developer setup guides. Future developers can understand how the system works without needing to reverse-engineer it
+* Component library design allowing code reuse across the application. Dark mode support baked in from the component level
 
-Demonstrates ability to architect scalable systems, manage complex infrastructure, implement production-grade testing, and ship independent applications.
+**Why This Matters:**
+This project demonstrates the difference between building features and architecting systems. Every decision—from how to structure the Docker environments to how to organize the component library to the git branching strategy—reflects production thinking and a commitment to quality that persists beyond the initial launch. Building the visual page builder wasn't the hardest part. The hard part was architecting a system that's easy to use, easy to understand, easy to test, and easy to scale.
 
 ---
 

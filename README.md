@@ -112,7 +112,7 @@ This resume system captures a career transition from self-taught learner to prof
 **Notable Projects:**
 - **needthisdone.com:** Production business platform (Next.js 14, Supabase, Docker, Nginx)
 - **Flashcard Management System:** Python/HTML automation managing 534+ entries
-- **Andreataire:** JavaScript game with OOP design and AI decision system
+- **Merge 52:** JavaScript game with OOP design and AI decision system
 
 ---
 

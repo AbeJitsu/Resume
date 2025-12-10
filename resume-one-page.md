@@ -1,75 +1,108 @@
 # ABIEZER "ABE" REYES
 
 **Full-Stack Developer**
-Orlando, FL 32839 | abe.raise@gmail.com | [needthisdone.com](https://needthisdone.com) | [github.com/AbeJitsu](https://github.com/AbeJitsu)
+Orlando, FL | abe.raise@gmail.com | [needthisdone.com](https://needthisdone.com) | [github.com/AbeJitsu](https://github.com/AbeJitsu)
 
 ---
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer who helps teams solve real problems. At Acadio, tackled a big bottleneck—automated weeks of repetitive work so the team could focus on what matters. Built needthisdone.com from scratch, a production platform handling real payments and transactions. Works well independently and collaboratively. 3 years of hands-on development experience.
+<div style="margin-left: 20px;">
+
+Career built on discipline and proven growth: Army paramedic (5 years) making life-or-death decisions under pressure, then Toyota (7 years) advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives software development work.
+
+Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army.
+
+</div>
 
 ---
 
 ## TECHNICAL SKILLS
 
-**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Responsive Design (mobile-first), Playwright (E2E), Vitest (unit/integration), Storybook, WCAG AA accessibility testing
+<div style="margin-left: 20px;">
 
-**Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth authentication, Excel/XLSX automation
+**Frontend:** React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Responsive Design (mobile-first), Playwright, Vitest, Storybook, WCAG AA
 
-**Databases & Caching:** PostgreSQL, Supabase (pgvector semantic search), Redis (cache-aside pattern, TTL management), MongoDB
+**Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth, Excel/XLSX
 
-**DevOps:** Docker (multi-environment containerization), Docker Compose, Nginx (reverse proxy, SSL/TLS), Git/GitHub (CI/CD with GitHub Actions)
+**Databases & Caching:** PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
-**AI Integration:** OpenAI API, Vercel AI SDK, context-aware chatbots with RAG patterns, Claude Code (development automation)
+**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions, CI/CD
+
+**AI Integration:** OpenAI API, Vercel AI SDK, RAG Patterns, Claude Code
+
+**E-commerce:** Medusa, Stripe, Product Management, Checkout Flows
+
+</div>
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
-**Full-Stack Developer**
-*Acadio | Educational LMS Platform | April 2025 - December 2025*
+<div style="margin-left: 20px;">
 
-- Identified manual workflows consuming weeks of team time and automated them away using Claude Code—flashcard generation, validation, and correction now runs in minutes
-- Built multi-phase validation pipelines that catch errors programmatically instead of requiring manual review
-- Became the go-to problem-solver for complex technical challenges others couldn't resolve
+**Full-Stack Developer** | *Acadio | Educational LMS Platform | Spring 2025 - Winter 2025*
+- Identified manual workflows consuming weeks of team time and automated them away. Flashcard generation, validation, and correction now runs in minutes
+- Built automated quality checks that catch mistakes before they reach users, eliminating hours of manual review
+- Became the go-to problem-solver for complex technical challenges across the team
+
+**Freelance Web Developer** | *Self-Employed | Independent Contractor | Fall 2023 - Spring 2025*
+- Built custom web applications and automation tools for clients while developing full-stack expertise
+- Mastered modern development workflow including Git, testing, and deployment pipelines
+- Transitioned from learning fundamentals to delivering production-ready solutions for real clients
+
+**Finance Manager** | *Toyota | Salesperson → Sales Manager → Finance Manager | Spring 2017 - Winter 2023*
+- Advanced through three progressive roles demonstrating consistent leadership growth and business acumen
+- Developed expertise in financial analysis, customer relationship management, and sales processes. Communication skills directly transfer to understanding user needs in software development
+- Developed systematic approach to problem-solving and process optimization that translates to building efficient, user-focused software systems
+
+**Paramedic** | *U.S. Army | 1996 - 2001*
+- Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving
+- Maintained critical systems and protocols where precision and attention to detail were essential
+- Developed discipline, systematic thinking, and attention to detail. Core skills transferable to software architecture and testing
+
+</div>
 
 ---
 
-## KEY PROJECT
+## FEATURED PROJECT
+
+<div style="margin-left: 20px;">
 
 **needthisdone.com** | *Co-Founder & Full-Stack Developer | November 2025 - Present*
 
-Built a complete production platform from database to deployment. Handles real user traffic, payments, and complex business logic.
+<div style="margin-left: 20px;">
 
-**Architecture:**
-- Three-tier system: Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching
-- Designed for performance and reliability—handles concurrent users and payment processing
-- Context-aware AI chatbots using semantic search and OpenAI embeddings
+**Production e-commerce platform:** Complete system with shopping flows, user authentication, order management, admin dashboard, and visual page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.
 
-**Testing & Quality:**
-- E2E test suite covering critical user flows (shop, checkout, authentication, admin)
-- Unit and integration tests across the entire application
-- WCAG AA accessibility compliance—tested and verified across all components
+**Testing & quality:** Comprehensive testing that simulates real customer behavior - from browsing products to completing checkout. Accessibility verified to ensure the site works for users with disabilities. Tests run automatically before every release.
 
-**Infrastructure:**
-- Multi-environment Docker setup: production, development, and testing configurations
-- Automated CI/CD pipeline with GitHub Actions
-- Professional git workflow (main/dev/experiment branches) for managing code releases
+**Infrastructure:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Organized codebase with documented, reusable components. Dark mode implemented and tested throughout.
 
-**Tech Stack:** Next.js 14, TypeScript, Supabase (PostgreSQL with pgvector), Redis, Medusa, Docker, Nginx, Playwright, Vitest
+*Next.js 14 | TypeScript | Supabase (pgvector, auth) | Redis | Medusa | Puck | Docker | GitHub Actions | Playwright | Vitest*
+
+</div>
+
+</div>
 
 ---
 
 ## ADDITIONAL PROJECTS
 
-**Flashcard Management System** (2024): Python/HTML automation tool managing 534+ flashcard entries with Excel/XLSX processing, automated creation scripts, and systematic validation workflows. 431+ commits demonstrating iterative development. Foundation for Acadio automation work.
+<div style="margin-left: 20px;">
 
-**Andreataire** (2024): JavaScript solitaire card game with OOP state management, algorithm implementation (Fisher-Yates shuffle, move validation), AI decision system, and LocalStorage persistence.
+**Flashcard Management System** (2025): Python/HTML automation managing 534+ entries with Excel/XLSX processing, automated creation scripts, and systematic validation. 431+ commits. Foundation for Acadio automation work.
+
+**Merge 52** (2024): JavaScript card game featuring organized code architecture, fair randomization algorithms, and an AI opponent that makes strategic decisions.
+
+</div>
 
 ---
 
-## EDUCATION
+## EDUCATION & PROGRESSION
 
-**Self-Taught Computer Programming** | 2023 - Present
-2023: Mastered MEVN stack fundamentals | 2024: Applied through freelance projects | 2025: Professional experience with modern DevOps tooling
+<div style="margin-left: 20px;">
+
+**Self-Taught Computer Programming** (2023-Present): Mastered MEVN stack fundamentals (2023) → Applied through freelance projects (2024) → Professional experience with modern DevOps tooling (2025)
+
+</div>
