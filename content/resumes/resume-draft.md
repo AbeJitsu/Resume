@@ -13,7 +13,7 @@
 
 Career built on discipline and proven growth: Army paramedic (5 years) making life-or-death decisions under pressure, then Toyota (7 years) advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives software development work.
 
-Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army.
+Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army. Systematic problem-solver influenced by algorithmic thinking and computational approaches to decision-making.
 
 ---
 
@@ -35,13 +35,15 @@ PostgreSQL (Supabase with pgvector for semantic search), MongoDB Atlas, MySQL, R
 **DevOps & Infrastructure**
 Docker (multi-environment containerization: prod, dev, e2e, test), Nginx (reverse proxy, load balancing, SSL/TLS)
 Docker Compose (multi-service orchestration), Redis (in-memory caching with pattern invalidation and TTL management)
-Git/GitHub (version control, CI/CD workflows with GitHub Actions, professional branch strategy)
-Cloud deployment: Vercel, Heroku, Railway, DigitalOcean, Google Cloud
+Git/GitHub (version control, CI/CD pipelines with GitHub Actions, professional branch strategy)
+Google Cloud Platform (OAuth, Calendar/Meet APIs, cloud services), Vercel, Heroku, Railway, DigitalOcean
 
-**AI & Automation**
+**AI & RAG Systems**
+RAG (Retrieval-Augmented Generation) implementation: semantic search, vector embeddings, intelligent content retrieval
+OpenAI API (embeddings, completions, prompt engineering), Vercel AI SDK (streaming chat interfaces)
+Supabase pgvector for vector storage and similarity search
+Context-aware chatbots with intelligent indexing and hash-based change detection
 Claude Code (agentic workflows, development automation)
-OpenAI API (embeddings, semantic search), Vercel AI SDK (chat interfaces)
-Context-aware chatbots using Supabase pgvector and RAG patterns
 
 **E-commerce & CMS**
 Medusa (headless e-commerce)
@@ -95,7 +97,7 @@ Built a complete e-commerce platform that demonstrates full-stack mastery across
 * Three-tier system that scales intelligently: Nginx reverse proxy handles traffic distribution and SSL termination, Next.js handles the frontend and API routes, Medusa manages headless e-commerce logic, Supabase (PostgreSQL with pgvector) handles authentication and user data separately. This separation of concerns means each component scales independently
 * Intelligent indexing strategy: Built a system that indexes pages on load and uses hash-based checks to detect changes, preventing unnecessary reindexing every time a user accesses the system. This solves the metadata maintenance nightmare that typically plagued smaller systems—pages stay up-to-date without constant regeneration overhead
 * Headless e-commerce integration with Medusa supporting product catalog with variants, cart management, order processing, order history, and payment flows. The architecture allows adding mobile or third-party integrations without rebuilding the core system
-* AI chatbots powered by that intelligent indexing and semantic search (pgvector embeddings). Because pages are intelligently indexed, the chatbots can understand context deeply instead of relying on keyword matching. Users ask questions naturally and get intelligent responses using RAG (Retrieval-Augmented Generation) patterns
+* RAG (Retrieval-Augmented Generation) chatbot system combines semantic search with LLM completions for intelligent responses. Uses Supabase pgvector to store OpenAI embeddings, enabling similarity search across indexed content. Retrieves contextually relevant information and passes it to GPT for natural language responses. Intelligent indexing with hash-based change detection keeps vector database current. Demonstrates prompt engineering to optimize context window usage and response quality
 
 **Testing & Quality (Comprehensive, Not Afterthought):**
 * E2E test suite with Playwright covering complete user journeys: detailed shopping flows (product browsing, variant selection, cart operations), checkout process with payment, authentication flows, admin dashboard functions, dark mode functionality. Not just happy path testing—tests cover real user scenarios
@@ -124,7 +126,17 @@ This project demonstrates the difference between building features and architect
 
 ## EDUCATION
 
-**Self-Taught Computer Programming | January 2023 - Present**
+**Computer Science Foundations | Khan Academy | 2023**
+
+* AP Computer Science Principles: Algorithms, data structures, programming, networking, cybersecurity, data analysis, simulations, and computing innovations
+* Computers and the Internet: Computer architecture, digital information, Internet protocols, online security, encryption, and web protocols
+
+**Professional Coursework | Udemy | 2023**
+
+* Vue.js Complete Guide: Component architecture, state management, routing, Composition API
+* 100 Days of Code Web Development Bootcamp: Full-stack development, frontend frameworks, backend architecture, SQL/NoSQL databases
+
+**Self-Taught Development | January 2023 - Present**
 
 * 2023: Mastered MEVN stack fundamentals (MongoDB, Express.js, Vue.js, Node.js)
 * 2024: Applied knowledge through freelance full-stack projects and continued learning

@@ -11,7 +11,7 @@ Orlando, FL | abe.raise@gmail.com | [needthisdone.com](https://needthisdone.com)
 
 Career built on discipline and proven growth: Army paramedic (5 years) making life-or-death decisions under pressure, then Toyota (7 years) advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives software development work.
 
-Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army.
+Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army. Systematic problem-solver influenced by algorithmic thinking and computational approaches to decision-making.
 
 </div>
 
@@ -27,9 +27,9 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 **Databases & Caching:** PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
-**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions, CI/CD
+**DevOps & Infrastructure:** Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions (CI/CD pipelines), Google Cloud Platform (OAuth, APIs)
 
-**AI Integration:** OpenAI API, Vercel AI SDK, RAG Patterns, Claude Code
+**AI & Vector Search:** RAG (Retrieval-Augmented Generation) systems, OpenAI API (embeddings, completions), Supabase pgvector (semantic search), Vercel AI SDK (streaming chat), Prompt engineering, Claude Code
 
 **E-commerce:** Medusa, Stripe, Product Management, Checkout Flows
 
@@ -79,6 +79,8 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 **Infrastructure:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Organized codebase with documented, reusable components. Dark mode implemented and tested throughout.
 
+**AI-powered features:** Built context-aware chatbot using RAG (Retrieval-Augmented Generation) pattern - combines semantic search via Supabase pgvector with OpenAI API for intelligent responses. System generates embeddings from content, stores vectors in PostgreSQL, and retrieves contextually relevant information to answer user questions naturally. Includes intelligent indexing with hash-based change detection to keep chatbot knowledge current. Demonstrates prompt engineering to optimize response quality and relevance.
+
 *Next.js 14 | TypeScript | Supabase (pgvector, auth) | Redis | Medusa | Puck | Docker | GitHub Actions | Playwright | Vitest*
 
 </div>
@@ -103,6 +105,8 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 <div style="margin-left: 20px;">
 
-**Self-Taught Computer Programming** (2023-Present): Mastered MEVN stack fundamentals (2023) → Applied through freelance projects (2024) → Professional experience with modern DevOps tooling (2025)
+**Computer Science Foundations** (Khan Academy, 2023): AP Computer Science Principles and Computers and the Internet - algorithms, data structures, programming, computer architecture, networking, Internet protocols, cybersecurity, encryption
+
+**Self-Taught Development** (2023-Present): Completed Vue.js and full-stack web development courses (Udemy), mastered MEVN stack → Freelance projects → Professional DevOps tooling
 
 </div>
