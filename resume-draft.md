@@ -11,19 +11,18 @@
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer who ships production systems demonstrating mastery across the entire technology stack. Self-taught from CS fundamentals (2023) through MEVN stack, freelance projects (2024), to professional developer (2025) combining technical depth with modern tools like Claude Code.
+I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Self-taught from CS fundamentals (2023) through MEVN stack, freelance projects (2024), to professional developer (2025) combining technical depth with modern tools like Claude Code.
 
-**Primary Portfolio Piece: needthisdone.com** — A three-tier production platform showcasing:
-- **Architecture**: Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure
-- **Performance**: Advanced caching strategy achieving 60-80% database query reduction and 15-50x response time improvement
-- **Testing Excellence**: 5+ E2E test suites (Playwright), comprehensive unit/integration tests (Vitest), WCAG AA accessibility compliance across all components
-- **DevOps Maturity**: Multi-environment Docker containerization (production, development, E2E testing, unit testing), Docker Compose orchestration, GitHub Actions CI/CD pipeline
-- **AI Integration**: Context-aware chatbots using pgvector semantic search and OpenAI embeddings
-- **E-Commerce**: Headless architecture with Medusa backend, cart management, checkout flows, payment processing
+**Primary Portfolio Piece: needthisdone.com** — A three-tier production platform demonstrating full-stack capability:
+- **Architecture**: Built the entire system myself—Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching. Designed for performance and reliability.
+- **Testing**: E2E test suite covering critical user flows. Unit and integration tests across the application. WCAG AA accessibility compliance verified.
+- **DevOps**: Multi-environment Docker setup for production, development, and testing. Automated CI/CD pipeline with GitHub Actions. Professional git workflow for managing releases.
+- **AI Features**: Context-aware chatbots using semantic search and OpenAI embeddings
+- **E-Commerce**: Headless architecture with Medusa backend—handles payments, user authentication, cart management, checkout flows
 
-**Professional Experience**: At Acadio (EdTech), built automated content generation systems reducing manual work from weeks to minutes and consistently solved complex technical problems others struggled with.
+**Professional Experience**: At Acadio (EdTech), I identified manual workflows consuming weeks of team time and automated them away. I consistently solved complex technical problems that other team members struggled with.
 
-Demonstrates ability to architect scalable systems, optimize for performance, implement comprehensive testing, manage production infrastructure, and deliver measurable business impact.
+Can architect scalable systems, automate manual processes, implement comprehensive testing, manage production infrastructure, and deliver measurable results.
 
 ---
 

@@ -7,7 +7,7 @@ Orlando, FL 32839 | abe.raise@gmail.com | [needthisdone.com](https://needthisdon
 
 ## PROFESSIONAL SUMMARY
 
-Full-stack developer who ships production systems demonstrating mastery across the entire technology stack. Co-founded needthisdone.com—a three-tier architecture platform (Nginx → Next.js/Medusa → Supabase/Redis) that showcases: advanced caching reducing queries 60-80% and response times 15-50x; comprehensive testing (5+ E2E flows, unit/integration, WCAG AA accessibility); multi-environment Docker containerization; AI-powered features using pgvector semantic search; and professional DevOps workflows. At Acadio, built automated systems reducing manual work from weeks to minutes. Self-taught from CS fundamentals (2023) to professional developer (2025), consistently solving complex technical problems and delivering measurable results.
+I build complete full-stack systems from scratch—frontend, backend, database, infrastructure, testing, deployment. I solve complex technical problems that stump other developers. Co-founded needthisdone.com—a three-tier production platform with payments, user authentication, and comprehensive testing. I architected the entire system myself: React frontend, Node.js backend, PostgreSQL with Redis caching, Nginx proxy, Playwright E2E tests. At Acadio, I identified manual workflows consuming weeks of team time and automated them away. Self-taught since 2023, shipped multiple production systems, and consistently deliver measurable results.
 
 ---
 
@@ -27,12 +27,12 @@ Full-stack developer who ships production systems demonstrating mastery across t
 
 ## PROFESSIONAL EXPERIENCE
 
-**Junior Full-Stack Developer**
+**Full-Stack Developer**
 *Acadio | Educational LMS Platform | April 2025 - December 2025*
 
-- Built automated flashcard generation system using Claude Code reducing manual content creation from weeks to minutes
-- Developed multi-phase validation pipelines with programmatic quality checks and auto-correction ensuring content quality at scale
-- Established credibility as primary technical problem-solver on team, consistently solving complex problems others struggled with
+- Identified manual workflows consuming weeks of team time and automated them away using Claude Code—flashcard generation, validation, and correction now runs in minutes
+- Built multi-phase validation pipelines that catch errors programmatically instead of requiring manual review
+- Solved complex technical problems that other team members couldn't, establishing credibility as the go-to problem-solver
 
 ---
 
@@ -40,25 +40,24 @@ Full-stack developer who ships production systems demonstrating mastery across t
 
 **needthisdone.com** | *Co-Founder & Full-Stack Developer | November 2025 - Present*
 
-Production-grade professional services platform demonstrating full-stack expertise, DevOps maturity, and comprehensive testing practices.
+Built a complete production platform from database to deployment. Handles real user traffic, payments, and complex business logic.
 
-**Architecture & Performance:**
-- Three-tier system: Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure
-- Advanced caching strategy achieving 60-80% reduction in database queries and 15-50x improvement in response times
-- Context-aware AI chatbots using Supabase pgvector semantic search and OpenAI embeddings
+**Architecture:**
+- Three-tier system: Nginx reverse proxy, Next.js/Medusa backend, PostgreSQL with Redis caching
+- Designed for performance and reliability—handles concurrent users and payment processing
+- Context-aware AI chatbots using semantic search and OpenAI embeddings
 
 **Testing & Quality:**
-- Comprehensive E2E test suite with Playwright covering 5+ complete user flows (shop, cart, checkout, auth, dark mode, admin)
-- Unit and integration tests with Vitest across utilities, components, and business logic
-- Accessibility testing ensuring WCAG AA compliance with minimum 5:1 contrast ratios across all components
+- E2E test suite covering critical user flows (shop, checkout, authentication, admin)
+- Unit and integration tests across the entire application
+- WCAG AA accessibility compliance—tested and verified across all components
 
-**Infrastructure & DevOps:**
-- Multi-environment Docker containerization: production-optimized, development with hot reload, E2E testing, unit testing configs
-- Docker Compose orchestration for local development with Next.js, Medusa, PostgreSQL, Redis, Supabase services
-- GitHub Actions CI/CD pipeline with automated testing and deployment workflows
-- Professional git workflow with main (production), dev (active development), and experiment (R&D) branches
+**Infrastructure:**
+- Multi-environment Docker setup: production, development, and testing configurations
+- Automated CI/CD pipeline with GitHub Actions
+- Professional git workflow (main/dev/experiment branches) for managing code releases
 
-**Tech Stack:** Next.js 14, TypeScript, Supabase (PostgreSQL with pgvector), Redis, Medusa (headless e-commerce), Docker, Nginx, Playwright, Vitest
+**Tech Stack:** Next.js 14, TypeScript, Supabase (PostgreSQL with pgvector), Redis, Medusa, Docker, Nginx, Playwright, Vitest
 
 ---
 
