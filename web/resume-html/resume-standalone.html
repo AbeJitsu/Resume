@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Full-Stack Developer Resume</title>
+    <style>
+/* ============================================================================
+   Reset and Base Styles
+   ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background: #ffffff;
+    color: #1a202c;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+/* ============================================================================
+   Skip Link (Accessibility)
+   ============================================================================ */
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1d4ed8;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* ============================================================================
+   Container and Layout
+   ============================================================================ */
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    line-height: 1.4;
+}
+
+/* ============================================================================
+   Header Section
+   ============================================================================ */
+
+header {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #1d4ed8;
+    padding-bottom: 12px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1d4ed8;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+    word-break: break-word;
+}
+
+.title {
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    font-size: 11px;
+    color: #64748b;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    row-gap: 6px;
+}
+
+.contact span:not(:last-child)::after {
+    content: " • ";
+    color: #64748b;
+    margin-left: 8px;
+}
+
+.contact a {
+    color: #1d4ed8;
+    text-decoration: none;
+    word-break: break-word;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+}
+
+.contact a:focus-visible {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.contact a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.contact a:active {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+}
+
+/* ============================================================================
+   Sections
+   ============================================================================ */
+
+section {
+    margin-bottom: 24px;
+    background: #f8f9fa;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1d4ed8;
+}
+
+/* ============================================================================
+   Summary Section
+   ============================================================================ */
+
+.summary-refined {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1a202c;
+}
+
+.summary-paragraph {
+    margin-bottom: 14px;
+}
+
+.summary-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.summary-highlight {
+    color: #1d4ed8;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ============================================================================
+   Skills Section
+   ============================================================================ */
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-left: 20px;
+}
+
+.skill-category {
+    font-size: 11px;
+}
+
+.skill-category strong {
+    color: #16a34a;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.skill-category p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #1a202c;
+}
+
+/* ============================================================================
+   Experience Section
+   ============================================================================ */
+
+.job {
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.job-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 6px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: #dc2626;
+}
+
+.job-meta {
+    display: flex;
+    gap: 6px;
+    font-size: 11px;
+    color: #64748b;
+    flex-wrap: wrap;
+}
+
+.job-company {
+    font-size: 11px;
+    color: #64748b;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.job-bullets {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #1a202c;
+    margin-left: 14px;
+    list-style-position: outside;
+}
+
+.job-bullets li {
+    margin-bottom: 6px;
+}
+
+/* ============================================================================
+   Projects Section
+   ============================================================================ */
+
+.project {
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: #1d4ed8;
+}
+
+.project-role {
+    font-size: 11px;
+    color: #64748b;
+}
+
+.project-content {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #1a202c;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-content strong {
+    color: #ca8a04;
+    font-weight: 600;
+}
+
+.project-bullets {
+    margin-left: 14px;
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 1.7;
+    list-style-position: outside;
+}
+
+.project-bullets li {
+    margin-bottom: 6px;
+}
+
+.project-tech {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* ============================================================================
+   Inline Architectural Emphasis
+   ============================================================================ */
+
+.arch-emphasis {
+    color: #1a202c;
+    font-weight: 600;
+    font-style: normal;
+    white-space: normal;
+}
+
+/* ============================================================================
+   Additional Projects Section
+   ============================================================================ */
+
+.project-summary {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #1a202c;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-summary strong {
+    color: #1a202c;
+    font-weight: 600;
+}
+
+/* ============================================================================
+   Education Section
+   ============================================================================ */
+
+.education {
+    font-size: 11px;
+    line-height: 1.7;
+    margin-left: 20px;
+}
+
+.education strong {
+    color: #1a202c;
+}
+
+/* ============================================================================
+   Responsive Design: Small Mobile (under 480px)
+   ============================================================================ */
+
+@media (max-width: 479px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .contact span:not(:last-child)::after {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Tablet (480px - 768px)
+   ============================================================================ */
+
+@media (min-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .contact {
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        margin-bottom: 14px;
+        padding-left: 14px;
+        padding-bottom: 10px;
+    }
+
+    .summary {
+        font-size: 12px;
+        line-height: 1.7;
+        margin-bottom: 14px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 12px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 11px;
+    }
+
+    .skill-category {
+        font-size: 11px;
+    }
+
+    .skill-category p {
+        font-size: 12px;
+    }
+
+    .job-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .project-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .project-title {
+        font-size: 12px;
+    }
+
+    .project-role {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .project-content {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .project-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .project-tech {
+        font-size: 11px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Desktop (769px+)
+   ============================================================================ */
+
+@media (min-width: 769px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .name {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .contact {
+        font-size: 12px;
+        gap: 12px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+        padding-left: 14px;
+        padding-bottom: 12px;
+    }
+
+    .summary {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-bottom: 16px;
+    }
+
+    .summary-refined {
+        font-size: 14px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 14px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .skill-category {
+        font-size: 12px;
+    }
+
+    .skill-category p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .job {
+        margin-bottom: 12px;
+    }
+
+    .job-header {
+        gap: 0;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 11px;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .job-bullets li {
+        margin-bottom: 5px;
+    }
+
+    .project {
+        margin-bottom: 12px;
+    }
+
+    .project-header {
+        gap: 0;
+    }
+
+    .project-title {
+        font-size: 13px;
+    }
+
+    .project-role {
+        font-size: 12px;
+    }
+
+    .project-content {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-bottom: 5px;
+    }
+
+    .project-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .project-bullets li {
+        margin-bottom: 5px;
+    }
+
+    .project-tech {
+        font-size: 11px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+}
+
+/* ============================================================================
+   Print Styles (PDF/Physical Printing)
+   ============================================================================ */
+
+@media print {
+    body {
+        background: white;
+        color: #1e293b;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0.5in;
+        background: white;
+        min-height: 11in;
+        display: flex;
+        flex-direction: column;
+        border-left: none !important;
+        padding-left: 0.5in !important;
+    }
+
+    .job,
+    .project,
+    .project-summary {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    section {
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        background: white !important;
+        color: #1a202c !important;
+        border-bottom: 2px solid #1a202c;
+        border-radius: 0;
+        padding: 6px 0px !important;
+        margin-bottom: 8px;
+    }
+
+    .summary {
+        font-size: 11px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+    }
+
+    .summary-refined {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 10px;
+    }
+
+    .summary-highlight,
+    .tech-emphasis {
+        color: inherit;
+        font-weight: 600;
+    }
+
+    .arch-emphasis {
+        color: inherit;
+        font-weight: 600;
+        white-space: normal;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .skill-category {
+        font-size: 10px;
+    }
+
+    .skill-category p {
+        font-size: 11px;
+    }
+
+    .job-bullets,
+    .project-bullets {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .job,
+    .project {
+        margin-bottom: 8px;
+    }
+
+    .job-title,
+    .project-title {
+        font-size: 12px;
+    }
+
+    .project-role {
+        font-size: 11px;
+    }
+
+    .project-tech {
+        font-size: 11px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    header {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        background: white !important;
+        border-radius: 0;
+    }
+
+    section,
+    section:nth-child(even),
+    section:nth-child(odd) {
+        background: white !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip to main content link for keyboard users (WCAG 2.4.1) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="container">
+        <!-- Header: Name, Title, Contact Information -->
+        <header class="header">
+            <div class="name">ABIEZER "ABE" REYES</div>
+            <div class="title">Full-Stack Developer</div>
+            <div class="contact">
+                <span>Orlando, FL</span>
+                <span><a href="mailto:abe.raise@gmail.com">abe.raise@gmail.com</a></span>
+                <span><a href="https://needthisdone.com">needthisdone.com</a></span>
+                <span><a href="https://github.com/AbeJitsu">github.com/AbeJitsu</a></span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Professional Summary Section -->
+            <section class="summary-section">
+                <div class="summary-refined">
+                    <p class="summary-paragraph">
+                        Career built on discipline and proven growth: Army paramedic (5 years) making life-or-death decisions under pressure, then Toyota (7 years) advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives software development work.
+                    </p>
+
+                    <p class="summary-paragraph">
+                        Transitioned to software development in 2023 with the same commitment that earned promotions at Toyota and kept patients alive in the Army.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Technical Skills Section -->
+            <section class="skills-section">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills">
+                    <div class="skill-category">
+                        <strong>Frontend</strong>
+                        <p>React, Next.js (SSR, API routes), Vue.js, TypeScript, HTML/CSS, Responsive Design (mobile-first), Playwright, Vitest, Storybook, WCAG AA</p>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Backend</strong>
+                        <p>Node.js, Express.js, Python, RESTful APIs, OAuth, Excel/XLSX</p>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Databases & Caching</strong>
+                        <p>PostgreSQL, Supabase, pgvector, Redis, MongoDB</p>
+                    </div>
+                    <div class="skill-category">
+                        <strong>DevOps & Infrastructure</strong>
+                        <p>Docker, Docker Compose, Nginx, Git/GitHub, GitHub Actions, CI/CD</p>
+                    </div>
+                    <div class="skill-category">
+                        <strong>AI Integration</strong>
+                        <p>OpenAI API, Vercel AI SDK, RAG Patterns, Claude Code</p>
+                    </div>
+                    <div class="skill-category">
+                        <strong>E-commerce</strong>
+                        <p>Medusa, Stripe, Product Management, Checkout Flows</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Experience Section -->
+            <section class="experience-section">
+                <h2 class="section-title">Professional Experience</h2>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Full-Stack Developer</div>
+                        <div class="job-meta">Spring 2025 - Winter 2025</div>
+                    </div>
+                    <div class="job-company">Acadio | Educational LMS Platform</div>
+                    <ul class="job-bullets">
+                        <li>Identified manual workflows consuming weeks of team time and automated them away. Flashcard generation, validation, and correction now runs in minutes</li>
+                        <li>Built automated quality checks that catch mistakes before they reach users, eliminating hours of manual review</li>
+                        <li>Became the go-to problem-solver for complex technical challenges across the team</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Freelance Web Developer</div>
+                        <div class="job-meta">Fall 2023 - Spring 2025</div>
+                    </div>
+                    <div class="job-company">Self-Employed | Independent Contractor</div>
+                    <ul class="job-bullets">
+                        <li>Built custom web applications and automation tools for clients while developing full-stack expertise</li>
+                        <li>Mastered modern development workflow including Git, testing, and deployment pipelines</li>
+                        <li>Transitioned from learning fundamentals to delivering production-ready solutions for real clients</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Finance Manager</div>
+                        <div class="job-meta">Spring 2017 - Winter 2023</div>
+                    </div>
+                    <div class="job-company">Toyota | Career Progression: Salesperson → Sales Manager → Finance Manager</div>
+                    <ul class="job-bullets">
+                        <li>Advanced through three progressive roles demonstrating consistent leadership growth and business acumen</li>
+                        <li>Developed expertise in financial analysis, customer relationship management, and sales processes. Communication skills directly transfer to understanding user needs in software development</li>
+                        <li>Developed systematic approach to problem-solving and process optimization that translates to building efficient, user-focused software systems</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Paramedic</div>
+                        <div class="job-meta">1996 - 2001</div>
+                    </div>
+                    <div class="job-company">U.S. Army</div>
+                    <ul class="job-bullets">
+                        <li>Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving</li>
+                        <li>Maintained critical systems and protocols where precision and attention to detail were essential</li>
+                        <li>Developed discipline, systematic thinking, and attention to detail. Core skills transferable to software architecture and testing</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Key Project Section -->
+            <section class="projects-section">
+                <h2 class="section-title">Featured Project</h2>
+
+                <div class="project">
+                    <div class="project-header">
+                        <div class="project-title">needthisdone.com</div>
+                        <div class="project-role">Co-Founder & Full-Stack Developer</div>
+                    </div>
+
+                    <div class="project-content">
+                        <strong>Production e-commerce platform:</strong> Complete system with shopping flows, user authentication, order management, admin dashboard, and visual page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.
+                    </div>
+
+                    <div class="project-content">
+                        <strong>Testing & quality:</strong> Comprehensive testing that simulates real customer behavior - from browsing products to completing checkout. Accessibility verified to ensure the site works for users with disabilities. Tests run automatically before every release.
+                    </div>
+
+                    <div class="project-content">
+                        <strong>Infrastructure:</strong> Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Organized codebase with documented, reusable components. Dark mode implemented and tested throughout.
+                    </div>
+
+                    <div class="project-tech">
+                        Next.js 14 • TypeScript • Supabase (pgvector, auth) • Redis • Medusa (headless e-commerce) • Puck (page builder) • Docker • GitHub Actions • Playwright • Vitest
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Projects Section -->
+            <section class="projects-section">
+                <h2 class="section-title">Additional Projects</h2>
+
+                <div class="project-summary">
+                    <strong>Flashcard Management System</strong> (2025): Python/HTML automation managing 534+ entries with Excel/XLSX processing, automated creation scripts, and systematic validation. 431+ commits. Foundation for Acadio automation work.
+                </div>
+
+                <div class="project-summary">
+                    <strong>Merge 52</strong> (2024): JavaScript card game featuring organized code architecture, fair randomization algorithms, and an AI opponent that makes strategic decisions.
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="education-section">
+                <h2 class="section-title">Education & Progression</h2>
+                <div class="education">
+                    <strong>Self-Taught Computer Programming</strong> (2023-Present): Mastered MEVN stack fundamentals (2023) → Applied through freelance projects (2024) → Professional experience with modern DevOps tooling (2025)
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
