@@ -21,7 +21,7 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 <div style="margin-left: 20px;">
 
-**Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS, Responsive Design, Playwright, Vitest, Storybook, WCAG AA
+**Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS, Responsive Design, Playwright, Puppeteer, Vitest, Storybook, WCAG AA
 
 **Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth
 
@@ -42,9 +42,8 @@ Transitioned to software development in 2023 with the same commitment that earne
 <div style="margin-left: 20px;">
 
 **Full-Stack Developer** | *Acadio | Educational LMS Platform | Spring 2025 - Winter 2025*
-- Identified manual workflows consuming weeks of team time and automated them away. Flashcard generation, validation, and correction now runs in minutes
-- Built automated quality checks that catch mistakes before they reach users, eliminating hours of manual review
-- Became the go-to problem-solver for complex technical challenges across the team
+- Built web scraping infrastructure to collect FINRA rules and regulations, then fed that data into AI systems to automatically generate quality content, study questions, and flashcards at scale
+- Automated validation, quality checks, and content processing workflows that eliminated hours of manual review. Became the go-to problem-solver for complex technical challenges across the team
 
 **Freelance Web Developer** | *Self-Employed | Independent Contractor | Fall 2023 - Spring 2025*
 - Built custom web applications and automation tools for clients while developing full-stack expertise
