@@ -693,9 +693,8 @@ section {
         padding-left: 0.5in !important;
     }
 
-    /* Prevent page breaks inside job entries and projects */
+    /* Prevent page breaks inside job entries and project summaries */
     .job,
-    .project,
     .project-summary {
         break-inside: avoid;
         page-break-inside: avoid;
