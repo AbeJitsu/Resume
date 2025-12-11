@@ -23,7 +23,7 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 **Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS, Responsive Design, Playwright, Puppeteer, Vitest, Storybook, WCAG AA
 
-**Backend:** Node.js, Express.js, Python, RESTful APIs, OAuth
+**Backend:** Node.js, Express.js, Python, cURL, BeautifulSoup, RESTful APIs, OAuth
 
 **Databases & Caching:** PostgreSQL, Supabase, pgvector, Redis, MongoDB
 
@@ -76,7 +76,7 @@ Transitioned to software development in 2023 with the same commitment that earne
 
 **Testing & quality:** Comprehensive testing that simulates real customer behavior - from browsing products to completing checkout. Accessibility verified to ensure the site works for users with disabilities. Tests run automatically before every release.
 
-**Infrastructure:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Shared design system with Storybook component library. Admin dashboard with system monitoring, user management, and real-time status indicators. Dark mode implemented and tested throughout.
+**Infrastructure & Dashboards:** Professional development environment that mirrors production, preventing "works on my machine" problems. Automated deployment pipeline ensures every change is tested before going live. Shared design system with Storybook component library. Built dual dashboards with real-time data: Admin dashboard tracks website requests and user activity; Dev dashboard monitors system health (website status, database accessibility, page speed), manages users, and controls shop/pages configuration. Dark mode implemented and tested throughout.
 
 **AI-powered features:** Built context-aware chatbot using RAG (Retrieval-Augmented Generation) pattern - combines semantic search via Supabase pgvector with OpenAI API for intelligent responses. System generates embeddings from content, stores vectors in PostgreSQL, and retrieves contextually relevant information to answer user questions naturally. Includes intelligent indexing with hash-based change detection to keep chatbot knowledge current. Demonstrates prompt engineering to optimize response quality and relevance.
 
