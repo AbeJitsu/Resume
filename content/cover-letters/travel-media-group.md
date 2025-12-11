@@ -13,7 +13,7 @@ Maitland, FL 32751
 
 Dear Hiring Team,
 
-I am writing to express my strong interest in the PHP Developer position at Travel Media Group. While my professional background is in full-stack Node.js development, I have built the same systems your team needs—data pipelines, API integrations, responsive frontends, and production infrastructure. I'm ready to bring this proven expertise to PHP and Symfony, and I'm genuinely excited about the opportunity to contribute to your reputation, social media, and AI-driven hospitality platforms.
+I'm writing about the PHP Developer position at Travel Media Group. While my professional background is in full-stack Node.js development, I've built the same systems your team needs—data pipelines, API integrations, responsive frontends, and production infrastructure. I can bring this proven expertise to PHP and Symfony, and I'm genuinely excited about contributing to your reputation, social media, and AI-driven hospitality platforms.
 
 ### Why I'm Ready for This Role
 
@@ -25,7 +25,6 @@ Your job description emphasizes web scraping tools like Puppeteer, Guzzle, and c
 
 I reviewed your requirements and my background addresses them directly:
 
-- **Data pipelines & scraping:** Built automated ingestion systems that reduced manual data gathering from hours to minutes. Experience with structured data extraction, transformation, and storage.
 - **RESTful APIs:** Designed and consumed APIs across multiple projects (OAuth, OpenAI, Stripe, custom endpoints). Comfortable building both sides—creating APIs and integrating third-party ones.
 - **Responsive design & front-end:** React, Vue.js, TypeScript, TailwindCSS—all tested to WCAG AA accessibility standards. Your job requires responsive, accessible interfaces; I've shipped this at scale.
 - **Database design:** PostgreSQL and MongoDB experience with query optimization, indexing, and efficient data modeling. MySQL is straightforward from this foundation.
@@ -34,9 +33,9 @@ I reviewed your requirements and my background addresses them directly:
 
 ### On the Framework Question
 
-You're looking for someone with Symfony or Laravel experience. I don't have professional Symfony background, but I have something more valuable: deep understanding of how web frameworks work. Express.js (which I use) and Symfony are both MVC frameworks. The patterns are similar—routing, controllers, middleware, models, views. I've moved between React, Vue.js, and Angular. I've learned new frameworks quickly because I understand the fundamentals.
+You're looking for someone with Symfony or Laravel experience. I don't have professional Symfony background, but I have something more valuable: deep understanding of how web frameworks work. Express.js (which I use) and Symfony are both MVC frameworks—the patterns are similar (routing, controllers, middleware, models, views). I've moved between React and Vue.js, and learned new frameworks quickly because I understand the fundamentals.
 
-What matters more is that I understand the problems these frameworks solve. At needthisdone.com, I architected a three-tier system with layered separation of concerns—data layer, business logic, presentation layer. That's the thinking Symfony is built around. I'm not intimidated by the framework; I'm ready to apply what I already know to your codebase.
+At needthisdone.com, I architected a three-tier system with layered separation of concerns—data layer, business logic, presentation layer. That's the exact thinking Symfony is built around. I have the fundamentals and the mindset to contribute from day one.
 
 ### Why Travel Media Group
 
@@ -46,7 +45,7 @@ I'm genuinely excited to contribute to this team and grow my expertise in the pr
 
 ### Next Steps
 
-I'd welcome the opportunity to discuss how my full-stack expertise, data pipeline experience, and proven ability to solve complex problems can contribute to Travel Media Group's success. I'm ready to provide code samples, GitHub links, and discuss my approach to learning Symfony in a professional environment.
+I'd welcome the opportunity to discuss how my full-stack expertise, data pipeline experience, and proven ability to solve complex problems can contribute to Travel Media Group's success. You can review my code at https://github.com/AbeJitsu/Need_This_Done, which demonstrates these capabilities in action.
 
 Thank you for considering my application. I look forward to speaking with you soon.
 
