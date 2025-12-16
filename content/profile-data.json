@@ -1,0 +1,421 @@
+{
+  "personal": {
+    "name": {
+      "full": "Abiezer Reyes",
+      "display": "Abiezer \"Abe\" Reyes",
+      "first": "Abe",
+      "last": "Reyes"
+    },
+    "title": "Full-Stack Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32839",
+      "display": "Orlando, FL"
+    },
+    "contact": {
+      "email": "abe.raise@gmail.com",
+      "phone": "407-873-6713",
+      "website": "https://needthisdone.com",
+      "github": "https://github.com/AbeJitsu",
+      "linkedin": null
+    }
+  },
+
+  "bios": {
+    "headline": {
+      "content": "Full-stack developer building with React, Next.js, and AI/RAG systems. Army medic discipline + 7 years in automotive finance taught me to solve problems under pressure and deliver results.",
+      "charLimit": 220,
+      "use": "LinkedIn headline, Twitter bio"
+    },
+    "short": {
+      "content": "Full-stack developer who spent 5 years as an Army paramedic and 7 years climbing Toyota's ranks. Now I build software with the same intensity I brought to keeping people alive.",
+      "charLimit": 500,
+      "use": "Conference bios, brief introductions"
+    },
+    "medium": {
+      "content": "Former Army paramedic → Toyota Finance Manager → Full-stack developer. I bring the same discipline that kept patients alive and earned promotions to building software that works. I build production applications with React, Next.js, and AI/RAG systems. My background means I understand both the engineering and the \"why does this matter.\"",
+      "charLimit": 1000,
+      "use": "Speaker bios, portfolio about"
+    },
+    "linkedin_about": {
+      "content": "Full-stack developer who builds production applications from the ground up — frontend to backend to deployment.\n\nI can take your idea from concept to live product. That means responsive interfaces in React and Next.js, APIs in Node.js, databases that scale, and infrastructure that doesn't break at 2am. When AI makes sense for your project, I build RAG systems that actually work — semantic search, vector databases, and responses grounded in your real data.\n\nNeed data from somewhere it doesn't want to go? I build web scraping pipelines that collect, clean, and feed information into whatever system needs it. Need manual processes to disappear? I write automation that handles the repetitive work so your team can focus on what matters.\n\nWhat I bring beyond the technical:\n\nI ask the right questions before writing code. Years of high-pressure decision-making taught me that understanding the real problem saves everyone time and money. I think about who's actually using what I build — not just whether it works, but whether it makes sense to them.\n\nI communicate clearly because I've spent years translating complex information for people who aren't technical. I document my work so the next person isn't guessing. I meet deadlines because I've worked in environments where missing them wasn't an option.\n\nIf you're looking for a developer who ships reliable software and is genuinely easy to work with, let's connect. I'd love to hear what you're building.",
+      "charLimit": 2600,
+      "use": "LinkedIn About section"
+    }
+  },
+
+  "work_experience": [
+    {
+      "id": "acadio",
+      "company": "Acadio",
+      "company_description": "Educational LMS Platform",
+      "title": "Full-Stack Developer",
+      "employment_type": "Contract",
+      "location": "Remote",
+      "location_type": "Remote",
+      "dates": {
+        "start": "2025-03",
+        "end": "2025-12",
+        "display": "Spring 2025 - Winter 2025"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Built web scraping infrastructure to collect FINRA rules and regulations, then fed that data into AI systems to automatically generate quality content, study questions, and flashcards at scale",
+          "Automated validation, quality checks, and content processing workflows that eliminated hours of manual review. Became the go-to problem-solver for complex technical challenges across the team"
+        ],
+        "linkedin": "I joined Acadio to help solve a real problem: how do you take mountains of complex financial regulations and turn them into learning materials that actually help people pass their certifications?\n\nMy work focused on building systems that made messy data usable:\n\n• Designed web scraping infrastructure to collect FINRA rules and regulations, then fed that data into AI systems that generated study questions, flashcards, and learning content at scale\n\n• Transformed unformatted Word docs and Excel files into clean, structured formats the platform could actually use — the kind of unglamorous work that makes everything else possible\n\n• Converted PDF textbooks into responsive HTML that renders beautifully in TinyMCE, so learners could study on any device without squinting or scrolling sideways\n\n• Built automated validation and quality-check workflows that caught problems before they reached learners — saving hours of manual review and protecting the user experience\n\nWhen tricky technical challenges came up, teammates started bringing them to me. That trust meant a lot.\n\nTech: Python, Puppeteer, BeautifulSoup, cURL, data transformation pipelines, PDF-to-HTML conversion, TinyMCE, responsive design.\n\nWhat I took away: the best systems aren't just technically sound — they make someone's day easier. That's what I try to build.",
+        "brief": "Built web scraping and AI content generation systems for educational platform"
+      },
+      "key_accomplishments": [
+        "Web scraping infrastructure for FINRA regulations",
+        "AI-powered content generation at scale",
+        "Data transformation pipelines (DOCX, XLSX, PDF to HTML)",
+        "Automated validation and quality-check workflows"
+      ],
+      "technologies": ["Python", "Puppeteer", "BeautifulSoup", "cURL", "TinyMCE"]
+    },
+    {
+      "id": "needthisdone",
+      "company": "needthisdone.com",
+      "company_description": "Professional Services Platform",
+      "title": "Co-Founder & Full-Stack Developer",
+      "employment_type": "Self-Employed",
+      "location": "Orlando, FL",
+      "location_type": "Remote",
+      "dates": {
+        "start": "2025-11",
+        "end": null,
+        "display": "November 2025 - Present"
+      },
+      "current": true,
+      "descriptions": {
+        "resume_summary": "Production e-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.",
+        "linkedin": "I built needthisdone.com to prove I could create something real — a platform handling actual traffic and payments, not a portfolio piece.\n\nThe Problem:\n\nHow do you build e-commerce that feels effortless while handling complex operations? Every decision: \"Will this make someone's experience better or just add complexity?\"\n\nWhat I Built:\n\nA professional services marketplace where people browse consultations, book appointments, and checkout — as guests or with accounts that remember their history.\n\nThe architecture splits responsibilities across three layers (Nginx, Next.js, Medusa), so if one part scales, others don't interfere. Redis caching cuts database hits by 60-80%, keeping pages fast.\n\nKey Features:\n\nShopping uses Medusa headless commerce managing inventory, pricing, and orders. Appointment booking enforces real constraints: 24-hour advance notice, daily limits, business hours. Appointments trigger after payment — no unpaid bookings.\n\nBuilt an AI chatbot using RAG that understands context. Semantic search via Supabase pgvector, natural responses via OpenAI. Indexing detects content changes automatically.\n\nTwo dashboards: one for business operations (products, orders, appointments), one for system health (uptime, database status). Visual page builder lets non-technical users create pages without code.\n\nEmail automation handles welcome messages, order confirmations, and appointment notifications from a verified domain.\n\nQuality:\n\n137 automated tests verify the user journey before deployment. WCAG AA accessibility compliant. Professional dev environment mirrors production.\n\nWhat I Learned:\n\nThe best systems make hard things look easy. Users care that checkout works and emails arrive, not about architecture.\n\nTech: Next.js 14, TypeScript, React, Supabase, Redis, Medusa, Stripe, Docker, Playwright",
+        "brief": "Production e-commerce platform with AI chatbot, appointment booking, and automated testing"
+      },
+      "key_accomplishments": [
+        "Three-tier architecture (Nginx, Next.js, Medusa/Supabase/Redis)",
+        "60-80% reduction in database queries via Redis caching",
+        "137 automated tests covering full user journey",
+        "AI chatbot with RAG (Supabase pgvector + OpenAI)",
+        "Appointment booking with real-world constraints",
+        "Visual page builder (Puck) for non-technical users",
+        "WCAG AA accessibility compliance"
+      ],
+      "technologies": ["Next.js 14", "TypeScript", "React", "Supabase", "Redis", "Medusa", "Stripe", "Docker", "Playwright", "Vitest", "TailwindCSS", "Puck", "OpenAI API"]
+    },
+    {
+      "id": "freelance",
+      "company": "Self-Employed",
+      "company_description": "Independent Contractor",
+      "title": "Freelance Web Developer",
+      "employment_type": "Self-Employed",
+      "location": "Orlando, FL",
+      "location_type": "Remote",
+      "dates": {
+        "start": "2023-09",
+        "end": "2025-03",
+        "display": "Fall 2023 - Spring 2025"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Built custom web applications and automation tools for clients while developing full-stack expertise",
+          "Mastered modern development workflow including Git, testing, and deployment pipelines",
+          "Transitioned from learning fundamentals to delivering production-ready solutions for real clients"
+        ],
+        "linkedin": "Built custom web applications and automation tools for clients while developing full-stack expertise. Mastered modern development workflow including Git, testing, and deployment pipelines. Transitioned from learning fundamentals to delivering production-ready solutions.",
+        "brief": "Custom web apps and automation tools while building full-stack expertise"
+      },
+      "technologies": ["Node.js", "Express.js", "Vue.js", "MongoDB", "Git"]
+    },
+    {
+      "id": "toyota",
+      "company": "Toyota of Orlando",
+      "company_description": "Automotive Sales",
+      "title": "Finance Manager",
+      "title_progression": "Salesperson → Sales Manager → Finance Manager",
+      "employment_type": "Full-time",
+      "location": "Orlando, FL",
+      "location_type": "On-site",
+      "dates": {
+        "start": "2017-03",
+        "end": "2023-12",
+        "display": "Spring 2017 - Winter 2023"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Advanced through three progressive roles demonstrating consistent leadership growth and business acumen",
+          "Developed expertise in financial analysis, customer relationship management, and sales processes. Communication skills directly transfer to understanding user needs in software development",
+          "Developed systematic approach to problem-solving and process optimization that translates to building efficient, user-focused software systems"
+        ],
+        "linkedin": "Seven years, three roles, one lesson: earn trust by showing up and solving problems.\n\nI started on the sales floor and worked my way to Finance Manager — not by chasing titles, but by consistently delivering for customers and teammates. Each promotion came from doing the current job well enough that the next one made sense.\n\nWhat I did:\n\n• Guided customers through one of the biggest financial decisions of their lives — listening first, explaining clearly, and helping them feel confident rather than pressured\n\n• Managed complex financial transactions, compliance requirements, and lending relationships while keeping the customer experience smooth\n\n• Built systems and processes that made the department run better — the same instinct I now bring to writing clean, maintainable code\n\n• Mentored teammates and became the person people came to when deals got complicated\n\nWhat I took with me:\n\nThe ability to translate complex information for people who aren't experts. Patience with problems that don't have obvious answers. A deep respect for the person on the other side of the table.\n\nThese skills didn't disappear when I switched careers — they're the foundation of how I build software today.",
+        "brief": "7 years advancing from sales to finance leadership"
+      },
+      "key_accomplishments": [
+        "Progressed through three roles (Salesperson → Sales Manager → Finance Manager)",
+        "Financial analysis and customer relationship management",
+        "Systematic problem-solving and process optimization"
+      ]
+    },
+    {
+      "id": "fullsail_work",
+      "company": "Full Sail University",
+      "company_description": "Higher Education",
+      "title": "Admissions Representative & Military Student Liaison",
+      "title_progression": "International Admissions Rep → Military Student Liaison",
+      "employment_type": "Full-time",
+      "location": "Winter Park, FL",
+      "location_type": "On-site",
+      "dates": {
+        "start": "2012-01",
+        "end": "2017-12",
+        "display": "2012 - 2017"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Excelled in role requiring strong interpersonal and communication skills, aiding students in educational decision-making"
+        ],
+        "linkedin": "Started in the International department helping prospective students from around the world navigate the admissions process. These conversations required patience, cultural awareness, and the ability to explain complex US education systems to families making decisions from thousands of miles away.\n\nAfter proving I could connect with diverse audiences, moved to the Military department as a Student Liaison. This role felt personal — I'd served in the Army as a paramedic, so I understood what service members face when transitioning to civilian life.\n\nHelped veterans, active-duty personnel, and their families understand how to use their GI Bill benefits, navigate program requirements, and plan their education around military obligations. These weren't just enrollment conversations — they were career transition conversations.\n\nWhat I learned here shows up in my development work today: listening before talking, translating complex information into plain language, and understanding that behind every question is someone trying to make a better life for themselves.\n\nConsistently met enrollment goals while maintaining integrity. No high-pressure tactics — just honest guidance and genuine support.",
+        "brief": "Guided students through educational decisions, specializing in international and military student support"
+      }
+    },
+    {
+      "id": "army",
+      "company": "U.S. Army",
+      "company_description": "Military Service",
+      "title": "Paramedic",
+      "rank": "Corporal (E-4)",
+      "employment_type": "Full-time",
+      "location": "Various",
+      "location_type": "On-site",
+      "dates": {
+        "start": "1996-01",
+        "end": "2001-03",
+        "display": "1996 - 2001"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving",
+          "Maintained critical systems and protocols where precision and attention to detail were essential",
+          "Developed discipline, systematic thinking, and attention to detail. Core skills transferable to software architecture and testing"
+        ],
+        "linkedin": "Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving. Maintained critical systems and protocols where precision and attention to detail were essential. Developed discipline, systematic thinking, and attention to detail — core skills I now apply to software architecture and testing.",
+        "brief": "5 years delivering emergency medical care in high-pressure environments"
+      },
+      "key_accomplishments": [
+        "Emergency medical care in high-pressure conditions",
+        "Rapid decision-making and problem-solving",
+        "Precision and attention to detail"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "id": "army_medical",
+      "school": "U.S. Army Medical Department Center & School",
+      "degree": "Certificate",
+      "field": "Emergency Medical Care / Combat Medic",
+      "dates": {
+        "start": "1996-01",
+        "end": "2001-03",
+        "display": "1996 - 2001"
+      },
+      "grade": "Corporal (E-4)",
+      "activities": "Recreational racquetball — spent my twenties bouncing off walls between shifts",
+      "description": "Emergency medicine training under high-pressure conditions. Patient assessment, trauma care, critical decision-making, and systematic protocols."
+    },
+    {
+      "id": "fullsail_student",
+      "school": "Full Sail University",
+      "degree": "Coursework in Web Design & Development",
+      "field": "Web Design & Development",
+      "dates": {
+        "start": "2016-01",
+        "end": "2017-06",
+        "display": "Winter 2016 - Summer 2017"
+      },
+      "grade": "4.0 GPA",
+      "completed": false,
+      "activities": "Earned A's in every class, then realized I learn better by building than by sitting in lectures. Left to pursue self-directed learning — a decision that's paid off since."
+    },
+    {
+      "id": "khan_academy",
+      "school": "Khan Academy",
+      "degree": "Professional Development",
+      "field": "Computer Science Foundations",
+      "dates": {
+        "start": "2023-01",
+        "end": "2023-12",
+        "display": "2023"
+      },
+      "grade": "100% Mastery",
+      "activities": "Practicing Brazilian Jiu-Jitsu (blue belt) — a reminder that growth happens when you're willing to be a beginner again. Same mindset I brought to learning code.",
+      "description": "AP Computer Science Principles — algorithms, data structures, programming, computer architecture, networking, Internet protocols, cybersecurity, encryption."
+    },
+    {
+      "id": "udemy_100_days",
+      "school": "Udemy",
+      "degree": "Professional Development",
+      "field": "100 Days of Code",
+      "dates": {
+        "start": "2023-01",
+        "end": "2023-12",
+        "display": "2023"
+      },
+      "grade": "Completed",
+      "activities": "Daily coding practice building discipline and momentum. Blue belt in jiu-jitsu at the time — both journeys taught me that consistency beats intensity."
+    },
+    {
+      "id": "udemy_vue",
+      "school": "Udemy",
+      "degree": "Professional Development",
+      "field": "Vue - The Complete Guide (Maximilian Schwarzmüller)",
+      "dates": {
+        "start": "2023-01",
+        "end": "2023-12",
+        "display": "2023"
+      },
+      "grade": "Completed",
+      "activities": "Deep dive into Vue.js — components, routing, state management, and the Composition API. Like drilling submissions, repetition made it stick."
+    }
+  ],
+
+  "skills": {
+    "frontend": ["React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS", "Responsive Design", "Playwright", "Puppeteer", "Vitest", "Storybook", "WCAG AA"],
+    "backend": ["Node.js", "Express.js", "Python", "cURL", "BeautifulSoup", "RESTful APIs", "OAuth"],
+    "databases": ["PostgreSQL", "Supabase", "pgvector", "Redis", "MongoDB"],
+    "devops": ["Docker", "Nginx", "Git/GitHub", "GitHub Actions", "Vercel", "Monorepo", "GCP", "DigitalOcean"],
+    "ai": ["RAG systems", "OpenAI API", "Supabase pgvector", "Vercel AI SDK", "Prompt engineering", "Claude Code"],
+    "ecommerce": ["Medusa", "Stripe", "Product Management", "Checkout Flows"]
+  },
+
+  "projects": [
+    {
+      "id": "needthisdone",
+      "name": "needthisdone.com",
+      "role": "Co-Founder & Full-Stack Developer",
+      "dates": {
+        "start": "2025-11",
+        "end": null,
+        "display": "November 2025 - Present"
+      },
+      "featured": true,
+      "url": "https://needthisdone.com",
+      "github": "https://github.com/AbeJitsu/Need_This_Done",
+      "description": "Production e-commerce platform with AI chatbot, appointment booking, and admin dashboards. 137 automated tests. Handles real traffic and processes actual payments.",
+      "technologies": ["Next.js 14", "TypeScript", "Supabase", "Redis", "Medusa", "Puck", "Docker", "GitHub Actions", "Playwright", "Vitest"]
+    },
+    {
+      "id": "flashcard_system",
+      "name": "Flashcard Management System",
+      "role": "Developer",
+      "dates": {
+        "start": "2025-01",
+        "end": "2025-12",
+        "display": "2025"
+      },
+      "featured": false,
+      "description": "Python/HTML automation managing 534+ entries with Excel/XLSX processing, automated creation scripts, and systematic validation. 431+ commits. Foundation for Acadio automation work.",
+      "technologies": ["Python", "HTML", "Excel/XLSX processing"]
+    },
+    {
+      "id": "merge_52",
+      "name": "Merge 52",
+      "role": "Developer",
+      "dates": {
+        "start": "2024-01",
+        "end": "2024-12",
+        "display": "2024"
+      },
+      "featured": false,
+      "description": "JavaScript card game featuring organized code architecture, fair randomization algorithms, and an AI opponent that makes strategic decisions.",
+      "technologies": ["JavaScript", "OOP", "Algorithms"]
+    }
+  ],
+
+  "linkedin_posts": [
+    {
+      "id": "developer_intro",
+      "title": "Developer Introduction",
+      "created": "2025-12-16",
+      "content": "You probably have a dozen technical problems that aren't getting solved because your team is stretched thin.\n\nI specialize in being the person who takes those problems off your plate.\n\n---\n\nHere's what I do well:\n\n• Build production e-commerce platforms (checkout flows, payment processing, order management)\n\n• Automate manual workflows that waste your team's time\n\n• Integrate AI features that actually add value (RAG systems, semantic search, chatbots)\n\n• Write tests so bugs get caught before customers see them\n\n• Communicate in plain language — no jargon walls\n\n---\n\nRecent work:\n\nComplete e-commerce platform with AI chatbot, appointment booking, and admin dashboards.\n\n137 automated tests.\n\nHandles real traffic, processes real payments, runs in production without constant firefighting.\n\n---\n\nWhat makes me different:\n\nI've built systems that handle real traffic and real payments — not just portfolio pieces.\n\nMy background (Army paramedic → Toyota Finance Manager → Full-stack developer) means I understand both the technical work and the business reasons behind it.\n\nIf you're tired of developers who over-promise and under-deliver, let's talk. I'd rather show you what I've built than tell you what I can do."
+    }
+  ],
+
+  "cover_letter_elements": {
+    "key_accomplishments": {
+      "acadio": [
+        "Automated flashcard generation (weeks → minutes)",
+        "Multi-phase validation pipelines with auto-correction",
+        "Primary technical problem-solver on engineering team",
+        "Content tools for SIE/Series-7 exam preparation",
+        "Web scraping infrastructure for FINRA regulations"
+      ],
+      "needthisdone": [
+        "60-80% database query reduction through advanced caching",
+        "15-50x response time improvement",
+        "137 automated tests with Playwright",
+        "WCAG AA accessibility compliance across all components",
+        "Multi-environment Docker containerization (4 configs)",
+        "Three-tier architecture with independent service scaling",
+        "Context-aware chatbots using pgvector semantic search",
+        "Professional git workflow (main/dev/experiment branches)",
+        "GitHub Actions CI/CD pipeline"
+      ],
+      "previous_projects": [
+        "Flashcard management system: 534+ entries, 431+ commits",
+        "JavaScript solitaire game: OOP state management, algorithm implementation",
+        "Full-stack client projects: Node.js, Express, database design",
+        "Python automation: Excel/XLSX processing, data transformation"
+      ]
+    },
+    "role_specific_intros": {
+      "backend_architecture": "During my time at Acadio (an EdTech LMS platform), I demonstrated the problem-solving and architectural thinking your team needs. I built an automated flashcard generation system that reduced manual content creation from weeks to minutes—not through shortcuts, but through thoughtful system design and modern tooling integration.",
+      "fullstack_devops": "My experience co-founding needthisdone.com demonstrates the full-stack and DevOps expertise your team is seeking. I architected a three-tier production system (Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure) that achieved measurable results: 60-80% reduction in database queries and 15-50x improvement in response times.",
+      "frontend_design": "I have built responsive React and Vue.js applications demonstrating strong front-end fundamentals. In my work at needthisdone.com, I implemented WCAG AA accessibility compliance across all components, comprehensive E2E testing with Playwright, and dark mode cross-compatibility.",
+      "ai_integration": "I have successfully integrated modern AI tooling into production applications. At Acadio, I used Claude Code to build systems that dramatically reduced manual work. On needthisdone.com, I implemented context-aware chatbots using Supabase pgvector semantic search and OpenAI embeddings, demonstrating practical understanding of RAG patterns and LLM integration."
+    }
+  },
+
+  "metadata": {
+    "last_updated": "2025-12-16",
+    "tone_guidelines": {
+      "style": "inviting, focused, considerate, supportive, influential",
+      "language": "relatable language most adults can easily understand",
+      "avoid": ["jargon without context", "generic statements", "negative comments", "over-explanation"]
+    },
+    "career_narrative": {
+      "theme": "Discipline and proven growth across three careers",
+      "progression": "Army paramedic (5 years) → Toyota (7 years, 3 roles) → Full-stack developer (2023-present)",
+      "key_message": "Same commitment that earned promotions and kept patients alive now drives software development"
+    },
+    "current_interests": [
+      "Full-time developer roles",
+      "Contract work",
+      "Consulting engagements"
+    ],
+    "hobbies": {
+      "bjj": {
+        "activity": "Brazilian Jiu-Jitsu",
+        "current_rank": "Purple belt",
+        "history": {
+          "2023": "Blue belt",
+          "2024": "Purple belt"
+        }
+      },
+      "racquetball": {
+        "activity": "Racquetball",
+        "status": "Retired",
+        "level": "Mid-level recreational",
+        "timeframe": "Twenties (during Army)"
+      }
+    }
+  }
+}
