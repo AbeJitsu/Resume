@@ -18,7 +18,7 @@
       "phone": "407-873-6713",
       "website": "https://needthisdone.com",
       "github": "https://github.com/AbeJitsu",
-      "linkedin": null
+      "linkedin": "https://www.linkedin.com/in/weneedthisdone"
     }
   },
 
@@ -405,6 +405,7 @@
       "bjj": {
         "activity": "Brazilian Jiu-Jitsu",
         "current_rank": "Purple belt",
+        "status": "Actively training at 48 years old",
         "history": {
           "2023": "Blue belt",
           "2024": "Purple belt"
