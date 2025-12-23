@@ -51,7 +51,7 @@
       "company": "Acadio",
       "company_description": "Educational LMS Platform",
       "title": "Full-Stack Developer",
-      "employment_type": "Contract",
+      "employment_type": "Full-time",
       "location": "Remote",
       "location_type": "Remote",
       "dates": {
@@ -80,7 +80,7 @@
       "id": "needthisdone",
       "company": "needthisdone.com",
       "company_description": "Professional Services Platform",
-      "title": "Co-Founder & Full-Stack Developer",
+      "title": "Full Stack Developer",
       "employment_type": "Self-Employed",
       "location": "Orlando, FL",
       "location_type": "Remote",
@@ -115,9 +115,9 @@
       "location": "Orlando, FL",
       "location_type": "Remote",
       "dates": {
-        "start": "2023-09",
-        "end": "2025-03",
-        "display": "Fall 2023 - Spring 2025"
+        "start": "2023-01",
+        "end": "2024-03",
+        "display": "January 2023 - March 2024"
       },
       "current": false,
       "descriptions": {
@@ -300,7 +300,7 @@
     {
       "id": "needthisdone",
       "name": "needthisdone.com",
-      "role": "Co-Founder & Full-Stack Developer",
+      "role": "Full Stack Developer",
       "dates": {
         "start": "2025-11",
         "end": null,
@@ -385,7 +385,7 @@
   },
 
   "metadata": {
-    "last_updated": "2025-12-16",
+    "last_updated": "2025-12-23",
     "tone_guidelines": {
       "style": "inviting, focused, considerate, supportive, influential",
       "language": "relatable language most adults can easily understand",
