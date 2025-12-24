@@ -34,7 +34,7 @@ On needthisdone.com, I built everything from the ground up: frontend components,
 
 I've spent my career earning trust through results. Three promotions at Toyota. Five years as an Army medic where attention to detail wasn't optional. That foundation shows up in how I approach code: I take ownership, I communicate clearly, and I deliver what I promise.
 
-Your job description mentions "strong sense of ownership and pride in your work." That's exactly how I operate. I'm looking for a team where I can contribute meaningfully, learn from experienced developers, and grow into more responsibility over time.
+Your job description mentions "strong sense of ownership and pride in your work." That's exactly how I operate. I'm looking for a team where I can contribute meaningfully, pick up whatever tools the project needs, and grow into more responsibility over time.
 
 I'm ready to complete the technical assessment and would welcome the chance to present my needthisdone.com project in the technical interview. Thank you for considering my application.
 
