@@ -251,7 +251,23 @@
       },
       "grade": "4.0 GPA",
       "completed": false,
-      "activities": "Earned A's in every class, then realized I learn better by building than by sitting in lectures. Left to pursue self-directed learning — a decision that's paid off since."
+      "activities": "Earned A's in every class, then realized I learn better by building than by sitting in lectures. Left to pursue self-directed learning — a decision that's paid off since.",
+      "description": "Started my web development journey here. This wasn't a passing interest — I've been learning and building continuously since 2016, even while working full-time in other careers."
+    },
+    {
+      "id": "self_directed_learning",
+      "school": "Self-Directed Learning",
+      "degree": "Continuous Development",
+      "field": "Web Development & Programming",
+      "dates": {
+        "start": "2017-01",
+        "end": "2023-01",
+        "display": "2017 - 2023"
+      },
+      "grade": "Ongoing",
+      "completed": true,
+      "activities": "Learned while working full-time at Toyota. Built small projects, followed tutorials, studied documentation. The same discipline that earned promotions at work kept me moving forward with code.",
+      "description": "Six years of consistent self-directed learning while working full-time. Studied JavaScript, HTML/CSS, and web fundamentals through online resources, personal projects, and hands-on experimentation. This foundation made the transition to professional development possible."
     },
     {
       "id": "khan_academy",
@@ -393,7 +409,7 @@
   },
 
   "metadata": {
-    "last_updated": "2025-12-23",
+    "last_updated": "2025-12-24",
     "tone_guidelines": {
       "style": "inviting, focused, considerate, supportive, influential",
       "language": "relatable language most adults can easily understand",
@@ -402,6 +418,7 @@
     "career_narrative": {
       "theme": "Discipline and proven growth across three careers",
       "progression": "Army paramedic (5 years) → Toyota (7 years, 3 roles) → Full-stack developer (2023-present)",
+      "learning_journey": "Learning web development since 2016 (Full Sail coursework), self-directed study while at Toyota (2017-2023), then full-time development (2023-present)",
       "key_message": "Same commitment that earned promotions and kept patients alive now drives software development"
     },
     "current_interests": [
