@@ -61,7 +61,7 @@
       },
       "current": false,
       "descriptions": {
-        "application_description": "Worked directly with company leadership to solve operational bottlenecks. When I arrived, the team was spending hours on manual data work that I automated, becoming the go-to person for anything requiring data manipulation or process improvement.\n\nAlso handled client onboarding when their course materials came in disorganized. I transformed messy data into usable formats 5-10x faster than the previous process while improving accuracy. Same problem-solving mindset I used in F&I: figure out what's broken, fix it, move on to the next one.",
+        "application_description": "Worked directly with company leadership to solve operational bottlenecks. When I arrived, the team was spending hours on manual data work that I automated, becoming the go-to person for anything requiring data manipulation or process improvement.\n\nAlso handled client onboarding when their course materials came in disorganized. I transformed messy data into usable formats much faster than the previous process while improving accuracy. Same problem-solving mindset I used in F&I: figure out what's broken, fix it, move on to the next one.",
         "resume_bullets": [
           "Built web scraping infrastructure to collect FINRA rules and regulations, then fed that data into AI systems to automatically generate quality content, study questions, and flashcards at scale",
           "Automated validation, quality checks, and content processing workflows that eliminated hours of manual review. Became the go-to problem-solver for complex technical challenges across the team"
@@ -95,13 +95,13 @@
       "descriptions": {
         "application_description": "Built and launched my own business platform while searching for the right full-time opportunity. Handled everything from product setup to payment processing to customer service. Staying sharp, staying productive, and ready to bring that energy to a team again.",
         "resume_summary": "Production e-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately - making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed. Handles live traffic and processes actual payments.",
-        "linkedin": "I built needthisdone.com to prove I could create something real — a platform handling actual traffic and payments, not a portfolio piece.\n\nThe Problem:\n\nHow do you build e-commerce that feels effortless while handling complex operations? Every decision: \"Will this make someone's experience better or just add complexity?\"\n\nWhat I Built:\n\nA professional services marketplace where people browse consultations, book appointments, and checkout — as guests or with accounts that remember their history.\n\nThe architecture splits responsibilities across three layers (Nginx, Next.js, Medusa), so if one part scales, others don't interfere. Redis caching cuts database hits by 60-80%, keeping pages fast.\n\nKey Features:\n\nShopping uses Medusa headless commerce managing inventory, pricing, and orders. Appointment booking enforces real constraints: 24-hour advance notice, daily limits, business hours. Appointments trigger after payment — no unpaid bookings.\n\nBuilt an AI chatbot using RAG that understands context. Semantic search via Supabase pgvector, natural responses via OpenAI. Indexing detects content changes automatically.\n\nTwo dashboards: one for business operations (products, orders, appointments), one for system health (uptime, database status). Visual page builder lets non-technical users create pages without code.\n\nEmail automation handles welcome messages, order confirmations, and appointment notifications from a verified domain.\n\nQuality:\n\n137 automated tests verify the user journey before deployment. WCAG AA accessibility compliant. Professional dev environment mirrors production.\n\nWhat I Learned:\n\nThe best systems make hard things look easy. Users care that checkout works and emails arrive, not about architecture.\n\nTech: Next.js 14, TypeScript, React, Supabase, Redis, Medusa, Stripe, Docker, Playwright",
+        "linkedin": "I built needthisdone.com to prove I could create something real — a platform handling actual traffic and payments, not a portfolio piece.\n\nThe Problem:\n\nHow do you build e-commerce that feels effortless while handling complex operations? Every decision: \"Will this make someone's experience better or just add complexity?\"\n\nWhat I Built:\n\nA professional services marketplace where people browse consultations, book appointments, and checkout — as guests or with accounts that remember their history.\n\nThe architecture splits responsibilities across three layers (Nginx, Next.js, Medusa), so if one part scales, others don't interfere. Redis caching keeps pages fast by reducing unnecessary database calls.\n\nKey Features:\n\nShopping uses Medusa headless commerce managing inventory, pricing, and orders. Appointment booking enforces real constraints: 24-hour advance notice, daily limits, business hours. Appointments trigger after payment — no unpaid bookings.\n\nBuilt an AI chatbot using RAG that understands context. Semantic search via Supabase pgvector, natural responses via OpenAI. Indexing detects content changes automatically.\n\nTwo dashboards: one for business operations (products, orders, appointments), one for system health (uptime, database status). Visual page builder lets non-technical users create pages without code.\n\nEmail automation handles welcome messages, order confirmations, and appointment notifications from a verified domain.\n\nQuality:\n\nAutomated tests verify the user journey before deployment. WCAG AA accessibility compliant. Professional dev environment mirrors production.\n\nWhat I Learned:\n\nThe best systems make hard things look easy. Users care that checkout works and emails arrive, not about architecture.\n\nTech: Next.js 14, TypeScript, React, Supabase, Redis, Medusa, Stripe, Docker, Playwright",
         "brief": "Production e-commerce platform with AI chatbot, appointment booking, and automated testing"
       },
       "key_accomplishments": [
         "Three-tier architecture (Nginx, Next.js, Medusa/Supabase/Redis)",
-        "60-80% reduction in database queries via Redis caching",
-        "137 automated tests covering full user journey",
+        "Redis caching layer for fast page loads",
+        "Automated test suite covering full user journey",
         "AI chatbot with RAG (Supabase pgvector + OpenAI)",
         "Appointment booking with real-world constraints",
         "Visual page builder (Puck) for non-technical users",
@@ -333,7 +333,7 @@
       "featured": true,
       "url": "https://needthisdone.com",
       "github": "https://github.com/AbeJitsu/Need_This_Done",
-      "description": "Production e-commerce platform with AI chatbot, appointment booking, and admin dashboards. 137 automated tests. Handles real traffic and processes actual payments.",
+      "description": "Production e-commerce platform with AI chatbot, appointment booking, and admin dashboards. Full test coverage. Handles real traffic and processes actual payments.",
       "technologies": ["Next.js 14", "TypeScript", "Supabase", "Redis", "Medusa", "Puck", "Docker", "GitHub Actions", "Playwright", "Vitest"]
     },
     {
@@ -346,7 +346,7 @@
         "display": "2025"
       },
       "featured": false,
-      "description": "Python/HTML automation managing 534+ entries with Excel/XLSX processing, automated creation scripts, and systematic validation. 431+ commits. Foundation for Acadio automation work.",
+      "description": "Python/HTML automation for managing flashcard content with Excel/XLSX processing, automated creation scripts, and systematic validation. Foundation for Acadio automation work.",
       "technologies": ["Python", "HTML", "Excel/XLSX processing"]
     },
     {
@@ -369,7 +369,7 @@
       "id": "developer_intro",
       "title": "Developer Introduction",
       "created": "2025-12-16",
-      "content": "You probably have a dozen technical problems that aren't getting solved because your team is stretched thin.\n\nI specialize in being the person who takes those problems off your plate.\n\n---\n\nHere's what I do well:\n\n• Build production e-commerce platforms (checkout flows, payment processing, order management)\n\n• Automate manual workflows that waste your team's time\n\n• Integrate AI features that actually add value (RAG systems, semantic search, chatbots)\n\n• Write tests so bugs get caught before customers see them\n\n• Communicate in plain language — no jargon walls\n\n---\n\nRecent work:\n\nComplete e-commerce platform with AI chatbot, appointment booking, and admin dashboards.\n\n137 automated tests.\n\nHandles real traffic, processes real payments, runs in production without constant firefighting.\n\n---\n\nWhat makes me different:\n\nI've built systems that handle real traffic and real payments — not just portfolio pieces.\n\nMy background (Army paramedic → Toyota Finance Manager → Full-stack developer) means I understand both the technical work and the business reasons behind it.\n\nIf you're tired of developers who over-promise and under-deliver, let's talk. I'd rather show you what I've built than tell you what I can do."
+      "content": "You probably have a dozen technical problems that aren't getting solved because your team is stretched thin.\n\nI specialize in being the person who takes those problems off your plate.\n\n---\n\nHere's what I do well:\n\n• Build production e-commerce platforms (checkout flows, payment processing, order management)\n\n• Automate manual workflows that waste your team's time\n\n• Integrate AI features that actually add value (RAG systems, semantic search, chatbots)\n\n• Write tests so bugs get caught before customers see them\n\n• Communicate in plain language — no jargon walls\n\n---\n\nRecent work:\n\nComplete e-commerce platform with AI chatbot, appointment booking, and admin dashboards.\n\nFull test coverage.\n\nHandles real traffic, processes real payments, runs in production without constant firefighting.\n\n---\n\nWhat makes me different:\n\nI've built systems that handle real traffic and real payments — not just portfolio pieces.\n\nMy background (Army paramedic → Toyota Finance Manager → Full-stack developer) means I understand both the technical work and the business reasons behind it.\n\nIf you're tired of developers who over-promise and under-deliver, let's talk. I'd rather show you what I've built than tell you what I can do."
     }
   ],
 
@@ -383,18 +383,17 @@
         "Web scraping infrastructure for FINRA regulations"
       ],
       "needthisdone": [
-        "60-80% database query reduction through advanced caching",
-        "15-50x response time improvement",
-        "137 automated tests with Playwright",
+        "Redis caching layer for fast page loads",
+        "Automated test suite with Playwright",
         "WCAG AA accessibility compliance across all components",
-        "Multi-environment Docker containerization (4 configs)",
+        "Multi-environment Docker containerization",
         "Three-tier architecture with independent service scaling",
         "Context-aware chatbots using pgvector semantic search",
         "Professional git workflow (main/dev/experiment branches)",
         "GitHub Actions CI/CD pipeline"
       ],
       "previous_projects": [
-        "Flashcard management system: 534+ entries, 431+ commits",
+        "Flashcard management system with automated creation and validation",
         "JavaScript solitaire game: OOP state management, algorithm implementation",
         "Full-stack client projects: Node.js, Express, database design",
         "Python automation: Excel/XLSX processing, data transformation"
@@ -402,7 +401,7 @@
     },
     "role_specific_intros": {
       "backend_architecture": "During my time at Acadio (an EdTech LMS platform), I demonstrated the problem-solving and architectural thinking your team needs. I built an automated flashcard generation system that reduced manual content creation from weeks to minutes—not through shortcuts, but through thoughtful system design and modern tooling integration.",
-      "fullstack_devops": "My experience co-founding needthisdone.com demonstrates the full-stack and DevOps expertise your team is seeking. I architected a three-tier production system (Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure) that achieved measurable results: 60-80% reduction in database queries and 15-50x improvement in response times.",
+      "fullstack_devops": "My experience building needthisdone.com demonstrates the full-stack and DevOps expertise your team is seeking. I architected a three-tier production system (Nginx reverse proxy → Next.js/Medusa backend → Supabase/Redis infrastructure) that handles real traffic and payments reliably.",
       "frontend_design": "I have built responsive React and Vue.js applications demonstrating strong front-end fundamentals. In my work at needthisdone.com, I implemented WCAG AA accessibility compliance across all components, comprehensive E2E testing with Playwright, and dark mode cross-compatibility.",
       "ai_integration": "I have successfully integrated modern AI tooling into production applications. At Acadio, I used Claude Code to build systems that dramatically reduced manual work. On needthisdone.com, I implemented context-aware chatbots using Supabase pgvector semantic search and OpenAI embeddings, demonstrating practical understanding of RAG patterns and LLM integration."
     }
