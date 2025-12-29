@@ -12,16 +12,13 @@ The AI Factory Apps team is building tools that thousands of Lockheed Martin emp
 
 **Here's what stands out about this role:**
 
-Your listing mentions MCP (Model Context Protocol) as a desired skill. Most developers haven't touched it yet. My daily workflow already includes context7 MCP for pulling real-time documentation, so this isn't theoretical knowledge. It's muscle memory.
+Your listing mentions MCP (Model Context Protocol) as a desired skill. Most developers haven't touched it yet. My daily workflow already includes context7 MCP for pulling live documentation. It's muscle memory at this point.
 
 The focus on AI utilities integrated into MS Office applications also resonates. At Acadio, an EdTech platform, the challenge was similar: take complex data (FINRA regulations), run it through AI systems, and produce content that non-technical users could actually work with. The web scraping infrastructure and automated generation pipelines reduced what used to take weeks down to minutes.
 
-**Relevant technical experience:**
+**On the technical side:**
 
-- **Full Stack + DevOps:** Production architecture (Next.js → Supabase/Redis), GitHub Actions CI/CD
-- **AI Integration:** RAG systems with pgvector semantic search, OpenAI embeddings, context-aware chatbots
-- **Languages:** JavaScript/TypeScript and Python daily, actively learning Go
-- **Quality:** Playwright E2E testing, Vitest unit tests, WCAG AA accessibility
+My daily stack is JavaScript/TypeScript and Python, with Next.js and Supabase on the backend. I've built RAG systems with pgvector and OpenAI embeddings, written E2E tests with Playwright, and made accessibility a priority (WCAG AA). Currently learning Go.
 
 **Beyond the technical:**
 
@@ -29,7 +26,7 @@ Five years as an Army paramedic built the discipline to stay calm when things br
 
 **Location:** Based in Orlando (one of your listed locations) and comfortable with full-time remote work and periodic travel.
 
-The opportunity to build AI tools that help Lockheed Martin employees work more effectively is genuinely exciting. Would welcome the chance to discuss how this experience aligns with what the team needs.
+The opportunity to build AI tools that help Lockheed Martin employees work more effectively is genuinely exciting. Would love to chat about how this experience fits what the team needs.
 
 Thank you for your time.
 
