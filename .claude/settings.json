@@ -24,7 +24,9 @@
       "Bash(dig:*)",
       "Bash(node:*)",
       "SlashCommand(/docker)",
-      "SlashCommand(/dac)"
+      "SlashCommand(/dac)",
+      "Skill(*)",
+      "Skill(*:*)"
     ],
     "deny": [
       "Read(./.env*)",
