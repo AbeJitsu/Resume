@@ -38,7 +38,7 @@
 **NeedThisDone.com** - A professional services platform where clients can browse services, book consultations, and get things done.
 
 **Key Numbers:**
-- 177 E2E tests passing
+- E2E test coverage across full user journey
 - 96 React components
 - 47 API routes
 - 15 public pages + 13 admin pages
@@ -63,7 +63,7 @@ Next.js 14, React 18, TypeScript, Tailwind CSS, Medusa (e-commerce), Supabase (d
 ## Ideas for Next Posts
 
 **Platform-Specific Stories:**
-- The 177 tests that let me sleep at night
+- Why I test obsessively (and sleep better because of it)
 - Why I built an AI chatbot that knows when to shut up
 - The appointment scheduling feature nobody asked for (but everyone needed)
 - What happens behind the scenes when you click "Pay Now"
