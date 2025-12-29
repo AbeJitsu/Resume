@@ -2,13 +2,13 @@
 
 Career built on discipline and proven growth: Army paramedic making life-or-death decisions under pressure, then Toyota advancing through three roles to Finance Manager. That foundation of leadership, systematic thinking, and earning trust through results now drives my software development work.
 
-Currently building production systems and automation tools that solve real problems.
+Currently building production systems and automation tools.
 
 ---
 
 ### What I Build
 
-**[needthisdone.com](https://needthisdone.com)** – Production e-commerce platform with shopping flows, authentication, order management, admin dashboard, and a visual page builder. Handles live traffic and processes real payments.
+**[needthisdone.com](https://needthisdone.com)** – E-commerce platform with shopping flows, authentication, order management, admin dashboard, and a visual page builder.
 
 ---
 

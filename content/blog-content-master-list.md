@@ -51,7 +51,7 @@ AI Governance            ◄─────── Responsible AI
 **Your edge:** Already using context7 MCP for documentation access
 
 **Blog Post Ideas:**
-- [x] "My MCP Setup: Using context7 for Real-Time Documentation" ✅ DRAFTED
+- [x] "My MCP Setup: Using context7 for Live Documentation" ✅ DRAFTED
 - [ ] "Building Your First MCP Server: A Practical Guide"
 - [ ] "MCP vs Traditional API Integration: When to Use What"
 - [ ] "How MCP Changes AI Application Development"

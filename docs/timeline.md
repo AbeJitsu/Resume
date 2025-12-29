@@ -79,7 +79,7 @@
 ---
 
 ## Fall 2023 - Spring 2025: Freelance Web Development
-**Focus:** Applied learning through real-world client projects and continuous skill development
+**Focus:** Applied learning through client projects and continuous skill development
 **Duration:** November 2023 - April 2025 (16 months)
 
 **Full-Stack Client Work:**
@@ -145,7 +145,7 @@
   - Course building automation
   - Compliance tools for financial education platform
 
-**Impact:** 8 months of production experience at an established EdTech company, solving real problems at scale
+**Impact:** 8 months of production experience at an established EdTech company
 
 ### November 2025 - Present: needthisdone.com (Founder & Full-Stack Developer)
 

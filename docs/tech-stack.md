@@ -341,7 +341,7 @@ Nginx (Reverse Proxy + SSL/TLS)
 ## Development Philosophy
 
 - **Foundation First:** Strong core CS fundamentals before adopting modern tools
-- **Practical Learning:** Apply knowledge through real projects and client work
+- **Practical Learning:** Apply knowledge through projects and client work
 - **Modern Tooling:** Leverage AI and automation to accelerate development without sacrificing quality
 - **Full-Stack Thinking:** Understand all layers of application architecture
 - **Continuous Evolution:** Stay current with emerging technologies and best practices

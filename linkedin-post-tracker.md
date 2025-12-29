@@ -45,7 +45,7 @@
 - 3 consultation tiers ($20 / $35 / $50)
 
 **What It Does:**
-- E-commerce with real Stripe payments
+- E-commerce with Stripe payments
 - User accounts with Google OAuth or email sign-in
 - AI chatbot (GPT-powered) for 24/7 help
 - Appointment booking with Google Calendar integration

@@ -24,15 +24,11 @@ I specialize in being the person who takes those problems off your plate.
 
 Complete e-commerce platform with AI chatbot, appointment booking, and admin dashboards.
 
-137 automated tests.
-
-Handles real traffic, processes real payments, runs in production without constant firefighting.
+137 automated tests covering the full user journey.
 
 ---
 
 ## What makes me different:
-
-I've built systems that handle real traffic and real payments — not just portfolio pieces.
 
 My background (Army paramedic → Toyota Finance Manager → Full-stack developer) means I understand both the technical work and the business reasons behind it.
 

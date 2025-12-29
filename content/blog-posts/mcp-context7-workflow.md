@@ -1,4 +1,4 @@
-# How I Use MCP to Get Real-Time Documentation While Coding
+# How I Use MCP to Get Live Documentation While Coding
 
 *A practical look at Model Context Protocol and my context7 setup*
 
@@ -28,7 +28,7 @@ AI: *uses training data*            AI: ────►│ MCP Server
                                         *accurate answer*
 ```
 
-The key insight: instead of hoping the AI's training data is current, MCP lets it fetch real-time information.
+The key insight: instead of hoping the AI's training data is current, MCP lets it fetch live information.
 
 ---
 
@@ -55,7 +55,7 @@ Without MCP, you're working with stale information. With context7, you're workin
 
 ## How It Works in Practice
 
-Here's a real example from my workflow:
+Here's an example from my workflow:
 
 **Me:** "I need to implement server actions in Next.js 15. Show me the current pattern."
 
@@ -148,7 +148,7 @@ Browser         ─── Web automation
 Custom Tools    ─── Build your own integrations
 ```
 
-The pattern is always the same: give the AI access to real, current information instead of relying on training data.
+The pattern is always the same: give the AI access to current information instead of relying on training data.
 
 ---
 
@@ -160,7 +160,7 @@ If you're building AI applications (which the Lockheed Martin role focuses on), 
 
 2. **It solves the "stale knowledge" problem** — AI assistants can access current information
 
-3. **It enables real tool use** — AI can actually *do* things, not just generate text
+3. **It enables tool use** — AI can *do* things, not just generate text
 
 4. **It's composable** — multiple MCP servers can work together
 
