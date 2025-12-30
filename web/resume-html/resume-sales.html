@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Automotive Sales & Finance Professional</title>
+    <style>
+/* ============================================================================
+   Reset and Base Styles
+   ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background: #ffffff;
+    color: #1a202c;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+/* ============================================================================
+   Skip Link (Accessibility)
+   ============================================================================ */
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1d4ed8;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* ============================================================================
+   Container and Layout
+   ============================================================================ */
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    line-height: 1.4;
+}
+
+/* ============================================================================
+   Header Section
+   ============================================================================ */
+
+header {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #1d4ed8;
+    padding-bottom: 12px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1d4ed8;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+    word-break: break-word;
+}
+
+.title {
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    font-size: 11px;
+    color: #64748b;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    row-gap: 6px;
+}
+
+.contact span:not(:last-child)::after {
+    content: " • ";
+    color: #64748b;
+    margin-left: 8px;
+}
+
+.contact a {
+    color: #1d4ed8;
+    text-decoration: none;
+    word-break: break-word;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+}
+
+.contact a:focus-visible {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.contact a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.contact a:active {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+}
+
+/* ============================================================================
+   Sections
+   ============================================================================ */
+
+section {
+    margin-bottom: 24px;
+    background: #f8f9fa;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1d4ed8;
+}
+
+/* ============================================================================
+   Summary Section
+   ============================================================================ */
+
+.summary-refined {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1a202c;
+}
+
+.summary-paragraph {
+    margin-bottom: 14px;
+}
+
+.summary-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.summary-highlight {
+    color: #1d4ed8;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ============================================================================
+   Core Competencies Section
+   ============================================================================ */
+
+.competencies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-left: 20px;
+}
+
+.competency-category {
+    font-size: 11px;
+}
+
+.competency-category strong {
+    color: #16a34a;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.competency-category p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #1a202c;
+}
+
+/* ============================================================================
+   Experience Section
+   ============================================================================ */
+
+.job {
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.job-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 6px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: #dc2626;
+}
+
+.job-meta {
+    display: flex;
+    gap: 6px;
+    font-size: 11px;
+    color: #64748b;
+    flex-wrap: wrap;
+}
+
+.job-company {
+    font-size: 11px;
+    color: #64748b;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.job-bullets {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #1a202c;
+    margin-left: 14px;
+    list-style-position: outside;
+}
+
+.job-bullets li {
+    margin-bottom: 6px;
+}
+
+/* ============================================================================
+   Education Section
+   ============================================================================ */
+
+.education {
+    font-size: 11px;
+    line-height: 1.7;
+    margin-left: 20px;
+}
+
+.education strong {
+    color: #1a202c;
+}
+
+/* ============================================================================
+   Responsive Design: Small Mobile (under 480px)
+   ============================================================================ */
+
+@media (max-width: 479px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .contact span:not(:last-child)::after {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+
+    .competencies {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Tablet (480px - 768px)
+   ============================================================================ */
+
+@media (min-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .contact {
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        margin-bottom: 14px;
+        padding-left: 14px;
+        padding-bottom: 10px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 12px;
+    }
+
+    .competencies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 11px;
+    }
+
+    .competency-category {
+        font-size: 11px;
+    }
+
+    .competency-category p {
+        font-size: 12px;
+    }
+
+    .job-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Desktop (769px+)
+   ============================================================================ */
+
+@media (min-width: 769px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .name {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .contact {
+        font-size: 12px;
+        gap: 12px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+        padding-left: 14px;
+        padding-bottom: 12px;
+    }
+
+    .summary-refined {
+        font-size: 14px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 14px;
+    }
+
+    .competencies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .competency-category {
+        font-size: 12px;
+    }
+
+    .competency-category p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .job {
+        margin-bottom: 12px;
+    }
+
+    .job-header {
+        gap: 0;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 11px;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-left: 16px;
+    }
+
+    .job-bullets li {
+        margin-bottom: 5px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+}
+
+/* ============================================================================
+   Print Styles (PDF/Physical Printing)
+   ============================================================================ */
+
+@media print {
+    body {
+        background: white;
+        color: #1e293b;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0.5in;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        border-left: none !important;
+        padding-left: 0.5in !important;
+    }
+
+    .job {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    section {
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        background: white !important;
+        color: #1a202c !important;
+        border-bottom: 2px solid #1a202c;
+        border-radius: 0;
+        padding: 6px 0px !important;
+        margin-bottom: 8px;
+    }
+
+    .summary-refined {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 10px;
+    }
+
+    .summary-highlight {
+        color: inherit;
+        font-weight: 600;
+    }
+
+    .competencies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .competency-category {
+        font-size: 10px;
+    }
+
+    .competency-category p {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .job {
+        margin-bottom: 8px;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    header {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        background: white !important;
+        border-radius: 0;
+    }
+
+    section,
+    section:nth-child(even),
+    section:nth-child(odd) {
+        background: white !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip to main content link for keyboard users (WCAG 2.4.1) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="container">
+        <!-- Header: Name, Title, Contact Information -->
+        <header class="header">
+            <div class="name">ABIEZER "ABE" REYES</div>
+            <div class="title">Automotive Sales & Finance Professional</div>
+            <div class="contact">
+                <span>Orlando, FL</span>
+                <span>407-873-6713</span>
+                <span><a href="mailto:abe.raise@gmail.com">abe.raise@gmail.com</a></span>
+                <span><a href="https://www.linkedin.com/in/weneedthisdone">LinkedIn</a></span>
+                <span><a href="https://needthisdone.com">needthisdone.com</a></span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Professional Summary Section -->
+            <section class="summary-section">
+                <div class="summary-refined">
+                    <p class="summary-paragraph">
+                        Seven years at Toyota of Orlando, earning three promotions from Salesperson to Sales Manager to Finance and Insurance Manager. Processed 3-7 F&I deals daily at a high-volume dealership moving 300-600 units per month. Built trust with customers by explaining options clearly instead of pushing products. Became the go-to person when teammates had complicated deals.
+                    </p>
+                    <p class="summary-paragraph">
+                        Before Toyota, spent five years helping service members and their families navigate educational decisions at Full Sail University. Started as an Army combat medic leading a team under pressure. Tech-savvy: comfortable learning new DMS systems, CRM tools, and digital platforms quickly.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Core Competencies Section -->
+            <section class="competencies-section">
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="competencies">
+                    <div class="competency-category">
+                        <strong>Sales & Customer Service</strong>
+                        <p>Consultative selling, relationship building, needs assessment, follow-up, customer retention</p>
+                    </div>
+                    <div class="competency-category">
+                        <strong>Finance & Compliance</strong>
+                        <p>F&I product presentation, deal structuring, lender relationships, compliance protocols</p>
+                    </div>
+                    <div class="competency-category">
+                        <strong>Technology & Tools</strong>
+                        <p>DMS systems, CRM platforms, quick technology adoption, digital tools, process automation</p>
+                    </div>
+                    <div class="competency-category">
+                        <strong>Communication</strong>
+                        <p>Translating complex information, building rapport, active listening, clear explanations</p>
+                    </div>
+                    <div class="competency-category">
+                        <strong>Leadership</strong>
+                        <p>Team mentoring, problem-solving under pressure, goal achievement, deal troubleshooting</p>
+                    </div>
+                    <div class="competency-category">
+                        <strong>Operations</strong>
+                        <p>High-volume environments, multi-tasking, process improvement, deadline management</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Experience Section -->
+            <section class="experience-section">
+                <h2 class="section-title">Professional Experience</h2>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Salesperson → Sales Manager → Finance and Insurance Manager</div>
+                        <div class="job-meta">March 2017 - December 2023</div>
+                    </div>
+                    <div class="job-company">Toyota of Orlando | High-Volume Dealership (300-600+ units/month)</div>
+                    <ul class="job-bullets">
+                        <li>Earned three promotions over seven years by consistently delivering results and earning trust from leadership and teammates</li>
+                        <li>Structured and closed 3-7 F&I deals per day, presenting VSC, GAP, and ancillary products while ensuring compliance with lending regulations</li>
+                        <li>Managed lender relationships, deal funding, and DMV paperwork (plates, registrations, titles) with accuracy while keeping customers satisfied through the process</li>
+                        <li>Often chosen to work with customers due to my ability to communicate clearly and effectively</li>
+                        <li>Worked in a no-pressure environment focused on customer satisfaction and long-term relationships</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Admissions Representative & Military Student Liaison</div>
+                        <div class="job-meta">2012 - 2017</div>
+                    </div>
+                    <div class="job-company">Full Sail University | Winter Park, FL</div>
+                    <ul class="job-bullets">
+                        <li>Started in International Admissions, then moved to Military Student Services where my Army background gave me credibility with veterans navigating civilian life</li>
+                        <li>Guided service members and families through GI Bill benefits, program costs, and fitting education around military schedules</li>
+                        <li>Consistently met enrollment goals while maintaining integrity. Honest guidance and genuine support, not high-pressure tactics</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Combat Medic, Corporal (E-4)</div>
+                        <div class="job-meta">1996 - 2001</div>
+                    </div>
+                    <div class="job-company">U.S. Army | Fort Hood, TX & Fort Bragg, NC</div>
+                    <ul class="job-bullets">
+                        <li>Led a team of 3 medics and 2 combat lifesavers. Delivered emergency care where mistakes cost lives and hesitation wasn't an option</li>
+                        <li>Learned to stay calm under pressure, follow protocols precisely, and take responsibility for my team's performance</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Technical Projects & Business Development</div>
+                        <div class="job-meta">2023 - Present</div>
+                    </div>
+                    <div class="job-company">Self-Employed | Orlando, FL</div>
+                    <ul class="job-bullets">
+                        <li>Built and launched a business platform (needthisdone.com) handling product management, payment processing, and customer service</li>
+                        <li>Comfortable learning new software systems quickly. Same curiosity and self-direction I'd bring to mastering dealership tools and processes</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="education-section">
+                <h2 class="section-title">Education & Training</h2>
+                <div class="education">
+                    <strong>U.S. Army Medical Department Center & School</strong> (1996 - 2001): Combat Medic certification. Graduated top 10% of class.
+                    <br><br>
+                    <strong>Full Sail University</strong> (2016 - 2017): Web Design & Development coursework, 4.0 GPA.
+                    <br><br>
+                    <strong>Continuous Professional Development</strong>: Self-directed learner who stays current with technology and industry best practices.
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
