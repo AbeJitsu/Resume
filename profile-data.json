@@ -57,16 +57,18 @@
       "dates": {
         "start": "2025-04",
         "end": "2025-12",
-        "display": "Spring 2025 - Winter 2025"
+        "display": "April 2025 - December 2025"
       },
       "current": false,
       "descriptions": {
         "application_description": "Worked directly with company leadership to solve operational bottlenecks. When I arrived, the team was spending hours on manual data work that I automated, becoming the go-to person for anything requiring data manipulation or process improvement.\n\nAlso handled client onboarding when their course materials came in disorganized. I transformed messy data into usable formats much faster than the previous process while improving accuracy. Same problem-solving mindset I used in F&I: figure out what's broken, fix it, move on to the next one.",
         "resume_bullets": [
-          "Served as the primary technical liaison between the CEO and an 8-person team, translating business needs into development priorities and helping non-technical leadership make informed decisions",
-          "Automated repetitive workflows that were slowing the team down, freeing people to focus on higher-value work",
-          "Cleaned up messy client data during onboarding, completing migrations in hours rather than days or weeks while improving accuracy",
-          "Became the go-to person when something needed to be built, fixed, or figured out"
+          "Started as a contractor doing API integration work at an early-stage startup. Proved value quickly and got brought on for expanded responsibilities",
+          "Became the person the CEO came to with technical questions because my explanations made sense to him",
+          "Designed automated workflows to eliminate manual processes and improve team efficiency",
+          "Built Python scripts to rescue unusable content - converted entire textbooks from messy PDFs into clean HTML for the learning platform",
+          "Handled data migrations during client onboarding. Turned multi-day headaches into same-day completions while improving accuracy",
+          "Built Excel macros and VBA scripts for clients to automate repetitive data tasks"
         ],
         "linkedin": "At Acadio, the challenge was clear: how do you take mountains of complex financial regulations and turn them into learning materials that help people pass their certifications?\n\nMy work focused on building systems that made messy data usable:\n\n• Designed web scraping infrastructure to collect FINRA rules and regulations, then fed that data into AI systems that generated study questions, flashcards, and learning content at scale\n\n• Transformed unformatted Word docs and Excel files into clean, structured formats the platform could use, the kind of unglamorous work that makes everything else possible\n\n• Converted PDF textbooks into responsive HTML that renders beautifully in TinyMCE, so learners could study on any device without squinting or scrolling sideways\n\n• Built automated validation and quality-check workflows that caught problems before they reached learners, saving hours of manual review and protecting the user experience\n\nWhen tricky technical challenges came up, teammates started bringing them to me. That trust meant a lot.\n\nTech: Python, Puppeteer, BeautifulSoup, cURL, data transformation pipelines, PDF-to-HTML conversion, TinyMCE, responsive design.\n\nWhat I took away: the best systems aren't just technically sound, they make someone's day easier. That's what I try to build.",
         "brief": "Built web scraping and AI content generation systems for educational platform"
@@ -96,6 +98,12 @@
       "current": true,
       "descriptions": {
         "application_description": "Built and launched my own business platform while searching for the right full-time opportunity. Handled everything from product setup to payment processing to customer service. Staying sharp, staying productive, and ready to bring that energy to a team again.",
+        "resume_bullets": [
+          "Built a visual editor where you drag and drop building blocks to create pages, edit text directly on the page, and undo changes with version history. Non-technical users can update content without touching code",
+          "Organized the codebase into reusable components and API endpoints. Cart updates show instantly without loading spinners, and pages load fast thanks to smart caching",
+          "Wrote automated tests that simulate real users clicking through the site. Built a color system that passes accessibility checks so text is readable for everyone",
+          "Built AI automation including an LLM chatbot with custom prompts, OAuth flows, Stripe payments, and automated emails"
+        ],
         "resume_summary": "E-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately, making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed.",
         "linkedin": "needthisdone.com is a professional services marketplace where people browse consultations, book appointments, and checkout as guests or with accounts that remember their history.\n\nThe Problem:\n\nHow do you build e-commerce that feels effortless while handling complex operations? Every decision: Will this make someone's experience better or just add complexity?\n\nWhat I Built:\n\nThe architecture uses Next.js with Supabase for data and Redis for caching. Shopping uses Medusa headless commerce managing inventory, pricing, and orders.\n\nAppointment booking enforces constraints: 24-hour advance notice, daily limits, business hours. Appointments trigger after payment.\n\nAI chatbot using RAG that understands context. Semantic search via Supabase pgvector, natural responses via OpenAI. Indexing detects content changes automatically.\n\nTwo dashboards: one for business operations (products, orders, appointments), one for system health (uptime, database status). Visual page builder lets non-technical users create pages without code.\n\nEmail automation handles welcome messages, order confirmations, and appointment notifications from a verified domain.\n\nQuality:\n\nAutomated tests verify the user journey before deployment. WCAG AA accessibility compliant.\n\nWhat I Learned:\n\nThe best systems make hard things look easy. Users care that checkout works and emails arrive, not about architecture.\n\nTech: Next.js 14, TypeScript, React, Supabase, Redis, Medusa, Stripe, Playwright",
         "brief": "E-commerce platform with AI chatbot, appointment booking, and automated testing"
@@ -127,8 +135,8 @@
       "current": false,
       "descriptions": {
         "resume_bullets": [
-          "Built custom web applications and automation tools for clients while developing full-stack expertise",
-          "Mastered modern development workflow including Git, testing, and deployment pipelines"
+          "Built websites and automation tools for clients while learning the craft",
+          "Went from studying tutorials to building things clients actually use"
         ],
         "linkedin": "Built custom web applications and automation tools for clients while developing full-stack expertise. Mastered modern development workflow including Git, testing, and deployment pipelines.",
         "brief": "Custom web apps and automation tools while building full-stack expertise"
@@ -152,9 +160,9 @@
       "current": false,
       "descriptions": {
         "resume_bullets": [
-          "Promoted through three roles (Salesperson → Sales Manager → Finance Manager) at high-volume dealership processing 10-30 deals daily",
-          "Structured and closed 3-7 F&I deals per day, presenting VSC, GAP, and ancillary products while ensuring compliance with lending regulations",
-          "Managed lender relationships and deal funding across multiple financial institutions"
+          "Earned three promotions over seven years at a high-volume dealership moving 10-30 cars daily",
+          "Worked with 3-7 customers daily, walking them through their options and putting together financing across different lenders",
+          "Built trust with customers by explaining options clearly. Became the go-to person when teammates had complicated deals"
         ],
         "application_description": "Seven years at a high-volume Toyota store where the team processed 10-30 deals daily. I earned three promotions by consistently delivering results, finishing as Finance Manager handling 3-7 customers per day. I know how to present protection products, structure deals across multiple lenders, and keep transactions compliant without slowing things down.\n\nCustomers left my office feeling good about their decisions because I explained options clearly instead of pushing products. Teammates brought me their complicated deals because I could find solutions. You're getting someone who performs under pressure, earns trust quickly, and makes the department run smoother.",
         "linkedin": "Seven years, three roles, one lesson: earn trust by showing up and solving problems.\n\nI started on the sales floor and worked my way to Finance Manager — not by chasing titles, but by consistently delivering for customers and teammates. Each promotion came from doing the current job well enough that the next one made sense.\n\nWhat I did:\n\n• Guided customers through one of the biggest financial decisions of their lives — listening first, explaining clearly, and helping them feel confident rather than pressured\n\n• Managed complex financial transactions, compliance requirements, and lending relationships while keeping the customer experience smooth\n\n• Built systems and processes that made the department run better — the same instinct I now bring to writing clean, maintainable code\n\n• Mentored teammates and became the person people came to when deals got complicated\n\nWhat I took with me:\n\nThe ability to translate complex information for people who aren't experts. Patience with problems that don't have obvious answers. A deep respect for the person on the other side of the table.\n\nThese skills didn't disappear when I switched careers — they're the foundation of how I build software today.",
@@ -211,9 +219,8 @@
       "descriptions": {
         "application_description": "Five years as an Army combat medic, promoted to Corporal. Led a team of 3 medics and 2 combat lifesavers. Delivered emergency care where mistakes cost lives and hesitation wasn't an option. Learned to stay calm under pressure, follow protocols precisely, and take responsibility for my team's performance. That foundation shows up in everything I've done since.",
         "resume_bullets": [
-          "Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving",
-          "Maintained critical systems and protocols where precision and attention to detail were essential",
-          "Developed discipline, systematic thinking, and attention to detail. Core skills transferable to software architecture and testing"
+          "Led a team of 3 medics and 2 combat lifesavers. Delivered emergency care where mistakes cost lives and hesitation wasn't an option",
+          "Learned to stay calm under pressure, follow protocols precisely, and take responsibility for my team's performance"
         ],
         "linkedin": "Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving. Maintained critical systems and protocols where precision and attention to detail were essential. Developed discipline, systematic thinking, and attention to detail — core skills I now apply to software architecture and testing.",
         "brief": "5 years delivering emergency medical care in high-pressure environments"
@@ -223,6 +230,28 @@
         "Rapid decision-making and problem-solving",
         "Precision and attention to detail"
       ]
+    },
+    {
+      "id": "quill",
+      "company": "Quill.com",
+      "company_description": "Office Supplies (Staples)",
+      "title": "B2B Sales Representative",
+      "employment_type": "Full-time",
+      "location": "Orlando, FL",
+      "location_type": "On-site",
+      "dates": {
+        "start": "2009-01",
+        "end": "2011-12",
+        "display": "2009 - 2011"
+      },
+      "current": false,
+      "descriptions": {
+        "resume_bullets": [
+          "Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts",
+          "Built relationships with business owners and office managers to establish ongoing purchasing accounts"
+        ],
+        "brief": "High-volume outbound B2B sales opening business accounts"
+      }
     }
   ],
 
@@ -251,10 +280,10 @@
         "end": "2017-06",
         "display": "Winter 2016 - Summer 2017"
       },
-      "grade": "4.0 GPA",
+      "grade": "Straight A's",
       "completed": false,
-      "activities": "Earned A's in every class, then realized I learn better by building than by sitting in lectures. Left to pursue self-directed learning — a decision that's paid off since.",
-      "description": "Started my web development journey here. This wasn't a passing interest — I've been learning and building continuously since 2016, even while working full-time in other careers."
+      "activities": "Earned A's in every class while working full-time.",
+      "description": "Web Design & Development coursework. After teaching myself web technologies since the early 2000s, this program provided the structure to take those skills to a professional level."
     },
     {
       "id": "self_directed_learning",
@@ -314,12 +343,43 @@
   ],
 
   "skills": {
-    "frontend": ["React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS", "Responsive Design", "Playwright", "Puppeteer", "Vitest", "Storybook", "WCAG AA"],
-    "backend": ["Node.js", "Express.js", "Python", "cURL", "BeautifulSoup", "RESTful APIs", "OAuth"],
-    "databases": ["PostgreSQL", "Supabase", "pgvector", "Redis", "MongoDB"],
-    "devops": ["Docker", "Nginx", "Git/GitHub", "GitHub Actions", "Vercel", "Monorepo", "GCP", "DigitalOcean"],
-    "ai": ["RAG systems", "OpenAI API", "Supabase pgvector", "Vercel AI SDK", "Prompt engineering", "Claude Code"],
-    "ecommerce": ["Medusa", "Stripe", "Product Management", "Checkout Flows"]
+    "frontend_ui": {
+      "label": "Frontend & UI Systems",
+      "items": ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind", "Liquid (Shopify)", "Visual Page Builders (Puck)", "WYSIWYG Editors (TipTap)"]
+    },
+    "backend_data": {
+      "label": "Backend & Data",
+      "items": ["Node.js", "Python", "REST APIs", "GraphQL", "PostgreSQL", "MongoDB", "Supabase", "Medusa", "Redis", "Schema Design", "Zod"]
+    },
+    "testing_quality": {
+      "label": "Testing & Quality",
+      "items": ["Playwright E2E", "Vitest", "WCAG AA Accessibility", "Storybook", "CI/CD", "Git"]
+    },
+    "ai_automation": {
+      "label": "AI & Automation",
+      "items": ["Claude Code", "Prompt Engineering", "Vector Embeddings", "Zapier", "n8n", "Workflow Design"]
+    },
+    "architecture": {
+      "label": "Architecture",
+      "items": ["Modular Components", "Custom Hooks", "Context Providers", "Optimistic Updates", "Cache-Aside Pattern", "Turborepo", "pnpm Workspaces"]
+    },
+    "design_process": {
+      "label": "Design & Process",
+      "items": ["Mobile-First", "Figma", "Component Libraries", "Test-Driven Development"]
+    },
+    "it_support": {
+      "label": "IT & Technical Support",
+      "items": [
+        "TeamViewer",
+        "Remote Desktop (RDP)",
+        "Windows Administration",
+        "Hardware Troubleshooting",
+        "Software Installation & Configuration",
+        "Network Diagnostics",
+        "Technical Documentation"
+      ],
+      "context": "Years of solo development required self-sufficient troubleshooting across software, hardware, networking, and system administration"
+    }
   },
 
   "projects": [
@@ -404,22 +464,23 @@
     "role_specific_intros": {
       "backend_architecture": "During my time at Acadio (an EdTech LMS platform), I demonstrated the problem-solving and architectural thinking your team needs. I built an automated flashcard generation system that reduced manual content creation from weeks to minutes—not through shortcuts, but through thoughtful system design and modern tooling integration.",
       "fullstack_devops": "My experience building needthisdone.com demonstrates the full-stack and DevOps expertise your team is seeking. The architecture uses Next.js with Supabase and Redis for data and caching.",
-      "frontend_design": "I have built responsive React and Vue.js applications demonstrating strong front-end fundamentals. In my work at needthisdone.com, I implemented WCAG AA accessibility compliance across all components, comprehensive E2E testing with Playwright, and dark mode cross-compatibility.",
-      "ai_integration": "I have successfully integrated modern AI tooling into production applications. At Acadio, I used Claude Code to build systems that dramatically reduced manual work. On needthisdone.com, I implemented context-aware chatbots using Supabase pgvector semantic search and OpenAI embeddings, demonstrating practical understanding of RAG patterns and LLM integration."
+      "frontend_design": "I have built responsive React and Vue.js applications demonstrating strong front-end fundamentals. In my work at needthisdone.com, I implemented WCAG AA accessibility compliance across all components and comprehensive E2E testing with Playwright.",
+      "ai_integration": "I have successfully integrated modern AI tooling into production applications. At Acadio, I used Claude Code to build systems that dramatically reduced manual work. On needthisdone.com, I implemented context-aware chatbots using Supabase pgvector semantic search and OpenAI embeddings, demonstrating practical understanding of RAG patterns and LLM integration.",
+      "it_support_helpdesk": "Years of solo development have made me a self-sufficient troubleshooter across software, hardware, and systems. When something breaks, I diagnose and fix it. I have hands-on experience with remote support tools like TeamViewer and Remote Desktop, and my background explaining complex technical concepts to non-technical audiences (7 years in automotive finance, 5 years in admissions) means I can communicate clearly with end users while resolving their issues efficiently."
     }
   },
 
   "metadata": {
-    "last_updated": "2025-12-31",
+    "last_updated": "2026-01-15",
     "tone_guidelines": {
       "style": "inviting, focused, considerate, supportive, influential",
       "language": "relatable language most adults can easily understand",
-      "avoid": ["jargon without context", "generic statements", "negative comments", "over-explanation"]
+      "avoid": ["jargon without context", "generic statements", "negative comments", "over-explanation", "em dashes", "overuse of I"]
     },
     "career_narrative": {
-      "theme": "Discipline and proven growth across three careers",
+      "theme": "Over 25 years working with technology in business environments",
       "progression": "Army paramedic (5 years) → Toyota (7 years, 3 roles) → Full-stack developer (2023-present)",
-      "learning_journey": "Learning web development since 2016 (Full Sail coursework), self-directed study while at Toyota (2017-2023), then full-time development (2023-present)",
+      "learning_journey": "Self-teaching web technologies since the early 2000s, formalized at Full Sail (2016-2017), self-directed study while at Toyota (2017-2023), then full-time development (2023-present)",
       "key_message": "Same commitment that earned promotions and kept patients alive now drives software development"
     },
     "current_interests": [
@@ -443,6 +504,223 @@
         "level": "Mid-level recreational",
         "timeframe": "Twenties (during Army)"
       }
+    }
+  },
+
+  "resume_variants": {
+    "dev": {
+      "title": "Full-Stack Developer",
+      "output_file": "resume-dev.html",
+      "summary_paragraphs": [
+        "Over 25 years working with technology in business environments, shipping production software since 2023. I design systems that work, from AI automation to scalable architectures. The engineers I respect most never stop sharpening their tools, and neither do I.",
+        "Before tech, I led a five-person medic team in the Army and earned three promotions at Toyota over seven years.",
+        "What's stayed consistent: I stay calm when things break, I explain technical stuff so it makes sense the first time, and I follow through on what I say I'll do."
+      ],
+      "skills_display": [
+        { "key": "frontend_ui" },
+        { "key": "backend_data" },
+        { "key": "testing_quality" },
+        { "key": "ai_automation", "items_override": ["LLM Integration (OpenAI, Claude)", "Prompt Engineering", "RAG Systems", "Chatbots", "Vector Embeddings"] },
+        { "key": "architecture" },
+        { "key": "design_process" }
+      ],
+      "experience": [
+        {
+          "id": "needthisdone",
+          "title_override": "Full Stack Developer",
+          "company_override": "needthisdone.com",
+          "description_override": "Professional Services Platform"
+        },
+        {
+          "id": "acadio",
+          "page_break": true,
+          "description_override": "Educational Platform for Financial Certifications"
+        },
+        {
+          "id": "freelance",
+          "title_override": "Freelance Web Developer",
+          "company_override": "Self-Employed",
+          "description_override": "Independent Contractor"
+        },
+        {
+          "id": "toyota",
+          "title_override": "Finance and Insurance Manager",
+          "description_override": "Salesperson → Sales Manager → F&I Manager"
+        },
+        {
+          "id": "fullsail_work",
+          "title_override": "Military Enrollment Counselor",
+          "description_override": "International Admissions → Military Student Services"
+        },
+        {
+          "id": "army",
+          "title_override": "Combat Medic, Corporal (E-4)",
+          "description_override": "Fort Hood, TX & Fort Bragg, NC"
+        }
+      ],
+      "featured_projects": [
+        {
+          "id": "needthisdone",
+          "role_override": "Live at needthisdone.com",
+          "bullets": [
+            "Full-stack Next.js application serving real customers in production",
+            "Designed PostgreSQL database schema for users, products, orders, and payments",
+            "Type-safe TypeScript throughout with Zod validation on API boundaries",
+            "Admin dashboard for business operations and order management",
+            "Stripe payment integration with secure checkout flows",
+            "Ship reliably with Playwright E2E tests, Vitest unit tests, and CI/CD"
+          ],
+          "technologies_override": ["React/Next.js", "TypeScript", "Medusa (Headless Commerce)", "PostgreSQL/Supabase", "Redis", "Stripe", "Playwright", "Vercel"]
+        }
+      ],
+      "education": [
+        {
+          "school": "Full Sail University",
+          "dates": "2016 - 2017",
+          "description": "Web Design & Development coursework. After teaching myself web technologies since the early 2000s, this program provided the structure to take those skills to a professional level. Straight A's while working full-time."
+        },
+        {
+          "school": "Self-Directed Learning",
+          "dates": "2016 - 2023",
+          "description": "Eight years of consistent skill development while working full-time. Progressed from tutorials to building production applications. This sustained commitment built the foundation for professional development work."
+        },
+        {
+          "school": "Structured Coursework",
+          "dates": "2023 - Present",
+          "description": "freeCodeCamp Full Stack Developer Certification (in progress), Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code. Filling in gaps and sharpening skills I've been building for years."
+        },
+        {
+          "school": "U.S. Army Medical Department Center & School",
+          "dates": "1996 - 2001",
+          "description": "Combat Medic certification. Graduated top 10% of class."
+        }
+      ],
+      "influences": [
+        {
+          "title": "The Pragmatic Programmer",
+          "author": "David Thomas & Andrew Hunt",
+          "impact": "Taught me to write code that's easy to change later and to fix small problems before they become big ones. I liked the ideas so much I built tools to check my own work against them."
+        },
+        {
+          "title": "Algorithms to Live By",
+          "author": "Brian Christian & Tom Griffiths",
+          "impact": "Shows how the same thinking that solves computer problems can help with everyday decisions. It's why I focus on understanding how things work instead of just memorizing steps."
+        }
+      ]
+    },
+
+    "sales": {
+      "title": "Sales & Customer Success Professional",
+      "output_file": "resume-sales.html",
+      "summary_paragraphs": [
+        "Thirteen years helping people make decisions they feel good about. Seven years at Toyota, three promotions, and thousands of customers who left knowing exactly what they were getting. Five years guiding veterans and international students through one of the biggest choices of their lives.",
+        "Before that, I was an Army medic. Leading a team in high-stakes situations taught me to stay calm, listen carefully, and communicate so people actually understand.",
+        "I connect with people quickly, explain things in plain language, and do what I say I'm going to do. That's what I've built my career on."
+      ],
+      "skills_display": [
+        {
+          "label": "Sales & Revenue",
+          "items": ["Consultative Selling", "Needs Assessment", "Objection Handling", "Closing Techniques", "Pipeline Management", "CRM Systems", "Upselling & Cross-selling"]
+        },
+        {
+          "label": "Customer Success",
+          "items": ["Account Management", "Relationship Building", "Problem Resolution", "Client Retention", "Onboarding", "Escalation Management", "Customer Advocacy"]
+        },
+        {
+          "label": "Communication",
+          "items": ["Complex Concept Translation", "Active Listening", "Written Communication", "Presentation Skills", "Conflict Resolution", "Cross-functional Collaboration"]
+        },
+        {
+          "label": "Technical Proficiency",
+          "items": ["CRM Platforms", "Microsoft Office Suite", "Remote Support Tools", "Data Entry & Management", "Basic Troubleshooting", "Documentation"]
+        },
+        {
+          "label": "Finance & Compliance",
+          "items": ["F&I Product Knowledge", "Lending Guidelines", "Regulatory Compliance", "Deal Structuring", "Contract Processing"]
+        },
+        {
+          "label": "Leadership",
+          "items": ["Team Mentoring", "Process Improvement", "Training Development", "Performance Under Pressure", "Decision Making"]
+        }
+      ],
+      "experience": [
+        {
+          "id": "toyota",
+          "title_override": "Finance & Insurance Manager",
+          "description_override": "Salesperson → Sales Manager → F&I Manager (3 promotions)",
+          "bullets_override": [
+            "Earned three promotions over seven years at a high-volume dealership processing 10-30 deals daily",
+            "Managed 3-7 customer transactions daily, presenting protection products and structuring financing across multiple lenders",
+            "Built trust by explaining options clearly instead of pushing products. Customers left confident in their decisions",
+            "Became the go-to person for complicated deals. Teammates brought me their toughest customers because I found solutions",
+            "Maintained compliance with lending regulations while keeping transactions moving smoothly"
+          ]
+        },
+        {
+          "id": "fullsail_work",
+          "title_override": "Admissions Representative & Military Liaison",
+          "description_override": "International Admissions → Military Student Services",
+          "bullets_override": [
+            "Started in International Admissions helping prospective students from around the world navigate enrollment",
+            "Moved to Military Student Services where my Army background gave me credibility with veterans",
+            "Guided service members and families through GI Bill benefits, program costs, and fitting education around military schedules",
+            "Consistently met enrollment goals through honest guidance rather than high-pressure tactics"
+          ]
+        },
+        {
+          "id": "quill",
+          "title_override": "B2B Sales Representative",
+          "description_override": "Office Supplies (Staples subsidiary)"
+        },
+        {
+          "id": "acadio",
+          "page_break": true,
+          "title_override": "Technical Operations Specialist",
+          "description_override": "Educational Platform (Client-Facing Operations)",
+          "bullets_override": [
+            "Became the bridge between technical teams and non-technical stakeholders",
+            "Handled client onboarding, transforming messy data into usable formats faster than previous processes",
+            "Built reputation as the person who could explain technical concepts so they made sense the first time",
+            "Designed workflows that eliminated manual processes and improved team efficiency"
+          ]
+        },
+        {
+          "id": "army",
+          "title_override": "Combat Medic, Corporal (E-4)",
+          "description_override": "Fort Hood, TX & Fort Bragg, NC",
+          "bullets_override": [
+            "Led a team of 3 medics and 2 combat lifesavers in high-pressure environments",
+            "Delivered emergency care where staying calm and communicating clearly were critical",
+            "Learned to follow protocols precisely while adapting to changing situations",
+            "Built foundation of discipline and accountability that shows up in everything since"
+          ]
+        }
+      ],
+      "featured_projects": [],
+      "education": [
+        {
+          "school": "Full Sail University",
+          "dates": "2016 - 2017",
+          "description": "Web Design & Development coursework. Earned A's in every class while working full-time, demonstrating the same work ethic I bring to every role."
+        },
+        {
+          "school": "U.S. Army Medical Department Center & School",
+          "dates": "1996 - 2001",
+          "description": "Combat Medic certification. Graduated top 10% of class. Training emphasized decision-making under pressure and clear communication."
+        }
+      ],
+      "influences": [
+        {
+          "title": "How to Win Friends and Influence People",
+          "author": "Dale Carnegie",
+          "impact": "The foundation of how I approach every customer interaction. Understanding people's needs before offering solutions isn't just good practice, it's respect."
+        },
+        {
+          "title": "Never Split the Difference",
+          "author": "Chris Voss",
+          "impact": "Changed how I handle objections and difficult conversations. Tactical empathy isn't manipulation. It's genuinely trying to understand the other person's perspective."
+        }
+      ]
     }
   }
 }

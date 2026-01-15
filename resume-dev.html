@@ -647,6 +647,19 @@ section {
     .education {
         font-size: 11px;
     }
+
+    .influences {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .influences p {
+        margin-bottom: 12px;
+    }
+
+    .influences p:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /* ============================================================================
@@ -662,7 +675,7 @@ section {
 
     .container {
         max-width: 100%;
-        padding: 0.5in;
+        padding: 0.3in 0.5in 0.5in 0.5in;
         background: white;
         display: flex;
         flex-direction: column;
@@ -676,12 +689,52 @@ section {
         page-break-inside: avoid;
     }
 
+    /* Page 2 starts at Technical Operations Specialist */
+    .page-2-start {
+        page-break-before: always;
+        padding-top: 0.5in;
+    }
+
+    /* Page 3 starts at Featured Project */
+    .projects-section {
+        page-break-before: always;
+        padding-top: 0.3in;
+    }
+
+    /* Influences section */
+    .influences {
+        font-size: 11px;
+        line-height: 1.8;
+    }
+
+    .influences p {
+        margin-bottom: 14px;
+    }
+
+    .influences p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Education section - page 3 */
+    .education-section {
+        margin-bottom: 24px;
+    }
+
+    .education {
+        line-height: 1.8;
+    }
+
+    /* Featured project section - page 3 */
+    .projects-section {
+        margin-bottom: 24px;
+    }
+
     .skip-link {
         display: none;
     }
 
     section {
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         padding: 8px;
     }
 
@@ -738,12 +791,20 @@ section {
     .job-bullets,
     .project-bullets {
         font-size: 12px;
-        line-height: 1.6;
+        line-height: 1.65;
     }
 
-    .job,
+    .job-bullets li,
+    .project-bullets li {
+        margin-bottom: 6px;
+    }
+
+    .job {
+        margin-bottom: 16px;
+    }
+
     .project {
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     .job-title,
@@ -801,9 +862,19 @@ section {
             <!-- Professional Summary Section -->
             <section class="summary-section">
                 <div class="summary-refined">
+
                     <p class="summary-paragraph">
-                        Started as an Army combat medic leading a team of five, then spent seven years at Toyota earning three promotions to Finance Manager. I've been learning web development since 2016, building consistently while working full-time, and went full-time as a developer in 2023. My approach stays the same wherever I work: stay calm, figure out what's broken, and deliver what I promise.
+                        Over 25 years working with technology in business environments, shipping production software since 2023. I design systems that work, from AI automation to scalable architectures. The engineers I respect most never stop sharpening their tools, and neither do I.
                     </p>
+
+                    <p class="summary-paragraph">
+                        Before tech, I led a five-person medic team in the Army and earned three promotions at Toyota over seven years.
+                    </p>
+
+                    <p class="summary-paragraph">
+                        What's stayed consistent: I stay calm when things break, I explain technical stuff so it makes sense the first time, and I follow through on what I say I'll do.
+                    </p>
+
                 </div>
             </section>
 
@@ -811,36 +882,44 @@ section {
             <section class="skills-section">
                 <h2 class="section-title">Technical Skills</h2>
                 <div class="skills">
+
                     <div class="skill-category">
-                        <strong>Web Development</strong>
-                        <p>React, Next.js, Vue.js, TypeScript, Node.js, Python, REST APIs</p>
+                        <strong>Frontend & UI Systems</strong>
+                        <p>React, Next.js, Vue.js, TypeScript, Tailwind, Liquid (Shopify), Visual Page Builders (Puck), WYSIWYG Editors (TipTap)</p>
                     </div>
+
                     <div class="skill-category">
-                        <strong>Databases</strong>
-                        <p>PostgreSQL, Supabase, Redis, MongoDB</p>
+                        <strong>Backend & Data</strong>
+                        <p>Node.js, Python, REST APIs, GraphQL, PostgreSQL, MongoDB, Supabase, Medusa, Redis, Schema Design, Zod</p>
                     </div>
+
                     <div class="skill-category">
-                        <strong>Tools & Deployment</strong>
-                        <p>Docker, Git/GitHub, automated testing (Playwright, Vitest), cloud hosting</p>
+                        <strong>Testing & Quality</strong>
+                        <p>Playwright E2E, Vitest, WCAG AA Accessibility, Storybook, CI/CD, Git</p>
                     </div>
+
                     <div class="skill-category">
-                        <strong>AI Integration</strong>
-                        <p>Claude Code (primary dev tool), OpenAI API, chatbots, semantic search</p>
+                        <strong>AI & Automation</strong>
+                        <p>LLM Integration (OpenAI, Claude), Prompt Engineering, RAG Systems, Chatbots, Vector Embeddings</p>
                     </div>
+
                     <div class="skill-category">
-                        <strong>E-commerce</strong>
-                        <p>Stripe payments, Medusa, product management, checkout flows</p>
+                        <strong>Architecture</strong>
+                        <p>Modular Components, Custom Hooks, Context Providers, Optimistic Updates, Cache-Aside Pattern, Turborepo, pnpm Workspaces</p>
                     </div>
+
                     <div class="skill-category">
-                        <strong>Data & Automation</strong>
-                        <p>Web scraping, Excel processing, workflow automation, data cleanup</p>
+                        <strong>Design & Process</strong>
+                        <p>Mobile-First, Figma, Component Libraries, Test-Driven Development</p>
                     </div>
+
                 </div>
             </section>
 
             <!-- Professional Experience Section -->
             <section class="experience-section">
                 <h2 class="section-title">Professional Experience</h2>
+
 
                 <div class="job">
                     <div class="job-header">
@@ -849,26 +928,30 @@ section {
                     </div>
                     <div class="job-company">needthisdone.com | Professional Services Platform</div>
                     <ul class="job-bullets">
-                        <li>Built and launched an e-commerce site that's live and taking orders</li>
-                        <li>Built the whole thing myself: the website, the server, the database, the payment system</li>
-                        <li>Added an AI chatbot that answers customer questions based on site content</li>
-                        <li>Set up automated tests so updates don't break what's already working</li>
+                        <li>Built a visual editor where you drag and drop building blocks to create pages, edit text directly on the page, and undo changes with version history. Non-technical users can update content without touching code</li>
+                        <li>Organized the codebase into reusable components and API endpoints. Cart updates show instantly without loading spinners, and pages load fast thanks to smart caching</li>
+                        <li>Wrote automated tests that simulate real users clicking through the site. Built a color system that passes accessibility checks so text is readable for everyone</li>
+                        <li>Built AI automation including an LLM chatbot with custom prompts, OAuth flows, Stripe payments, and automated emails</li>
                     </ul>
                 </div>
 
-                <div class="job">
+
+                <div class="job page-2-start">
                     <div class="job-header">
                         <div class="job-title">Technical Operations Specialist</div>
-                        <div class="job-meta">Spring 2025 - Winter 2025</div>
+                        <div class="job-meta">April 2025 - December 2025</div>
                     </div>
                     <div class="job-company">Acadio | Educational Platform for Financial Certifications</div>
                     <ul class="job-bullets">
-                        <li>Served as the primary technical liaison between the CEO and an 8-person team, translating business needs into development priorities and helping non-technical leadership make informed decisions</li>
-                        <li>Automated repetitive workflows that were slowing the team down, freeing people to focus on higher-value work</li>
-                        <li>Cleaned up messy client data during onboarding, completing migrations in hours rather than days or weeks while improving accuracy</li>
-                        <li>Became the go-to person when something needed to be built, fixed, or figured out</li>
+                        <li>Started as a contractor doing API integration work at an early-stage startup. Proved value quickly and got brought on for expanded responsibilities</li>
+                        <li>Became the person the CEO came to with technical questions because my explanations made sense to him</li>
+                        <li>Designed automated workflows to eliminate manual processes and improve team efficiency</li>
+                        <li>Built Python scripts to rescue unusable content - converted entire textbooks from messy PDFs into clean HTML for the learning platform</li>
+                        <li>Handled data migrations during client onboarding. Turned multi-day headaches into same-day completions while improving accuracy</li>
+                        <li>Built Excel macros and VBA scripts for clients to automate repetitive data tasks</li>
                     </ul>
                 </div>
+
 
                 <div class="job">
                     <div class="job-header">
@@ -882,18 +965,20 @@ section {
                     </ul>
                 </div>
 
+
                 <div class="job">
                     <div class="job-header">
-                        <div class="job-title">Finance Manager</div>
+                        <div class="job-title">Finance and Insurance Manager</div>
                         <div class="job-meta">Spring 2017 - Winter 2023</div>
                     </div>
-                    <div class="job-company">Toyota of Orlando | Salesperson → Sales Manager → Finance Manager</div>
+                    <div class="job-company">Toyota of Orlando | Salesperson → Sales Manager → F&I Manager</div>
                     <ul class="job-bullets">
                         <li>Earned three promotions over seven years at a high-volume dealership moving 10-30 cars daily</li>
                         <li>Worked with 3-7 customers daily, walking them through their options and putting together financing across different lenders</li>
                         <li>Built trust with customers by explaining options clearly. Became the go-to person when teammates had complicated deals</li>
                     </ul>
                 </div>
+
 
                 <div class="job">
                     <div class="job-header">
@@ -907,6 +992,7 @@ section {
                     </ul>
                 </div>
 
+
                 <div class="job">
                     <div class="job-header">
                         <div class="job-title">Combat Medic, Corporal (E-4)</div>
@@ -918,11 +1004,15 @@ section {
                         <li>Learned to stay calm under pressure, follow protocols precisely, and take responsibility for my team's performance</li>
                     </ul>
                 </div>
+
+
             </section>
+
 
             <!-- Key Project Section -->
             <section class="projects-section">
                 <h2 class="section-title">Featured Project</h2>
+
 
                 <div class="project">
                     <div class="project-header">
@@ -930,28 +1020,59 @@ section {
                         <div class="project-role">Live at needthisdone.com</div>
                     </div>
 
-                    <div class="project-content">
-                        An e-commerce site I built from scratch: the website, the server, the database, the payment system. Customers can browse, sign up, check out, and track orders. There's an admin dashboard for managing the business. An AI chatbot answers questions based on what's on the site. Automated tests catch problems before customers ever see them.
-                    </div>
+                    <ul class="project-bullets">
+                        <li>Full-stack Next.js application serving real customers in production</li>
+                        <li>Designed PostgreSQL database schema for users, products, orders, and payments</li>
+                        <li>Type-safe TypeScript throughout with Zod validation on API boundaries</li>
+                        <li>Admin dashboard for business operations and order management</li>
+                        <li>Stripe payment integration with secure checkout flows</li>
+                        <li>Ship reliably with Playwright E2E tests, Vitest unit tests, and CI/CD</li>
+                    </ul>
 
                     <div class="project-tech">
-                        Next.js • TypeScript • Supabase • Redis • Stripe • Docker • Playwright
+                        React/Next.js • TypeScript • Medusa (Headless Commerce) • PostgreSQL/Supabase • Redis • Stripe • Playwright • Vercel
                     </div>
                 </div>
+
             </section>
+
 
 
             <!-- Education Section -->
             <section class="education-section">
                 <h2 class="section-title">Education</h2>
                 <div class="education">
-                    <strong>Full Sail University</strong> (2016 - 2017): Web Design & Development coursework, 4.0 GPA. Started learning web development here and haven't stopped since.
+
+                    <strong>Full Sail University</strong> (2016 - 2017): Web Design & Development coursework. After teaching myself web technologies since the early 2000s, this program provided the structure to take those skills to a professional level. Straight A's while working full-time.
+
                     <br><br>
-                    <strong>Self-Directed Learning</strong> (2016 - 2023): Six years of consistent study while working full-time at Toyota. Built projects, followed tutorials, read documentation. That groundwork made going full-time as a developer possible.
+
+
+                    <strong>Self-Directed Learning</strong> (2016 - 2023): Eight years of consistent skill development while working full-time. Progressed from tutorials to building production applications. This sustained commitment built the foundation for professional development work.
+
                     <br><br>
-                    <strong>Structured Coursework</strong> (2023): Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code. Filled in the gaps and sharpened skills I'd been building for years.
+
+
+                    <strong>Structured Coursework</strong> (2023 - Present): freeCodeCamp Full Stack Developer Certification (in progress), Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code. Filling in gaps and sharpening skills I've been building for years.
+
                     <br><br>
+
+
                     <strong>U.S. Army Medical Department Center & School</strong> (1996 - 2001): Combat Medic certification. Graduated top 10% of class.
+
+
+                </div>
+            </section>
+
+            <!-- Influences Section -->
+            <section class="influences-section">
+                <h2 class="section-title">Books That Shaped How I Work</h2>
+                <div class="influences">
+
+                    <p><strong>The Pragmatic Programmer</strong> by David Thomas & Andrew Hunt — Taught me to write code that's easy to change later and to fix small problems before they become big ones. I liked the ideas so much I built tools to check my own work against them.</p>
+
+                    <p><strong>Algorithms to Live By</strong> by Brian Christian & Tom Griffiths — Shows how the same thinking that solves computer problems can help with everyday decisions. It's why I focus on understanding how things work instead of just memorizing steps.</p>
+
                 </div>
             </section>
         </main>
