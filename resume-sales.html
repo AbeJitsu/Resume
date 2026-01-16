@@ -82,7 +82,7 @@ header {
 }
 
 .title {
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -90,7 +90,7 @@ header {
 }
 
 .contact {
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
     display: flex;
     justify-content: center;
@@ -190,7 +190,7 @@ section {
 }
 
 .skill-category {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .skill-category strong {
@@ -224,20 +224,20 @@ section {
 
 .job-title {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
     color: #dc2626;
 }
 
 .job-meta {
     display: flex;
     gap: 6px;
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
     flex-wrap: wrap;
 }
 
 .job-company {
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
     margin-bottom: 8px;
     margin-left: 8px;
@@ -278,7 +278,7 @@ section {
 }
 
 .project-role {
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
 }
 
@@ -308,7 +308,7 @@ section {
 }
 
 .project-tech {
-    font-size: 11px;
+    font-size: 12px;
     color: #64748b;
     margin-top: 8px;
     margin-left: 20px;
@@ -331,7 +331,7 @@ section {
    ============================================================================ */
 
 .project-summary {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.7;
     color: #1a202c;
     margin-bottom: 10px;
@@ -348,13 +348,19 @@ section {
    ============================================================================ */
 
 .education {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.7;
-    margin-left: 20px;
+    margin-left: 14px;
 }
 
 .education strong {
     color: #1a202c;
+}
+
+.influences {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-left: 14px;
 }
 
 /* ============================================================================
@@ -649,7 +655,7 @@ section {
     }
 
     .influences {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 1.7;
     }
 
@@ -667,174 +673,79 @@ section {
    ============================================================================ */
 
 @media print {
+    @page {
+        size: letter;
+        margin: 0;
+    }
+
     body {
         background: white;
-        color: #1e293b;
         padding: 0;
+        margin: 0;
     }
 
     .container {
         max-width: 100%;
-        padding: 0.3in 0.5in 0.5in 0.5in;
+        padding: 0;
         background: white;
-        display: flex;
-        flex-direction: column;
-        border-left: none !important;
-        padding-left: 0.5in !important;
-    }
-
-    .job,
-    .project-summary {
-        break-inside: avoid;
-        page-break-inside: avoid;
-    }
-
-    /* Page 2 starts at Technical Operations Specialist */
-    .page-2-start {
-        page-break-before: always;
-        padding-top: 0.5in;
-    }
-
-    /* Page 3 starts at Featured Project */
-    .projects-section {
-        page-break-before: always;
-        padding-top: 0.3in;
-    }
-
-    /* Influences section */
-    .influences {
-        font-size: 11px;
-        line-height: 1.8;
-    }
-
-    .influences p {
-        margin-bottom: 14px;
-    }
-
-    .influences p:last-child {
-        margin-bottom: 0;
-    }
-
-    /* Education section - page 3 */
-    .education-section {
-        margin-bottom: 24px;
-    }
-
-    .education {
-        line-height: 1.8;
-    }
-
-    /* Featured project section - page 3 */
-    .projects-section {
-        margin-bottom: 24px;
     }
 
     .skip-link {
         display: none;
     }
 
-    section {
-        margin-bottom: 12px;
+    /* PAGE 1: Explicit full-page container */
+    .page-1 {
+        height: 11in;
+        width: 8.5in;
+        padding: 0.5in 0.75in;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .page-1 section,
+    .page-1 header {
+        background: white !important;
+        margin-bottom: 10px;
         padding: 8px;
     }
 
-    .section-title {
-        font-size: 12px;
-        background: white !important;
-        color: #1a202c !important;
-        border-bottom: 2px solid #1a202c;
-        border-radius: 0;
-        padding: 6px 0px !important;
+    .page-1 header {
         margin-bottom: 8px;
+        padding-bottom: 8px;
     }
 
-    .summary {
-        font-size: 11px;
-        line-height: 1.6;
-        margin-bottom: 12px;
+    .page-1 .job {
+        margin-bottom: 0;
     }
 
-    .summary-refined {
-        font-size: 12px;
-        line-height: 1.6;
+    /* PAGE 2: Explicit full-page container */
+    .page-2 {
+        page-break-before: always;
+        height: 11in;
+        width: 8.5in;
+        padding: 0.5in 0.75in;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
-    .summary-paragraph {
-        margin-bottom: 10px;
+    .page-2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
     }
 
-    .summary-highlight,
-    .tech-emphasis {
-        color: inherit;
-        font-weight: 600;
-    }
-
-    .arch-emphasis {
-        color: inherit;
-        font-weight: 600;
-        white-space: normal;
-    }
-
-    .skills {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .skill-category {
-        font-size: 10px;
-    }
-
-    .skill-category p {
-        font-size: 11px;
-    }
-
-    .job-bullets,
-    .project-bullets {
-        font-size: 12px;
-        line-height: 1.65;
-    }
-
-    .job-bullets li,
-    .project-bullets li {
-        margin-bottom: 6px;
-    }
-
-    .job {
-        margin-bottom: 16px;
-    }
-
-    .project {
-        margin-bottom: 12px;
-    }
-
-    .job-title,
-    .project-title {
-        font-size: 12px;
-    }
-
-    .project-role {
-        font-size: 11px;
-    }
-
-    .project-tech {
-        font-size: 11px;
-    }
-
-    .name {
-        font-size: 24px;
-    }
-
-    header {
-        padding-bottom: 12px;
-        margin-bottom: 12px;
+    .page-2-container .job,
+    .page-2-container section {
+        margin-bottom: 0;
+        padding: 0;
         background: white !important;
-        border-radius: 0;
     }
 
-    section,
-    section:nth-child(even),
-    section:nth-child(odd) {
-        background: white !important;
+    .job,
+    .page-2-item {
+        break-inside: avoid;
     }
 }
     </style>
@@ -844,8 +755,10 @@ section {
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <div class="container">
-        <!-- Header: Name, Title, Contact Information -->
-        <header class="header">
+        <main id="main-content">
+        <!-- PAGE 1: Header, Summary, Skills, First Job -->
+        <div class="page page-1">
+            <header class="header">
             <div class="name">ABIEZER "ABE" REYES</div>
             <div class="title">Sales & Customer Success Professional</div>
             <div class="contact">
@@ -855,10 +768,8 @@ section {
                 <span><a href="https://github.com/AbeJitsu">github.com/AbeJitsu</a></span>
                 <span><a href="https://www.linkedin.com/in/weneedthisdone">linkedin.com/in/weneedthisdone</a></span>
             </div>
-        </header>
+            </header>
 
-        <!-- Main Content -->
-        <main id="main-content">
             <!-- Professional Summary Section -->
             <section class="summary-section">
                 <div class="summary-refined">
@@ -936,97 +847,91 @@ section {
                     </ul>
                 </div>
 
-
-                <div class="job">
-                    <div class="job-header">
-                        <div class="job-title">Admissions Representative & Military Liaison</div>
-                        <div class="job-meta">2012 - 2017</div>
-                    </div>
-                    <div class="job-company">Full Sail University | International Admissions → Military Student Services</div>
-                    <ul class="job-bullets">
-                        <li>Started in International Admissions helping prospective students from around the world navigate enrollment</li>
-                        <li>Moved to Military Student Services where my Army background gave me credibility with veterans</li>
-                        <li>Guided service members and families through GI Bill benefits, program costs, and fitting education around military schedules</li>
-                        <li>Consistently met enrollment goals through honest guidance rather than high-pressure tactics</li>
-                    </ul>
-                </div>
-
-
-                <div class="job">
-                    <div class="job-header">
-                        <div class="job-title">B2B Sales Representative</div>
-                        <div class="job-meta">2009 - 2011</div>
-                    </div>
-                    <div class="job-company">Quill.com | Office Supplies (Staples subsidiary)</div>
-                    <ul class="job-bullets">
-                        <li>Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts</li>
-                        <li>Built relationships with business owners and office managers to establish ongoing purchasing accounts</li>
-                    </ul>
-                </div>
-
-
-                <div class="job page-2-start">
-                    <div class="job-header">
-                        <div class="job-title">Technical Operations Specialist</div>
-                        <div class="job-meta">April 2025 - December 2025</div>
-                    </div>
-                    <div class="job-company">Acadio | Educational Platform (Client-Facing Operations)</div>
-                    <ul class="job-bullets">
-                        <li>Became the bridge between technical teams and non-technical stakeholders</li>
-                        <li>Handled client onboarding, transforming messy data into usable formats faster than previous processes</li>
-                        <li>Built reputation as the person who could explain technical concepts so they made sense the first time</li>
-                        <li>Designed workflows that eliminated manual processes and improved team efficiency</li>
-                    </ul>
-                </div>
-
-
-                <div class="job">
-                    <div class="job-header">
-                        <div class="job-title">Combat Medic, Corporal (E-4)</div>
-                        <div class="job-meta">1996 - 2001</div>
-                    </div>
-                    <div class="job-company">U.S. Army | Fort Hood, TX & Fort Bragg, NC</div>
-                    <ul class="job-bullets">
-                        <li>Led a team of 3 medics and 2 combat lifesavers in high-pressure environments</li>
-                        <li>Delivered emergency care where staying calm and communicating clearly were critical</li>
-                        <li>Learned to follow protocols precisely while adapting to changing situations</li>
-                        <li>Built foundation of discipline and accountability that shows up in everything since</li>
-                    </ul>
-                </div>
-
-
             </section>
+        </div>
 
+        <!-- PAGE 2: Remaining Jobs -->
+        <div class="page page-2">
+            <div class="page-2-container">
 
-
-
-            <!-- Education Section -->
-            <section class="education-section">
-                <h2 class="section-title">Education</h2>
-                <div class="education">
-
-                    <strong>Full Sail University</strong> (2016 - 2017): Web Design & Development coursework. Earned A's in every class while working full-time, demonstrating the same work ethic I bring to every role.
-
-                    <br><br>
-
-
-                    <strong>U.S. Army Medical Department Center & School</strong> (1996 - 2001): Combat Medic certification. Graduated top 10% of class. Training emphasized decision-making under pressure and clear communication.
-
-
+                <div class="page-2-item">
+                    <div class="job">
+                        <div class="job-header">
+                            <div class="job-title">Admissions Representative & Military Liaison</div>
+                            <div class="job-meta">2012 - 2017</div>
+                        </div>
+                        <div class="job-company">Full Sail University | International Admissions → Military Student Services</div>
+                        <ul class="job-bullets">
+                            <li>Guided service members and families through GI Bill benefits, program costs, and fitting education around military schedules</li>
+                            <li>Consistently met enrollment goals through honest guidance rather than high-pressure tactics</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
 
-            <!-- Influences Section -->
-            <section class="influences-section">
-                <h2 class="section-title">Books That Shaped How I Work</h2>
-                <div class="influences">
-
-                    <p><strong>How to Win Friends and Influence People</strong> by Dale Carnegie — The foundation of how I approach every customer interaction. Understanding people's needs before offering solutions isn't just good practice, it's respect.</p>
-
-                    <p><strong>Never Split the Difference</strong> by Chris Voss — Changed how I handle objections and difficult conversations. Tactical empathy isn't manipulation. It's genuinely trying to understand the other person's perspective.</p>
-
+                <div class="page-2-item">
+                    <div class="job">
+                        <div class="job-header">
+                            <div class="job-title">B2B Sales Representative</div>
+                            <div class="job-meta">2009 - 2011</div>
+                        </div>
+                        <div class="job-company">Quill.com | Office Supplies (Staples subsidiary)</div>
+                        <ul class="job-bullets">
+                            <li>Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts</li>
+                            <li>Built relationships with business owners and office managers to establish ongoing purchasing accounts</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
+
+                <div class="page-2-item">
+                    <div class="job">
+                        <div class="job-header">
+                            <div class="job-title">Technical Operations Specialist</div>
+                            <div class="job-meta">April 2025 - December 2025</div>
+                        </div>
+                        <div class="job-company">Acadio | Educational Platform (Client-Facing Operations)</div>
+                        <ul class="job-bullets">
+                            <li>Became the bridge between technical teams and non-technical stakeholders</li>
+                            <li>Built reputation as the person who could explain technical concepts so they made sense the first time</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="page-2-item">
+                    <div class="job">
+                        <div class="job-header">
+                            <div class="job-title">Combat Medic, Corporal (E-4)</div>
+                            <div class="job-meta">1996 - 2001</div>
+                        </div>
+                        <div class="job-company">U.S. Army | Fort Hood, TX & Fort Bragg, NC</div>
+                        <ul class="job-bullets">
+                            <li>Led a team of 3 medics and 2 combat lifesavers in high-pressure environments</li>
+                            <li>Built foundation of discipline and accountability that shows up in everything since</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="page-2-item">
+                    <section class="education-section">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education">
+                            <strong>Full Sail University</strong> (2016 - 2017): Web Design & Development. Earned A's in every class while working full-time.<br>
+                            <strong>U.S. Army Medical Department Center & School</strong> (1996 - 2001): Combat Medic certification. Graduated top 10% of class.
+                        </div>
+                    </section>
+                </div>
+
+                <div class="page-2-item">
+                    <section class="influences-section">
+                        <h2 class="section-title">Books That Shaped How I Work</h2>
+                        <div class="influences">
+                            <p><strong>Never Split the Difference</strong> by Chris Voss — Tactical empathy: genuinely understanding the other person's perspective.</p>
+                            <p><strong>The Seven Principles for Making Marriage Work</strong> by John Gottman — Relationships are built on understanding, not winning arguments.</p>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
         </main>
     </div>
 </body>
