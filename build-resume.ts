@@ -125,7 +125,7 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
   });
 
   // Build experience entries
-  const experience = variant.experience.map((expConfig) => {
+  const allExperience = variant.experience.map((expConfig) => {
     const baseExp = profile.work_experience.find((e) => e.id === expConfig.id);
     if (!baseExp) {
       throw new Error(`Unknown experience id: ${expConfig.id}`);
@@ -144,6 +144,12 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
       page_break: expConfig.page_break || false,
     };
   });
+
+  // Split experience into page 1 (before first page_break) and page 2 (from page_break onward)
+  const pageBreakIndex = allExperience.findIndex((exp) => exp.page_break);
+  const page1_experience = pageBreakIndex === -1 ? allExperience : allExperience.slice(0, pageBreakIndex);
+  const page2_experience = pageBreakIndex === -1 ? [] : allExperience.slice(pageBreakIndex);
+  const experience = allExperience;
 
   // Build featured projects
   const featured_projects = variant.featured_projects.map((projConfig) => {
@@ -172,6 +178,8 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
       summary_paragraphs: variant.summary_paragraphs,
       skills_display,
       experience,
+      page1_experience,
+      page2_experience,
       featured_projects,
       has_projects: featured_projects.length > 0,
       education: variant.education,
