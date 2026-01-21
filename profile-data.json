@@ -84,10 +84,9 @@
         "application_description": "Independent consulting practice building production software and solving technical problems for clients. Largest engagement was Acadio (EdTech), where I started as a contractor and expanded into technical operations. Also built my own e-commerce platform (needthisdone.com) and provided data transformation and automation services for business clients.",
         "resume_bullets": [
           "Built production e-commerce platform with AI chatbot, payment processing, and automated testing (needthisdone.com)",
-          "Client: Acadio (EdTech) — Started as API contractor, proved value, expanded to technical operations over 8 months",
-          "Built Python scripts to rescue unusable content - converted entire textbooks from messy PDFs into clean HTML",
-          "Marketing research and competitive analysis tracking search trends for business clients",
-          "Data transformation and automation services for business clients using Python"
+          "Client: Acadio (EdTech) — Started as API contractor, proved value, expanded to technical operations over 9 months",
+          "Transformed unusable content into structured data: PDFs to HTML, Excel to databases, messy docs to clean formats",
+          "Ongoing client services: web development, data automation, and marketing analytics"
         ],
         "resume_summary": "E-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately, making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed.",
         "linkedin": "Independent consulting practice focused on full-stack development, data transformation, and technical problem-solving.\n\nLargest Engagement: Acadio (EdTech)\nApril 2025 - December 2025\n\nStarted as a contractor doing API integration work. Proved value quickly and expanded into technical operations:\n\n• Designed web scraping infrastructure to collect FINRA rules and regulations for AI-powered study content\n• Built Python scripts to convert messy PDFs into clean HTML for the learning platform\n• Transformed unformatted Word docs and Excel files into structured formats\n• Became the person leadership came to with technical questions\n\nOwn Platform: needthisdone.com\n\nProfessional services marketplace with:\n• Next.js + Supabase + Redis architecture\n• AI chatbot using RAG (pgvector + OpenAI)\n• Stripe payment processing and appointment booking\n• Automated test suite with Playwright\n• WCAG AA accessibility compliance\n\nOngoing Services:\n• Data transformation and automation for business clients\n• Web development consulting\n• Technical problem-solving\n\nTech: Next.js 14, TypeScript, React, Python, Supabase, Redis, Medusa, Stripe, Docker, Playwright",
@@ -246,19 +245,19 @@
       "description": "Web Design & Development coursework. After teaching myself web technologies since the early 2000s, this program provided the structure to take those skills to a professional level."
     },
     {
-      "id": "self_directed_learning",
-      "school": "Self-Directed Learning",
+      "id": "independent_study",
+      "school": "Independent Study",
       "degree": "Continuous Development",
       "field": "Web Development & Programming",
       "dates": {
-        "start": "2011-01",
+        "start": "2016-01",
         "end": "2023-01",
         "display": "2016 - 2023"
       },
       "grade": "Ongoing",
       "completed": true,
-      "activities": "Learned while working full-time at Toyota. Built small projects, followed tutorials, studied documentation. The same discipline that earned promotions at work kept me moving forward with code.",
-      "description": "Six years of consistent self-directed learning while working full-time. Studied JavaScript, HTML/CSS, and web fundamentals through online resources, personal projects, and hands-on experimentation. This foundation made the transition to professional development possible."
+      "activities": "Learned while working full-time at Toyota. Built small projects, followed tutorials, studied documentation.",
+      "description": "Seven years of consistent skill development while working full-time. Progressed from tutorials to building production applications."
     },
     {
       "id": "khan_academy",
@@ -348,9 +347,9 @@
       "name": "needthisdone.com",
       "role": "Full Stack Developer",
       "dates": {
-        "start": "2024-01",
+        "start": "2023-11",
         "end": null,
-        "display": "2024 - Present"
+        "display": "November 2023 - Present"
       },
       "featured": true,
       "url": "https://needthisdone.com",
@@ -487,7 +486,7 @@
       "experience": [
         {
           "id": "needthisdone",
-          "title_override": "Full Stack Developer & Consultant",
+          "title_override": "Full-Stack Developer & Consultant",
           "company_override": "needthisdone.com",
           "description_override": "Independent Consulting Practice",
           "show_client_engagements": true
@@ -531,9 +530,9 @@
           "description": "Web Design & Development coursework. After teaching myself web technologies since the early 2000s, this program provided the structure to take those skills to a professional level. Straight A's while working full-time."
         },
         {
-          "school": "Self-Directed Learning",
+          "school": "Independent Study",
           "dates": "2016 - 2023",
-          "description": "Eight years of consistent skill development while working full-time. Progressed from tutorials to building production applications. This sustained commitment built the foundation for professional development work."
+          "description": "Seven years of consistent skill development while working full-time. Progressed from tutorials to building production applications."
         },
         {
           "school": "Structured Coursework",
