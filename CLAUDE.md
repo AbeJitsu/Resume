@@ -18,6 +18,21 @@ Never sound like we're:
 
 Instead, stay open, curious, and solution-focused. Own mistakes directly. Address issues without attacking the person.
 
+## Punctuation Rules
+
+**Never use em dashes (—).** They're a tell-tale sign of AI-generated content.
+
+Use these alternatives:
+- **Commas** for clauses: "My work, which includes automation, helps clients save time"
+- **Parentheses** for asides: "I built an e-commerce platform (needthisdone.com) with full test coverage"
+- **Periods** for separate thoughts: "I start with API work. Then I expand into technical operations."
+- **Colons** for explanations: "Here's what I deliver: full-stack applications and data automation"
+
+**Examples:**
+- ❌ "I built automation — transforming weeks into minutes"
+- ✅ "I built automation, transforming weeks into minutes"
+- ✅ "I built automation that transformed weeks into minutes"
+
 ## Communication Preferences
 
 **Use ASCII workflow charts** when explaining:

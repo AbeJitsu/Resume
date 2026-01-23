@@ -18,7 +18,7 @@ Building this meant making hundreds of architectural decisions. I chose Next.js 
 
 The visual page builder might be the feature I'm proudest of. Non-technical users can drag building blocks around, edit text directly on the page, and undo mistakes. Content changes don't require a developer. That's the kind of system that scales a business.
 
-I wrote 137 automated tests because shipping bugs to customers isn't acceptable. The test suite simulates real users clicking through checkout flows, booking appointments, and managing their accounts. If something breaks, I know before customers do.
+I wrote comprehensive automated tests because shipping bugs to customers isn't acceptable. The test suite simulates real users clicking through checkout flows, booking appointments, and managing their accounts. If something breaks, I know before customers do.
 
 This project shows what I can do when I own the entire stack. Frontend to backend to deployment. Design decisions to database schemas to CI/CD pipelines.
 
