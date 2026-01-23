@@ -85,7 +85,7 @@
         "resume_bullets": [
           "Built production e-commerce platform with AI chatbot, payment processing, and automated testing (needthisdone.com)",
           "Client: Acadio (EdTech) — Started as API contractor, proved value, expanded to technical operations over 9 months",
-          "Transformed unusable content into structured data: PDFs to HTML, Excel to databases, messy docs to clean formats",
+          "Built automated data extraction workflows using Python (BeautifulSoup, Selenium) to convert PDFs, Excel files, and web content into clean, structured formats. Scraped regulated content (FINRA rules) for RAG systems with validation and quality checks",
           "Ongoing client services: web development, data automation, and marketing analytics"
         ],
         "resume_summary": "E-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately, making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed.",
@@ -316,7 +316,7 @@
     },
     "ai_automation": {
       "label": "AI & Automation",
-      "items": ["Claude Code", "Prompt Engineering", "Vector Embeddings", "Zapier", "n8n", "Workflow Design"]
+      "items": ["LLM Integration (OpenAI, Claude)", "Prompt Engineering", "RAG Systems", "Chatbots", "Vector Embeddings", "Web Scraping (BeautifulSoup, Selenium)", "Data Extraction Workflows"]
     },
     "architecture": {
       "label": "Architecture",
@@ -515,10 +515,11 @@
           "bullets": [
             "Full-stack Next.js application serving real customers in production",
             "Designed PostgreSQL database schema for users, products, orders, and payments",
-            "Type-safe TypeScript throughout with Zod validation on API boundaries",
+            "Type-safe TypeScript throughout with Zod validation on API boundaries for data accuracy",
             "Admin dashboard for business operations and order management",
             "Stripe payment integration with secure checkout flows",
-            "Ship reliably with Playwright E2E tests, Vitest unit tests, and CI/CD"
+            "Ship reliably with Playwright E2E tests, Vitest unit tests, and CI/CD",
+            "Built data validation pipelines ensuring accuracy before persistence"
           ],
           "technologies_override": ["React/Next.js", "TypeScript", "Medusa (Headless Commerce)", "PostgreSQL/Supabase", "Redis", "Stripe", "Playwright", "Vercel"]
         }
