@@ -468,20 +468,20 @@
 
   "resume_variants": {
     "dev": {
-      "title": "Web Application Developer",
+      "title": "Web Applications Programmer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "I build and maintain content-driven web platforms. My stack centers on JavaScript and TypeScript (React, Next.js, Node.js), with working knowledge of PHP and Drupal. I focus on features that work reliably, integrate smoothly with external systems, and stay accessible.",
-        "I use AI-assisted development daily, leveraging agentic tools for planning, scaffolding, and iterative refinement. This lets me pick up new technologies quickly while maintaining code quality through human review.",
-        "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to collaborate across teams, meet deadlines under pressure, and take ownership of my work."
+        "I design, develop, and maintain web applications with a focus on quality and maintainability. My stack includes Vue.js, React, Node.js, and Express, with strong experience in third-party integrations and API development. I write tested, documented code that other developers can work with.",
+        "I'm comfortable gathering requirements, troubleshooting complex issues, and collaborating across teams. Code reviews and development standards matter to me because they make the whole team more effective.",
+        "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to meet deadlines, mentor others, and take ownership of my work."
       ],
       "skills_display": [
-        { "key": "frontend_core", "label": "Frontend Development", "items": ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"] },
-        { "key": "backend_apis", "label": "Backend & APIs", "items": ["Node.js", "PHP (familiar)", "REST APIs", "PostgreSQL", "Supabase", "Data Exchange"] },
-        { "key": "cms_platforms", "label": "CMS & Content Platforms", "items": ["Drupal (familiar)", "Visual Page Builders", "Content Management", "Salesforce CRM (familiar)"] },
-        { "key": "dev_practices", "label": "Development Practices", "items": ["Git", "CI/CD Pipelines", "Code Reviews", "AI-Assisted Development (Claude Code)", "Agentic Workflows"] },
-        { "key": "testing_quality", "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "WCAG AA Accessibility", "Storybook"] },
-        { "key": "collaboration", "label": "Collaboration", "items": ["Cross-Functional Teams", "Stakeholder Communication", "Figma", "Technical Documentation"] }
+        { "key": "frontend_core", "label": "Frontend Development", "items": ["Vue.js", "React", "Next.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"] },
+        { "key": "backend_apis", "label": "Backend & APIs", "items": ["Node.js", "Express", "REST APIs", "PostgreSQL", "Supabase", "Third-Party Integrations"] },
+        { "key": "testing_quality", "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "Unit Testing", "Integration Testing", "WCAG AA Accessibility"] },
+        { "key": "dev_practices", "label": "Development Practices", "items": ["Git", "Code Reviews", "CI/CD Pipelines", "Development Standards", "Technical Documentation"] },
+        { "key": "troubleshooting", "label": "Troubleshooting", "items": ["Debugging", "Performance Analysis", "Issue Resolution", "Root Cause Analysis"] },
+        { "key": "collaboration", "label": "Collaboration", "items": ["Requirements Gathering", "Cross-Functional Teams", "Mentoring", "Status Reporting"] }
       ],
       "experience": [
         {
@@ -510,18 +510,25 @@
       ],
       "featured_projects": [
         {
+          "id": "vue-ecommerce",
+          "name": "E-Commerce Platform (Vue.js)",
+          "role_override": "Personal Project",
+          "bullets": [
+            "Full-stack e-commerce application with Vue.js frontend and Express/Node.js backend",
+            "RESTful API design with proper error handling and validation",
+            "Database schema design for products, orders, and user management"
+          ],
+          "technologies_override": ["Vue.js", "Express", "Node.js", "REST APIs", "MongoDB"]
+        },
+        {
           "id": "needthisdone",
           "role_override": "Live at needthisdone.com",
           "bullets": [
-            "Full-stack platform with content management, user authentication, and payment integration (Stripe)",
-            "Visual content editor enabling non-technical users to manage pages without code changes",
-            "REST API integrations for payment processing and data exchange",
-            "Admin dashboard for content management, order tracking, and business operations",
+            "Production web application with third-party integrations (Stripe payments, external APIs)",
             "Automated testing with Playwright E2E and Vitest unit tests in CI/CD pipeline",
-            "WCAG AA accessibility compliance across all pages and components",
-            "Performance optimization: caching, lazy loading, image optimization"
+            "Documented codebase following development standards for maintainability"
           ],
-          "technologies_override": ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "REST APIs", "Stripe", "Playwright", "CI/CD", "WCAG AA"]
+          "technologies_override": ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Playwright", "CI/CD"]
         }
       ],
       "education": [
