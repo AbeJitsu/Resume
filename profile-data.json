@@ -471,17 +471,17 @@
       "title": "Web Applications Programmer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "I design, develop, and maintain web applications with a focus on quality and maintainability. My stack includes Vue.js, React, Node.js, and Express, with strong experience in third-party integrations and API development. I write tested, documented code that other developers can work with.",
-        "I'm comfortable gathering requirements, troubleshooting complex issues, and collaborating across teams. Code reviews and development standards matter to me because they make the whole team more effective.",
+        "I design, develop, and maintain custom web applications with a focus on quality and maintainability. Proficient in multiple programming languages and development tools, my stack includes Vue.js, React, Node.js, and Express, with strong experience in third-party integrations and API development.",
+        "Strong problem-solving and analytical skills help me troubleshoot complex issues and provide Tier 3 support when needed. Excellent communication skills allow me to collaborate effectively across teams and gather requirements from stakeholders.",
         "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to meet deadlines, mentor others, and take ownership of my work."
       ],
       "skills_display": [
         { "key": "frontend_core", "label": "Frontend Development", "items": ["Vue.js", "React", "Next.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"] },
         { "key": "backend_apis", "label": "Backend & APIs", "items": ["Node.js", "Express", "REST APIs", "PostgreSQL", "Supabase", "Third-Party Integrations"] },
         { "key": "testing_quality", "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "Unit Testing", "Integration Testing", "WCAG AA Accessibility"] },
-        { "key": "dev_practices", "label": "Development Practices", "items": ["Git", "Code Reviews", "CI/CD Pipelines", "Development Standards", "Technical Documentation"] },
-        { "key": "troubleshooting", "label": "Troubleshooting", "items": ["Debugging", "Performance Analysis", "Issue Resolution", "Root Cause Analysis"] },
-        { "key": "collaboration", "label": "Collaboration", "items": ["Requirements Gathering", "Cross-Functional Teams", "Mentoring", "Status Reporting"] }
+        { "key": "dev_tools", "label": "Development Tools", "items": ["Git", "CI/CD Pipelines", "Code Reviews", "Development Standards", "Storybook"] },
+        { "key": "problem_solving", "label": "Problem-Solving", "items": ["Tier 3 Support", "Debugging", "Analytical Skills", "Root Cause Analysis", "Performance Analysis"] },
+        { "key": "communication", "label": "Communication Skills", "items": ["Requirements Gathering", "Cross-Functional Teams", "Mentoring", "Technical Documentation"] }
       ],
       "experience": [
         {
