@@ -862,7 +862,7 @@ section {
             </section>
         </div>
 
-        <!-- PAGE 2: Remaining Jobs -->
+        <!-- PAGE 2: Remaining Jobs + Featured Project -->
         <div class="page page-2">
             <div class="page-2-container">
 {{#each resume.page2_experience}}
@@ -879,14 +879,8 @@ section {
                     </div>
                 </div>
 {{/each}}
-            </div>
-        </div>
-
-        <!-- PAGE 3: Featured Project, Education, Influences -->
-        <div class="page page-3">
-            <div class="page-3-container">
 {{#if resume.has_projects}}
-                <div class="page-3-item">
+                <div class="page-2-item">
                     <section class="projects-section">
                         <h2 class="section-title">Featured Project</h2>
 {{#each resume.featured_projects}}
@@ -906,8 +900,7 @@ section {
                     </section>
                 </div>
 {{/if}}
-
-                <div class="page-3-item">
+                <div class="page-2-item">
                     <section class="education-section">
                         <h2 class="section-title">Education</h2>
                         <div class="education">
@@ -916,17 +909,6 @@ section {
 {{#unless @last}}
                             <br><br>
 {{/unless}}
-{{/each}}
-                        </div>
-                    </section>
-                </div>
-
-                <div class="page-3-item">
-                    <section class="influences-section">
-                        <h2 class="section-title">Books That Shaped How I Work</h2>
-                        <div class="influences">
-{{#each resume.influences}}
-                            <p><strong>{{this.title}}</strong> by {{this.author}} — {{this.impact}}</p>
 {{/each}}
                         </div>
                     </section>
