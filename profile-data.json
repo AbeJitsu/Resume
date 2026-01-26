@@ -468,20 +468,20 @@
 
   "resume_variants": {
     "dev": {
-      "title": "Web Designer & Frontend Developer",
+      "title": "Web Application Developer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "I build responsive, user-centered websites that look good and work well. My approach combines clean HTML/CSS fundamentals with modern JavaScript frameworks, always keeping the end user in mind. Whether it's a marketing site or a web application, I focus on intuitive layouts and polished visual details.",
-        "Client collaboration is central to how I work. At Acadio, I started as a contractor and grew into a trusted technical partner over nine months. I listen carefully, communicate clearly, and translate business goals into functional designs.",
-        "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to meet deadlines, stay calm under pressure, and take ownership of my work."
+        "I build and maintain content-driven web platforms. My stack centers on JavaScript and TypeScript (React, Next.js, Node.js), with working knowledge of PHP and Drupal. I focus on features that work reliably, integrate smoothly with external systems, and stay accessible.",
+        "I use AI-assisted development daily, leveraging agentic tools for planning, scaffolding, and iterative refinement. This lets me pick up new technologies quickly while maintaining code quality through human review.",
+        "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to collaborate across teams, meet deadlines under pressure, and take ownership of my work."
       ],
       "skills_display": [
-        { "key": "design_visual", "label": "Design & Visual", "items": ["Responsive Web Design", "Mobile-First Layouts", "UI/UX Principles", "Figma (Wireframes/Mockups)", "Visual Page Builders (Puck)", "Component Libraries", "Color Theory", "Typography"] },
-        { "key": "frontend_core", "label": "Frontend Development", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Vue.js"] },
-        { "key": "css_frameworks", "label": "CSS Frameworks & Tools", "items": ["Tailwind CSS", "Bootstrap (familiar)", "CSS Grid/Flexbox", "Responsive Breakpoints", "CSS Animations"] },
-        { "key": "testing_quality" },
-        { "key": "backend_data", "label": "Backend (Supporting)", "items": ["Node.js", "REST APIs", "PostgreSQL", "Supabase"] },
-        { "key": "seo_cms", "label": "SEO & CMS", "items": ["Semantic HTML", "Meta Tags", "Page Speed Optimization", "Visual Editors/CMS", "Content Management"] }
+        { "key": "frontend_core", "label": "Frontend Development", "items": ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"] },
+        { "key": "backend_apis", "label": "Backend & APIs", "items": ["Node.js", "PHP (familiar)", "REST APIs", "PostgreSQL", "Supabase", "Data Exchange"] },
+        { "key": "cms_platforms", "label": "CMS & Content Platforms", "items": ["Drupal (familiar)", "Visual Page Builders", "Content Management", "Salesforce CRM (familiar)"] },
+        { "key": "dev_practices", "label": "Development Practices", "items": ["Git", "CI/CD Pipelines", "Code Reviews", "AI-Assisted Development (Claude Code)", "Agentic Workflows"] },
+        { "key": "testing_quality", "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "WCAG AA Accessibility", "Storybook"] },
+        { "key": "collaboration", "label": "Collaboration", "items": ["Cross-Functional Teams", "Stakeholder Communication", "Figma", "Technical Documentation"] }
       ],
       "experience": [
         {
@@ -513,15 +513,15 @@
           "id": "needthisdone",
           "role_override": "Live at needthisdone.com",
           "bullets": [
-            "Designed and built responsive e-commerce interface with mobile-first approach",
-            "Created visual page builder allowing non-technical users to design pages without code",
-            "Built reusable component library with consistent styling and visual patterns",
-            "Implemented intuitive shopping flows: product browsing, cart, and checkout",
-            "Designed admin dashboard with clear information hierarchy and easy navigation",
+            "Full-stack platform with content management, user authentication, and payment integration (Stripe)",
+            "Visual content editor enabling non-technical users to manage pages without code changes",
+            "REST API integrations for payment processing and data exchange",
+            "Admin dashboard for content management, order tracking, and business operations",
+            "Automated testing with Playwright E2E and Vitest unit tests in CI/CD pipeline",
             "WCAG AA accessibility compliance across all pages and components",
-            "Optimized for fast page loads with proper image sizing and lazy loading"
+            "Performance optimization: caching, lazy loading, image optimization"
           ],
-          "technologies_override": ["HTML5/CSS3", "React/Next.js", "Tailwind CSS", "TypeScript", "Figma", "Responsive Design", "Accessibility (WCAG AA)"]
+          "technologies_override": ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "REST APIs", "Stripe", "Playwright", "CI/CD", "WCAG AA"]
         }
       ],
       "education": [
