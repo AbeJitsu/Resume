@@ -1005,6 +1005,18 @@
       ],
       "experience": [
         {
+          "id": "needthisdone",
+          "title_override": "Independent Consultant & Client Services",
+          "description_override": "November 2023 - Present",
+          "bullets_override": [
+            "Self-employed consultant acquiring clients through networking, outreach, and relationship building",
+            "Consultative sales approach identifying client needs and presenting technical solutions in clear, understandable terms",
+            "Built long-term client relationships resulting in repeat business and referrals",
+            "Self-motivated in 100% commission-based structure, responsible for all business development and client acquisition",
+            "Flexible schedule managing client communications across time zones and varied availability"
+          ]
+        },
+        {
           "id": "fullsail_work",
           "title_override": "Enrollment Counselor (Phone Sales)",
           "bullets_override": [
@@ -1027,6 +1039,7 @@
         },
         {
           "id": "toyota",
+          "title_override": "Sales Specialist",
           "bullets_override": [
             "Consultative sales approach guiding customers through financial decisions, ranking in top third of sales team",
             "Overcame objections and closed sales through rapport building and needs assessment",
