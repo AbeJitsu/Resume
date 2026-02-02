@@ -13,6 +13,30 @@ import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 // Types
+interface WorkExperienceVariant {
+  title: string;
+  bullets: string[];
+}
+
+interface WorkExperience {
+  id: string;
+  company: string;
+  company_description: string;
+  title?: string;
+  dates: { display: string };
+  descriptions?: { resume_bullets: string[] };
+  variants?: Record<string, WorkExperienceVariant>;
+  base?: {
+    company: string;
+    company_description: string;
+    employment_type: string;
+    location: string;
+    location_type: string;
+    dates: { display: string };
+    current: boolean;
+  };
+}
+
 interface ProfileData {
   personal: {
     name: { full: string; display: string; first: string; last: string };
@@ -21,14 +45,7 @@ interface ProfileData {
     contact: { email: string; phone: string; website: string; github: string; linkedin: string };
   };
   skills: Record<string, { label: string; items: string[] }>;
-  work_experience: Array<{
-    id: string;
-    company: string;
-    company_description: string;
-    title: string;
-    dates: { display: string };
-    descriptions: { resume_bullets: string[] };
-  }>;
+  work_experience: WorkExperience[];
   projects: Array<{
     id: string;
     name: string;
@@ -77,6 +94,7 @@ interface InfluenceEntry {
 interface ResumeVariant {
   title: string;
   output_file: string;
+  context?: string;
   summary_paragraphs: string[];
   skills_display: SkillDisplay[];
   experience: ExperienceConfig[];
@@ -101,6 +119,9 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
     throw new Error(`Unknown variant: ${variantKey}`);
   }
 
+  // Determine context (for variant-based content selection)
+  const context = variant.context || variantKey;
+
   // Build skills display
   const skills_display = variant.skills_display.map((skill) => {
     let label: string;
@@ -109,8 +130,14 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
     if (skill.key) {
       // Reference to profile.skills
       const baseSkill = profile.skills[skill.key];
-      label = baseSkill.label;
-      items = skill.items_override || baseSkill.items;
+      if (!baseSkill) {
+        // Fallback: use provided label and items if key doesn't exist
+        label = skill.label || skill.key;
+        items = skill.items || [];
+      } else {
+        label = baseSkill.label;
+        items = skill.items_override || baseSkill.items;
+      }
     } else {
       // Inline skill definition
       label = skill.label!;
@@ -131,11 +158,33 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
       throw new Error(`Unknown experience id: ${expConfig.id}`);
     }
 
-    const bullets = expConfig.bullets_override || baseExp.descriptions.resume_bullets;
+    // Get content with context-aware variant selection
+    let title = expConfig.title_override;
+    let bullets = expConfig.bullets_override;
+
+    if (!title || !bullets) {
+      // Try to use context-aware variant if available (new schema)
+      const contextVariant = baseExp.variants?.[context];
+
+      if (!title) {
+        title = contextVariant?.title || expConfig.title_override || baseExp.title;
+      }
+
+      if (!bullets) {
+        if (contextVariant?.bullets) {
+          bullets = contextVariant.bullets;
+        } else if (baseExp.descriptions?.resume_bullets) {
+          bullets = baseExp.descriptions.resume_bullets;
+        } else {
+          bullets = [];
+        }
+      }
+    }
+
     const bullets_html = bullets.map((b) => `                        <li>${b}</li>`).join('\n');
 
     return {
-      title: expConfig.title_override || baseExp.title,
+      title,
       company: expConfig.company_override || baseExp.company,
       description: expConfig.description_override || baseExp.company_description,
       dates: baseExp.dates.display,
@@ -152,24 +201,27 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
   const experience = allExperience;
 
   // Build featured projects
-  const featured_projects = variant.featured_projects.map((projConfig) => {
-    const baseProj = profile.projects.find((p) => p.id === projConfig.id);
-    if (!baseProj) {
-      throw new Error(`Unknown project id: ${projConfig.id}`);
-    }
+  const featured_projects = variant.featured_projects
+    .map((projConfig) => {
+      const baseProj = profile.projects.find((p) => p.id === projConfig.id);
+      if (!baseProj) {
+        console.warn(`⚠ Warning: Project "${projConfig.id}" not found, skipping`);
+        return null;
+      }
 
-    const technologies = projConfig.technologies_override || baseProj.technologies;
-    const bullets_html = projConfig.bullets.map((b) => `                        <li>${b}</li>`).join('\n');
+      const technologies = projConfig.technologies_override || baseProj.technologies;
+      const bullets_html = projConfig.bullets.map((b) => `                        <li>${b}</li>`).join('\n');
 
-    return {
-      name: baseProj.name,
-      role: projConfig.role_override || `Live at ${baseProj.url}`,
-      bullets: projConfig.bullets,
-      bullets_html,
-      technologies,
-      technologies_joined: technologies.join(' • '),
-    };
-  });
+      return {
+        name: baseProj.name,
+        role: projConfig.role_override || `Live at ${baseProj.url}`,
+        bullets: projConfig.bullets,
+        bullets_html,
+        technologies,
+        technologies_joined: technologies.join(' • '),
+      };
+    })
+    .filter((p) => p !== null) as any[];
 
   return {
     personal: profile.personal,
