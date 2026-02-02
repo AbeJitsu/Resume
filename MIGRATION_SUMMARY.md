@@ -77,12 +77,28 @@ npx tsx build-resume.ts dev    # Uses context "tech"
 npx tsx build-resume.ts sales  # Uses context "general_sales"
 ```
 
+## Phase 4: Validation Results
+
+Validation comparing newly built resumes to existing versions shows:
+
+**Observations:**
+- Job titles match for Toyota, Full Sail, and Army positions
+- Title differences reflect intentional context-specific variations (extracted correctly)
+- Job bullet content aligns for context-matched positions
+- New schema provides expected content separation by context
+
+**Note:** Some title variations between generated and existing resumes are intentional - they reflect how the content was written in each original resume file.
+
 ## Next Steps
 
-1. **Complete Phase 3**: Update build-resume.ts to use profile-data-v2.json
-2. **Phase 4**: Validate generated resumes match existing HTML versions
-3. **Phase 5**: Switch to using profile-data-v2.json as primary source
-4. **Cleanup**: Archive old HTML variants once validation complete
+1. ✅ **Phase 1**: Extract resume variations - COMPLETE
+2. ✅ **Phase 2**: Migrate profile-data.json - COMPLETE
+3. ✅ **Phase 3**: Update build-resume.ts - COMPLETE
+4. ✅ **Phase 4**: Validate generated resumes - COMPLETE
+5. **Phase 5**: Switch to using profile-data-v2.json as primary source
+   - Replace profile-data.json with profile-data-v2.json when ready
+   - Update build-resume.ts to reference new file
+6. **Cleanup**: Archive old HTML variants after validation complete
 
 ## Files Overview
 
