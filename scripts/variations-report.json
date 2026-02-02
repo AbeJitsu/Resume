@@ -1,0 +1,230 @@
+{
+  "professional_summary": {
+    "automotive": {
+      "summary": "Results-driven Automotive Sales Specialist with 6+ years of experience at Toyota of Orlando, progressing through Sales, Sales Management, and Finance & Insurance roles. Proven track record in customer service, ethical selling techniques, and building long-term customer relationships. Experienced in sales process execution, product knowledge across new and used vehicles, and aftermarket products including warranties, GAP insurance, and maintenance plans. Skilled at setting and achieving sales goals while maintaining high customer satisfaction.",
+      "skills": {
+        "Sales & Customer Service": [
+          "Automotive sales",
+          "customer relationship building",
+          "ethical selling techniques",
+          "needs assessment",
+          "closing techniques",
+          "customer satisfaction"
+        ],
+        "Product Knowledge": [
+          "New and used vehicles",
+          "financing options (prime and subprime)",
+          "extended warranties",
+          "GAP insurance",
+          "maintenance plans",
+          "aftermarket products"
+        ],
+        "Process & Performance": [
+          "Sales process adherence",
+          "sales goal achievement",
+          "CRM systems (Salesforce)",
+          "dealership operations",
+          "cross-departmental collaboration"
+        ],
+        "Professional Attributes": [
+          "Clean driving record",
+          "valid Florida driver's license",
+          "strong work ethic",
+          "reliable",
+          "punctual"
+        ],
+        "Full Sail University": [
+          "| Winter Park"
+        ]
+      }
+    },
+    "general_sales": {
+      "summary": "Proven Sales Professional with 6+ years of experience building customer relationships, driving revenue growth, and exceeding sales goals. Skilled in consultative selling, needs assessment, and presenting solutions that meet customer needs. Strong track record in customer retention, cross-selling complementary products, and managing complex sales cycles. Experience with CRM systems (Salesforce), payment processing, and working with diverse customer demographics. Known for ethical sales practices and consistently ranking among top performers.",
+      "skills": {
+        "Sales Skills": [
+          "Consultative selling",
+          "needs assessment",
+          "solution presentation",
+          "closing techniques",
+          "objection handling",
+          "relationship building",
+          "customer retention",
+          "referral generation"
+        ],
+        "Customer Service": [
+          "Active listening",
+          "problem resolution",
+          "conflict management",
+          "customer satisfaction",
+          "follow-up and relationship maintenance",
+          "building trust"
+        ],
+        "Business Acumen": [
+          "Revenue generation",
+          "sales goal achievement",
+          "cross-selling and upselling",
+          "payment processing",
+          "financing options",
+          "CRM systems (Salesforce)"
+        ],
+        "Professional Attributes": [
+          "Ethical sales practices",
+          "team collaboration",
+          "self-motivation",
+          "adaptability",
+          "strong work ethic",
+          "reliable",
+          "punctual"
+        ],
+        "Full Sail University": [
+          "| Winter Park"
+        ]
+      }
+    },
+    "tech": {
+      "summary": "Front-end web developer with a strong foundation in HTML5, CSS3, and JavaScript, focused on building responsive, accessible, and visually polished websites. Experienced translating design mockups into production-ready code, customizing CMS templates, and optimizing for performance and SEO. Comfortable working with modern tooling (Sass/SCSS, Tailwind, Bootstrap) while maintaining clean, semantic markup. Agency experience includes building white-label sites for diverse clients, collaborating with design teams, and delivering pixel-perfect implementations that balance technical excellence with visual quality.",
+      "skills": {
+        "Core Front-End": [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "Responsive Design",
+          "Cross-Browser Compatibility"
+        ],
+        "CSS Tools & Frameworks": [
+          "Sass/SCSS",
+          "Less",
+          "Tailwind CSS",
+          "Bootstrap",
+          "CSS Grid",
+          "Flexbox"
+        ],
+        "JavaScript & Frameworks": [
+          "Vanilla JavaScript",
+          "DOM manipulation",
+          "Event handling",
+          "Fetch API",
+          "Vue.js",
+          "React",
+          "Next.js"
+        ],
+        "CMS & Templating": [
+          "WordPress (theme customization",
+          "template hierarchy)",
+          "Shopify (Liquid templating",
+          "custom elements)",
+          "CMS template development"
+        ],
+        "Performance & SEO": [
+          "Image optimization",
+          "lazy loading",
+          "code minification",
+          "semantic markup",
+          "metadata implementation",
+          "structured data",
+          "Core Web Vitals"
+        ],
+        "Accessibility": [
+          "WCAG AA standards",
+          "semantic HTML",
+          "ARIA attributes",
+          "keyboard navigation",
+          "color contrast",
+          "screen reader optimization"
+        ],
+        "Tools & Workflow": [
+          "Git/GitHub",
+          "Figma (design to code)",
+          "Chrome DevTools",
+          "Lighthouse",
+          "PageSpeed Insights",
+          "WAVE",
+          "VS Code"
+        ],
+        "Design Implementation": [
+          "Pixel-perfect builds",
+          "responsive breakpoints",
+          "design system implementation",
+          "UI component development"
+        ],
+        "Full Sail University": [
+          "| Winter Park"
+        ],
+        "Self-Directed Learning": [
+          "Vue.js Complete Guide",
+          "100 Days of Code"
+        ]
+      }
+    }
+  },
+  "jobs": {
+    "toyota": {
+      "automotive": {
+        "title": "Finance and Insurance Manager",
+        "description": "Toyota of Orlando | Orlando, FL",
+        "bullets": [
+          "Advanced through three positions (Salesperson → Sales Manager → F&I Manager) based on strong customer service and sales performance",
+          "Sold aftermarket products including extended warranties, GAP insurance, window tinting, and maintenance plans while maintaining ethical selling standards",
+          "Worked with both prime and subprime lending, understanding diverse customer financing needs and credit situations",
+          "Built strong customer relationships resulting in repeat business and referrals",
+          "Consistently ranked in top third among sales team peers for performance",
+          "Maintained comprehensive product knowledge across Toyota's new and used vehicle inventory"
+        ]
+      },
+      "general_sales": {
+        "title": "Sales Manager / Finance Specialist",
+        "description": "Toyota of Orlando | Orlando, FL",
+        "bullets": [
+          "Progressed through three sales roles (Sales Associate → Sales Manager → Finance Specialist) based on consistent performance and customer service excellence",
+          "Consulted with customers to understand needs, present solutions, and close sales in competitive market",
+          "Built long-term customer relationships resulting in repeat business and referral generation",
+          "Cross-sold complementary products and services, increasing average transaction value",
+          "Managed payment options and financing solutions for customers with diverse credit backgrounds",
+          "Consistently ranked in top third among sales team for performance and customer satisfaction"
+        ]
+      }
+    },
+    "fullsail_work": {
+      "automotive": {
+        "title": "Military Enrollment Counselor",
+        "description": "Full Sail University | Winter Park, FL",
+        "bullets": [
+          "Used Salesforce CRM daily to track prospective students, manage enrollment pipeline, and coordinate with departments",
+          "Guided military service members and families through GI Bill benefits and enrollment processes",
+          "Built trust-based relationships with customers making significant financial decisions"
+        ]
+      },
+      "general_sales": {
+        "title": "Enrollment Counselor",
+        "description": "Full Sail University | Winter Park, FL",
+        "bullets": [
+          "Used Salesforce CRM daily to manage sales pipeline and track customer interactions",
+          "Guided prospective students through enrollment process, addressing concerns and presenting benefits",
+          "Built trust-based relationships with customers making significant financial decisions",
+          "Met enrollment targets while maintaining high customer satisfaction"
+        ]
+      }
+    },
+    "army": {
+      "automotive": {
+        "title": "Combat Medic, Corporal (E-4)",
+        "description": "U.S. Army | Fort Hood, TX & Fort Bragg, NC",
+        "bullets": [
+          "Led team of 3 medics and 2 combat lifesavers, demonstrating leadership under pressure",
+          "Developed strong work ethic, attention to detail, and ability to remain calm in high-stress environments"
+        ]
+      },
+      "general_sales": {
+        "title": "Team Leader",
+        "description": "U.S. Army | Fort Hood, TX & Fort Bragg, NC",
+        "bullets": [
+          "Led team of 5 personnel, demonstrating leadership and accountability under pressure",
+          "Developed strong work ethic, attention to detail, and ability to remain calm in challenging environments",
+          "Promoted to Corporal (E-4) based on leadership and performance"
+        ]
+      }
+    }
+  },
+  "timestamp": "2026-02-02T20:37:20.586Z"
+}
