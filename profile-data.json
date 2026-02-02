@@ -468,20 +468,20 @@
 
   "resume_variants": {
     "dev": {
-      "title": "Web Applications Programmer",
+      "title": "Full-Stack Developer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "I design, develop, and maintain custom web applications with a focus on quality and maintainability. Proficient in multiple programming languages and development tools, my stack includes Vue.js, React, Node.js, and Express, with strong experience in third-party integrations and API development.",
-        "Strong problem-solving and analytical skills help me troubleshoot complex issues and provide Tier 3 support when needed. Excellent communication skills allow me to collaborate effectively across teams and gather requirements from stakeholders.",
-        "Before tech, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me to meet deadlines, mentor others, and take ownership of my work."
+        "Full-stack developer specializing in React, Next.js, and TypeScript for building modern web applications. I build complete systems from database design through responsive frontends, with production experience in e-commerce platforms, AI integration, and data automation.",
+        "My approach combines clean code with practical problem-solving. I write tests, document decisions, and build for maintainability. Strong communication skills from years of translating complex information help me collaborate effectively across teams.",
+        "Before software, I earned three promotions at Toyota and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure."
       ],
       "skills_display": [
-        { "key": "frontend_core", "label": "Frontend Development", "items": ["Vue.js", "React", "Next.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"] },
-        { "key": "backend_apis", "label": "Backend & APIs", "items": ["Node.js", "Express", "REST APIs", "PostgreSQL", "Supabase", "Third-Party Integrations"] },
-        { "key": "testing_quality", "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "Unit Testing", "Integration Testing", "WCAG AA Accessibility"] },
-        { "key": "dev_tools", "label": "Development Tools", "items": ["Git", "CI/CD Pipelines", "Code Reviews", "Development Standards", "Storybook"] },
-        { "key": "problem_solving", "label": "Problem-Solving", "items": ["Tier 3 Support", "Debugging", "Analytical Skills", "Root Cause Analysis", "Performance Analysis"] },
-        { "key": "communication", "label": "Communication Skills", "items": ["Requirements Gathering", "Cross-Functional Teams", "Mentoring", "Technical Documentation"] }
+        { "label": "Frontend & UI", "items": ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Responsive Design", "Component Libraries"] },
+        { "label": "Backend & Data", "items": ["Node.js", "PostgreSQL", "Supabase", "REST APIs", "Redis", "Python", "Database Design", "Third-Party APIs"] },
+        { "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "Unit Testing", "Integration Testing", "WCAG AA Accessibility", "CI/CD"] },
+        { "label": "Tools & DevOps", "items": ["Git", "Docker", "GitHub Actions", "Vercel", "pnpm/npm", "Linux"] },
+        { "label": "AI & Automation", "items": ["OpenAI API", "RAG Systems", "Vector Embeddings", "Web Scraping", "Data Transformation"] },
+        { "label": "Soft Skills", "items": ["Technical Writing", "Code Reviews", "Problem Solving", "Cross-Functional Collaboration"] }
       ],
       "experience": [
         {
@@ -510,25 +510,18 @@
       ],
       "featured_projects": [
         {
-          "id": "vue-ecommerce",
-          "name": "E-Commerce Platform (Vue.js)",
-          "role_override": "Personal Project",
-          "bullets": [
-            "Full-stack e-commerce application with Vue.js frontend and Express/Node.js backend",
-            "RESTful API design with proper error handling and validation",
-            "Database schema design for products, orders, and user management"
-          ],
-          "technologies_override": ["Vue.js", "Express", "Node.js", "REST APIs", "MongoDB"]
-        },
-        {
           "id": "needthisdone",
-          "role_override": "Live at needthisdone.com",
+          "role_override": "Live Production Platform",
           "bullets": [
-            "Production web application with third-party integrations (Stripe payments, external APIs)",
-            "Automated testing with Playwright E2E and Vitest unit tests in CI/CD pipeline",
-            "Documented codebase following development standards for maintainability"
+            "Full-stack e-commerce platform with Next.js, TypeScript, and React serving real customers",
+            "Complete feature set: shopping cart, Stripe payments, appointment booking, user authentication, admin dashboards",
+            "AI chatbot using RAG (Supabase pgvector + OpenAI) for context-aware customer support",
+            "Redis caching layer and optimistic UI updates for fast, responsive user experience",
+            "Comprehensive test coverage with Playwright E2E and Vitest unit tests running in CI/CD pipeline",
+            "WCAG AA accessibility compliance across all components",
+            "Component-based page builder (Puck) allowing content updates without code changes"
           ],
-          "technologies_override": ["React/Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Playwright", "CI/CD"]
+          "technologies_override": ["Next.js 14", "React", "TypeScript", "Supabase", "Redis", "Stripe", "Docker", "Playwright", "OpenAI"]
         }
       ],
       "education": [
@@ -543,9 +536,9 @@
           "description": "Seven years of consistent skill development while working full-time. Progressed from tutorials to building production applications."
         },
         {
-          "school": "Structured Coursework",
-          "dates": "2023 - Present",
-          "description": "freeCodeCamp Responsive Web Design Certification, freeCodeCamp Full Stack Developer Certification (in progress), Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code."
+          "school": "Continuous Professional Development",
+          "dates": "2023 - 2026",
+          "description": "Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code, ongoing learning through documentation, technical blogs, and hands-on project work."
         },
         {
           "school": "U.S. Army Medical Department Center & School",
