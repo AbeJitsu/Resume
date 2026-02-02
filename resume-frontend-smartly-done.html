@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Front-End Web Developer</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+    background: #ffffff;
+    color: #1a202c;
+    line-height: 1.4;
+    padding: 16px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #1e40af;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 14px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.contact {
+    font-size: 11px;
+    color: #64748b;
+}
+
+section {
+    margin-bottom: 24px;
+    background: #f8f9fa;
+    padding: 14px;
+    border-radius: 4px;
+    border-left: 3px solid #1e40af;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e40af;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1e40af;
+}
+
+.summary-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.skill-category {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.skill-category strong {
+    color: #1e40af;
+    font-weight: 600;
+    display: inline;
+}
+
+.job-company {
+    font-size: 11px;
+    color: #64748b;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+.job-date {
+    font-size: 11px;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+ul {
+    font-size: 11px;
+    line-height: 1.5;
+    margin-left: 16px;
+    list-style-position: outside;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+.education-item {
+    margin-bottom: 8px;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item strong {
+    font-weight: 600;
+}
+
+@media print {
+    @page {
+        size: letter;
+        margin: 0.5in 0.75in;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    section {
+        background: white !important;
+        padding: 10px;
+        margin-bottom: 18px;
+        border-left: 3px solid #1e40af;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    header {
+        background: white !important;
+        margin-bottom: 12px;
+        padding-bottom: 8px;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="name">ABIEZER "ABE" REYES</div>
+            <div class="title">Front-End Web Developer</div>
+            <div class="contact">
+                Orlando, FL | 407-873-6713 | abe.raise@gmail.com | linkedin.com/in/weneedthisdone | github.com/AbeJitsu
+            </div>
+        </header>
+
+        <section>
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="summary-text">
+                Front-end web developer with a strong foundation in HTML5, CSS3, and JavaScript, focused on building responsive, accessible, and visually polished websites. Experienced translating design mockups into production-ready code, customizing CMS templates, and optimizing for performance and SEO. Comfortable working with modern tooling (Sass/SCSS, Tailwind, Bootstrap) while maintaining clean, semantic markup. Agency experience includes building white-label sites for diverse clients, collaborating with design teams, and delivering pixel-perfect implementations that balance technical excellence with visual quality.
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Core Front-End:</strong> HTML5, CSS3, JavaScript (ES6+), TypeScript, Responsive Design, Cross-Browser Compatibility
+                </div>
+
+                <div class="skill-category">
+                    <strong>CSS Tools & Frameworks:</strong> Sass/SCSS, Less, Tailwind CSS, Bootstrap, CSS Grid, Flexbox
+                </div>
+
+                <div class="skill-category">
+                    <strong>JavaScript & Frameworks:</strong> Vanilla JavaScript, DOM manipulation, Event handling, Fetch API, Vue.js, React, Next.js
+                </div>
+
+                <div class="skill-category">
+                    <strong>CMS & Templating:</strong> WordPress (theme customization, template hierarchy), Shopify (Liquid templating, custom elements), CMS template development
+                </div>
+
+                <div class="skill-category">
+                    <strong>Performance & SEO:</strong> Image optimization, lazy loading, code minification, semantic markup, metadata implementation, structured data, Core Web Vitals
+                </div>
+
+                <div class="skill-category">
+                    <strong>Accessibility:</strong> WCAG AA standards, semantic HTML, ARIA attributes, keyboard navigation, color contrast, screen reader optimization
+                </div>
+
+                <div class="skill-category">
+                    <strong>Tools & Workflow:</strong> Git/GitHub, Figma (design to code), Chrome DevTools, Lighthouse, PageSpeed Insights, WAVE, VS Code
+                </div>
+
+                <div class="skill-category">
+                    <strong>Design Implementation:</strong> Pixel-perfect builds, responsive breakpoints, design system implementation, UI component development
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Web Developer</h2>
+            <div class="job-company">needthisdone.com | Independent Practice</div>
+            <div class="job-date">November 2023 - Present</div>
+            <ul class="job-bullets">
+                <li>Build responsive, accessible web applications using HTML5, CSS3, JavaScript, and modern frameworks</li>
+                <li>Client: Acadio (EdTech) - Developed custom Shopify elements for white-label client sites, translating design specifications into production-ready Liquid templates and custom web components</li>
+                <li>Implement SEO best practices including semantic markup, metadata optimization, and structured content hierarchy</li>
+                <li>Optimize site performance through image optimization, lazy loading, code minification, and efficient asset delivery</li>
+                <li>Ensure WCAG AA accessibility compliance using semantic HTML, proper ARIA attributes, keyboard navigation support, and color contrast standards</li>
+                <li>Collaborate directly with clients to gather requirements, provide technical guidance, and deliver polished user experiences across diverse industries</li>
+                <li>Work with REST APIs to fetch and render dynamic content within front-end templates</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">E-Commerce Platform Development</h2>
+            <div class="job-company">Personal Project | Full-Stack Development</div>
+            <div class="job-date">2021 - 2022</div>
+            <ul class="job-bullets">
+                <li>Built responsive e-commerce application with Vue.js frontend featuring product browsing, cart management, and checkout flow</li>
+                <li>Implemented Sass/SCSS for maintainable, scalable stylesheets with variables, mixins, and nested selectors</li>
+                <li>Created mobile-first responsive layouts using CSS Grid and Flexbox with attention to visual hierarchy and usability</li>
+                <li>Optimized images and assets for fast load times across devices and connection speeds</li>
+                <li>Developed reusable UI components with consistent styling and interaction patterns</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">WordPress & Front-End Development</h2>
+            <div class="job-company">Various Client Projects</div>
+            <div class="job-date">2020 - Present</div>
+            <ul class="job-bullets">
+                <li>Customized WordPress themes and templates to match client design requirements while maintaining upgrade-safe patterns</li>
+                <li>Built custom page templates with responsive layouts, custom post types, and dynamic content sections</li>
+                <li>Implemented performance optimizations including image compression, caching strategies, and efficient asset loading</li>
+                <li>Ensured cross-browser compatibility and mobile responsiveness across all client sites</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">needthisdone.com - Production Web Application</h2>
+            <div class="job-company">Live at needthisdone.com</div>
+            <div class="job-date">2024</div>
+            <ul class="job-bullets">
+                <li>Built with React/Next.js, TypeScript, and Tailwind CSS with focus on performance and accessibility</li>
+                <li>Implemented comprehensive testing including Playwright E2E tests and WCAG AA accessibility validation</li>
+                <li>Integrated third-party services (Stripe payments, external APIs) with proper error handling</li>
+                <li>Optimized for Core Web Vitals and SEO with semantic HTML, metadata, and structured data</li>
+                <li>Achieved 95+ Lighthouse scores across performance, accessibility, best practices, and SEO</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Shopify Liquid Demo Page</h2>
+            <div class="job-company">Portfolio Project | Available on GitHub</div>
+            <div class="job-date">January 2026</div>
+            <ul class="job-bullets">
+                <li>Built custom Shopify page from scratch using Liquid templating without relying on theme frameworks</li>
+                <li>Implemented responsive design with CSS Grid and Flexbox for complex layouts</li>
+                <li>Created reusable Liquid snippets and sections for content editors</li>
+                <li>Demonstrates ability to hand-code production-ready templates with clean, maintainable code</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Finance & Insurance Manager</h2>
+            <div class="job-company">Toyota of Orlando | Orlando, FL</div>
+            <div class="job-date">2017 - 2023</div>
+            <ul class="job-bullets">
+                <li>Developed strong client communication skills working directly with customers to explain complex products and processes</li>
+                <li>Collaborated across departments to resolve customer concerns and deliver exceptional service</li>
+                <li>Managed multiple priorities in fast-paced environment while maintaining attention to detail</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-item">
+                <strong>Full Sail University</strong> | Winter Park, FL<br>
+                Web Design & Development Coursework | 2016-2017 | Straight A's while working full-time
+            </div>
+
+            <div class="education-item">
+                <strong>Self-Directed Learning</strong><br>
+                freeCodeCamp Full Stack Certification (in progress), Vue.js Complete Guide, 100 Days of Code
+            </div>
+        </section>
+    </div>
+</body>
+</html>
