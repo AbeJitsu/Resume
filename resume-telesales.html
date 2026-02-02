@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Full-Stack Developer Resume</title>
+    <style>
+/* ============================================================================
+   Reset and Base Styles
+   ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background: #ffffff;
+    color: #1a202c;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+/* ============================================================================
+   Skip Link (Accessibility)
+   ============================================================================ */
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1d4ed8;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* ============================================================================
+   Container and Layout
+   ============================================================================ */
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    line-height: 1.5;
+}
+
+/* ============================================================================
+   Header Section
+   ============================================================================ */
+
+header {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #1d4ed8;
+    padding-bottom: 12px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1d4ed8;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+    word-break: break-word;
+}
+
+.title {
+    font-size: 12px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    font-size: 12px;
+    color: #64748b;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    row-gap: 6px;
+}
+
+.contact span:not(:last-child)::after {
+    content: " • ";
+    color: #64748b;
+    margin-left: 8px;
+}
+
+.contact a {
+    color: #1d4ed8;
+    text-decoration: none;
+    word-break: break-word;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+}
+
+.contact a:focus-visible {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.contact a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.contact a:active {
+    outline: 2px solid #1d4ed8;
+    outline-offset: 2px;
+}
+
+/* ============================================================================
+   Sections
+   ============================================================================ */
+
+section {
+    margin-bottom: 24px;
+    background: #f8f9fa;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1d4ed8;
+}
+
+/* ============================================================================
+   Summary Section
+   ============================================================================ */
+
+.summary-refined {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #1a202c;
+}
+
+.summary-paragraph {
+    margin-bottom: 14px;
+}
+
+.summary-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.summary-highlight {
+    color: #1d4ed8;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ============================================================================
+   Skills Section
+   ============================================================================ */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-left: 20px;
+}
+
+.skill-category {
+    font-size: 12px;
+}
+
+.skill-category strong {
+    color: #16a34a;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.skill-category p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #1a202c;
+}
+
+/* ============================================================================
+   Experience Section
+   ============================================================================ */
+
+.job {
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.job-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 6px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 13px;
+    color: #dc2626;
+}
+
+.job-meta {
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+    color: #64748b;
+    flex-wrap: wrap;
+}
+
+.job-company {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.job-bullets {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #1a202c;
+    margin-left: 14px;
+    list-style-position: outside;
+}
+
+.job-bullets li {
+    margin-bottom: 6px;
+}
+
+/* ============================================================================
+   Projects Section
+   ============================================================================ */
+
+.project {
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: #1d4ed8;
+}
+
+.project-role {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.project-content {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #1a202c;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-content strong {
+    color: #ca8a04;
+    font-weight: 600;
+}
+
+.project-bullets {
+    margin-left: 14px;
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 1.5;
+    list-style-position: outside;
+}
+
+.project-bullets li {
+    margin-bottom: 6px;
+}
+
+.project-tech {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* ============================================================================
+   Inline Architectural Emphasis
+   ============================================================================ */
+
+.arch-emphasis {
+    color: #1a202c;
+    font-weight: 600;
+    font-style: normal;
+    white-space: normal;
+}
+
+/* ============================================================================
+   Additional Projects Section
+   ============================================================================ */
+
+.project-summary {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #1a202c;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-summary strong {
+    color: #1a202c;
+    font-weight: 600;
+}
+
+/* ============================================================================
+   Education Section
+   ============================================================================ */
+
+.education {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.education strong {
+    color: #1a202c;
+}
+
+.influences {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.influences p {
+    margin-bottom: 10px;
+}
+
+.influences p:last-child {
+    margin-bottom: 0;
+}
+
+/* ============================================================================
+   Responsive Design: Small Mobile (under 480px)
+   ============================================================================ */
+
+@media (max-width: 479px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .contact span:not(:last-child)::after {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Tablet (480px - 768px)
+   ============================================================================ */
+
+@media (min-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .contact {
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        margin-bottom: 14px;
+        padding-left: 14px;
+        padding-bottom: 10px;
+    }
+
+    .summary {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 14px;
+    }
+
+    .summary-refined {
+        font-size: 13px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 12px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 11px;
+    }
+
+    .skill-category {
+        font-size: 11px;
+    }
+
+    .skill-category p {
+        font-size: 12px;
+    }
+
+    .job-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-left: 16px;
+    }
+
+    .project-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .project-title {
+        font-size: 12px;
+    }
+
+    .project-role {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .project-content {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .project-bullets {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-left: 16px;
+    }
+
+    .project-tech {
+        font-size: 11px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+}
+
+/* ============================================================================
+   Responsive Design: Desktop (769px+)
+   ============================================================================ */
+
+@media (min-width: 769px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .name {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .contact {
+        font-size: 12px;
+        gap: 12px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+        padding-left: 14px;
+        padding-bottom: 12px;
+    }
+
+    .summary {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+
+    .summary-refined {
+        font-size: 14px;
+    }
+
+    .summary-paragraph {
+        margin-bottom: 14px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .skill-category {
+        font-size: 12px;
+    }
+
+    .skill-category p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .job {
+        margin-bottom: 12px;
+    }
+
+    .job-header {
+        gap: 0;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-meta {
+        font-size: 11px;
+    }
+
+    .job-company {
+        font-size: 11px;
+    }
+
+    .job-bullets {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-left: 16px;
+    }
+
+    .job-bullets li {
+        margin-bottom: 5px;
+    }
+
+    .project {
+        margin-bottom: 12px;
+    }
+
+    .project-header {
+        gap: 0;
+    }
+
+    .project-title {
+        font-size: 13px;
+    }
+
+    .project-role {
+        font-size: 12px;
+    }
+
+    .project-content {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+    }
+
+    .project-bullets {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-left: 16px;
+    }
+
+    .project-bullets li {
+        margin-bottom: 5px;
+    }
+
+    .project-tech {
+        font-size: 11px;
+    }
+
+    .education {
+        font-size: 11px;
+    }
+
+    .influences {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .influences p {
+        margin-bottom: 12px;
+    }
+
+    .influences p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* ============================================================================
+   Print Styles (PDF/Physical Printing)
+   ============================================================================ */
+
+@media print {
+    @page {
+        size: letter;
+        margin: 0;
+    }
+
+    body {
+        background: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+        background: white;
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+    /* PAGE 1: Explicit full-page container */
+    .page-1 {
+        height: 11in;
+        width: 8.5in;
+        padding: 0.5in 0.75in;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .page-1 section,
+    .page-1 header {
+        background: white !important;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    .page-1 header {
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+    }
+
+    .page-1 .job {
+        margin-bottom: 0;
+    }
+
+    /* PAGE 2: Explicit full-page container */
+    .page-2 {
+        page-break-before: always;
+        height: 11in;
+        width: 8.5in;
+        padding: 0.5in 0.75in;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .page-2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0.1in 0;
+    }
+
+    .page-2-container .job,
+    .page-2-container section {
+        margin-bottom: 0;
+        padding: 0;
+        background: white !important;
+    }
+
+    /* PAGE 3: Explicit full-page container */
+    .page-3 {
+        page-break-before: always;
+        height: 11in;
+        width: 8.5in;
+        padding: 0.5in 0.75in;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .page-3-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0.1in 0;
+    }
+
+    .page-3-container .project,
+    .page-3-container section {
+        margin-bottom: 0;
+        padding: 0;
+        background: white !important;
+    }
+
+    .job,
+    .page-2-item,
+    .page-3-item {
+        break-inside: avoid;
+    }
+
+    /* Section title styling for print */
+    .section-title {
+        font-size: 13px;
+        background: white !important;
+        color: #1d4ed8 !important;
+    }
+
+    section {
+        background: white !important;
+    }
+
+    header {
+        background: white !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip to main content link for keyboard users (WCAG 2.4.1) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="container">
+        <main id="main-content">
+        <!-- PAGE 1: Header, Summary, Skills, First Job -->
+        <div class="page page-1">
+            <header class="header">
+                <div class="name">ABIEZER "ABE" REYES</div>
+                <div class="title">Call Center Sales Professional</div>
+                <div class="contact">
+                    <span>Orlando, FL</span>
+                    <span><a href="mailto:abe.raise@gmail.com">abe.raise@gmail.com</a></span>
+                    <span><a href="https://needthisdone.com">needthisdone.com</a></span>
+                    <span><a href="https://github.com/AbeJitsu">github.com/AbeJitsu</a></span>
+                    <span><a href="https://www.linkedin.com/in/weneedthisdone">linkedin.com/in/weneedthisdone</a></span>
+                </div>
+            </header>
+
+            <!-- Professional Summary Section -->
+            <section class="summary-section">
+                <div class="summary-refined">
+
+                    <p class="summary-paragraph">
+                        Results-oriented Call Center Sales Professional with 8+ years of phone-based sales experience. Proven track record in consultative selling, objection handling, and consistently exceeding sales goals in commission-based environments. Expert at building rapport over the phone, qualifying leads, and delivering exceptional customer service. Self-motivated with professional phone demeanor and flexibility to work varied schedules including evenings and weekends.
+                    </p>
+
+                </div>
+            </section>
+
+            <!-- Technical Skills Section -->
+            <section class="skills-section">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills">
+
+                    <div class="skill-category">
+                        <strong>Call Center & Phone Sales</strong>
+                        <p>Inbound Sales, Tele Sales, Call Center Operations, Phone-Based Consultative Selling, Lead Qualification, Rapport Building Over Phone, Professional Phone Demeanor</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <strong>Sales Skills</strong>
+                        <p>Objection Handling, Closing Techniques, Sales Goal Achievement, Commission Sales, Consultative Selling, Needs Assessment, Customer Retention</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <strong>Customer Service</strong>
+                        <p>Customer Service Excellence, Active Listening, Problem Resolution, Building Trust, Professional Communication</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <strong>Technical Skills</strong>
+                        <p>CRM Systems (Salesforce), Sales Pipeline Management, Data Entry, Microsoft Office Suite, Multi-Line Phone Systems</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <strong>Professional Attributes</strong>
+                        <p>Self-Motivated, Teachable, Flexible Schedule, Results-Oriented, Commission-Driven, Team Player, Professional Demeanor</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Professional Experience Section (Page 1 jobs only) -->
+            <section class="experience-section">
+                <h2 class="section-title">Professional Experience</h2>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Enrollment Counselor (Phone Sales)</div>
+                        <div class="job-meta">2012 - 2017</div>
+                    </div>
+                    <div class="job-company">Full Sail University | Higher Education</div>
+                    <ul class="job-bullets">
+                        <li>Phone-based consultative sales guiding prospective students through enrollment, addressing concerns and presenting benefits to close enrollment</li>
+                        <li>Used Salesforce CRM daily to manage sales pipeline, track phone interactions, and coordinate with departments</li>
+                        <li>Built trust-based relationships over the phone with customers making significant financial decisions</li>
+                        <li>Consistently met and exceeded enrollment targets through consultative phone selling and objection handling</li>
+                        <li>Worked flexible schedule including evenings to accommodate customer availability</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Call Center Sales Representative</div>
+                        <div class="job-meta">2009 - 2011</div>
+                    </div>
+                    <div class="job-company">Quill.com | Office Supplies (Staples)</div>
+                    <ul class="job-bullets">
+                        <li>Inbound and outbound sales in high-volume call center, contacting business buyers to establish accounts</li>
+                        <li>Built relationships with business owners and office managers over the phone to generate ongoing accounts</li>
+                        <li>Met daily and weekly sales quotas in commission-based environment</li>
+                        <li>Professional phone demeanor and rapport-building skills resulted in high customer satisfaction and repeat business</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Finance Manager</div>
+                        <div class="job-meta">Spring 2017 - Winter 2023</div>
+                    </div>
+                    <div class="job-company">Toyota of Orlando | Automotive Sales</div>
+                    <ul class="job-bullets">
+                        <li>Consultative sales approach guiding customers through financial decisions, ranking in top third of sales team</li>
+                        <li>Overcame objections and closed sales through rapport building and needs assessment</li>
+                        <li>Worked flexible schedule including evenings and weekends to accommodate customer availability</li>
+                        <li>Self-motivated in commission-based structure with proven track record of exceeding sales goals</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div class="job-title">Paramedic</div>
+                        <div class="job-meta">1996 - 2001</div>
+                    </div>
+                    <div class="job-company">U.S. Army | Military Service</div>
+                    <ul class="job-bullets">
+                        <li>Demonstrated reliability, discipline, and performance under pressure in high-stakes environment</li>
+                        <li>Flexible schedule and willingness to work non-traditional hours as required</li>
+                        <li>Team-oriented while maintaining individual accountability for results</li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- PAGE 2: Remaining Jobs + Featured Project -->
+        <div class="page page-2">
+            <div class="page-2-container">
+
+
+                <div class="page-2-item">
+                    <section class="education-section">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education">
+
+                            <strong>Full Sail University</strong> (2016 - 2017): Coursework in Business and Technology. Straight A's while working full-time.
+
+                            <br><br>
+
+
+                            <strong>U.S. Army Leadership Training</strong> (1996 - 2001): Advanced to Corporal (E-4). Leadership and accountability training.
+
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+</body>
+</html>

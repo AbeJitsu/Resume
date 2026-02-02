@@ -678,6 +678,90 @@
           "impact": "Changed how I handle objections and difficult conversations. Tactical empathy isn't manipulation. It's genuinely trying to understand the other person's perspective."
         }
       ]
+    },
+    "telesales": {
+      "title": "Call Center Sales Professional",
+      "context": "general_sales",
+      "output_file": "resume-telesales.html",
+      "summary_paragraphs": [
+        "Results-oriented Call Center Sales Professional with 8+ years of phone-based sales experience. Proven track record in consultative selling, objection handling, and consistently exceeding sales goals in commission-based environments. Expert at building rapport over the phone, qualifying leads, and delivering exceptional customer service. Self-motivated with professional phone demeanor and flexibility to work varied schedules including evenings and weekends."
+      ],
+      "skills_display": [
+        {
+          "label": "Call Center & Phone Sales",
+          "items": ["Inbound Sales", "Tele Sales", "Call Center Operations", "Phone-Based Consultative Selling", "Lead Qualification", "Rapport Building Over Phone", "Professional Phone Demeanor"]
+        },
+        {
+          "label": "Sales Skills",
+          "items": ["Objection Handling", "Closing Techniques", "Sales Goal Achievement", "Commission Sales", "Consultative Selling", "Needs Assessment", "Customer Retention"]
+        },
+        {
+          "label": "Customer Service",
+          "items": ["Customer Service Excellence", "Active Listening", "Problem Resolution", "Building Trust", "Professional Communication"]
+        },
+        {
+          "label": "Technical Skills",
+          "items": ["CRM Systems (Salesforce)", "Sales Pipeline Management", "Data Entry", "Microsoft Office Suite", "Multi-Line Phone Systems"]
+        },
+        {
+          "label": "Professional Attributes",
+          "items": ["Self-Motivated", "Teachable", "Flexible Schedule", "Results-Oriented", "Commission-Driven", "Team Player", "Professional Demeanor"]
+        }
+      ],
+      "experience": [
+        {
+          "id": "fullsail_work",
+          "title_override": "Enrollment Counselor (Phone Sales)",
+          "bullets_override": [
+            "Phone-based consultative sales guiding prospective students through enrollment, addressing concerns and presenting benefits to close enrollment",
+            "Used Salesforce CRM daily to manage sales pipeline, track phone interactions, and coordinate with departments",
+            "Built trust-based relationships over the phone with customers making significant financial decisions",
+            "Consistently met and exceeded enrollment targets through consultative phone selling and objection handling",
+            "Worked flexible schedule including evenings to accommodate customer availability"
+          ]
+        },
+        {
+          "id": "quill",
+          "title_override": "Call Center Sales Representative",
+          "bullets_override": [
+            "Inbound and outbound sales in high-volume call center, contacting business buyers to establish accounts",
+            "Built relationships with business owners and office managers over the phone to generate ongoing accounts",
+            "Met daily and weekly sales quotas in commission-based environment",
+            "Professional phone demeanor and rapport-building skills resulted in high customer satisfaction and repeat business"
+          ]
+        },
+        {
+          "id": "toyota",
+          "bullets_override": [
+            "Consultative sales approach guiding customers through financial decisions, ranking in top third of sales team",
+            "Overcame objections and closed sales through rapport building and needs assessment",
+            "Worked flexible schedule including evenings and weekends to accommodate customer availability",
+            "Self-motivated in commission-based structure with proven track record of exceeding sales goals"
+          ]
+        },
+        {
+          "id": "army",
+          "bullets_override": [
+            "Demonstrated reliability, discipline, and performance under pressure in high-stakes environment",
+            "Flexible schedule and willingness to work non-traditional hours as required",
+            "Team-oriented while maintaining individual accountability for results"
+          ]
+        }
+      ],
+      "featured_projects": [],
+      "education": [
+        {
+          "school": "Full Sail University",
+          "dates": "2016 - 2017",
+          "description": "Coursework in Business and Technology. Straight A's while working full-time."
+        },
+        {
+          "school": "U.S. Army Leadership Training",
+          "dates": "1996 - 2001",
+          "description": "Advanced to Corporal (E-4). Leadership and accountability training."
+        }
+      ],
+      "influences": []
     }
   }
 }
