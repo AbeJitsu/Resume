@@ -86,12 +86,12 @@
       "descriptions": {
         "application_description": "Independent consulting practice building production software and solving technical problems for clients. Largest engagement was Acadio (EdTech), where I started as a contractor and expanded into technical operations. Also built my own e-commerce platform (needthisdone.com) and provided data transformation and automation services for business clients.",
         "resume_bullets": [
-          "Built production e-commerce platform with 160 React components, 74 API routes, 24 public + 18 admin pages using Next.js and TypeScript. Implemented 7 context providers for state management and Tailwind CSS for responsive design",
-          "Building experimental automation dashboard (bridgette-automation) with Next.js 14, TypeScript, and React for custom developer workflow tooling. Implemented real-time streaming chat UI, three-panel responsive layout, task tracking, and scheduled automation via launchd. TypeScript comprises 94.7% of codebase",
-          "Comprehensive testing: 69 Playwright E2E test files covering complete user journeys, Vitest unit tests for components and hooks, Axe Core accessibility tests. Lighthouse scores: 100% SEO, 100% Accessibility, 78% Performance",
+          "Built production e-commerce platform with over 160 React components, over 70 API routes, over 20 public + over 15 admin pages using Next.js and TypeScript. Implemented over 5 context providers for state management and Tailwind CSS for responsive design",
+          "Building experimental automation dashboard (bridgette-automation) with Next.js 14, TypeScript, and React for custom developer workflow tooling. Implemented real-time streaming chat UI, three-panel responsive layout, task tracking, and scheduled automation via launchd. TypeScript comprises over 90% of codebase",
+          "Comprehensive testing: over 65 Playwright E2E test files covering complete user journeys, Vitest unit tests for components and hooks, Axe Core accessibility tests. Lighthouse scores: 100% SEO, 100% Accessibility, 75%+ Performance",
           "Integrated production APIs with proper error handling and TypeScript interfaces: Stripe payments with webhook validation, Google Calendar API for booking, Resend for emails, OpenAI for RAG chatbot using pgvector semantic search",
           "Built WCAG AA accessible UI following semantic HTML, proper ARIA labels, keyboard navigation, focus management. Component-based architecture with reusable patterns and custom hooks for shared logic",
-          "Maintained three-branch deployment workflow (dev → testing → production) with GitHub Actions CI/CD running tests and accessibility checks on every PR. 1,338 commits demonstrating consistent production work",
+          "Maintained three-branch deployment workflow (dev → testing → production) with GitHub Actions CI/CD running tests and accessibility checks on every PR. Over 1,335 commits demonstrating consistent production work",
           "Client: Acadio (EdTech) — Started as API contractor, proved value through clean code and reliable delivery, expanded to technical operations over 9 months"
         ],
         "resume_summary": "E-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately, making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed.",
@@ -661,9 +661,9 @@
       "title": "Web Applications Programmer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "Full-stack developer with proven experience building production applications at scale. Built e-commerce platform with 160 React components, 74 API routes, and 69 E2E test files covering complete user journeys. Stack: React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Supabase, Redis. Strong focus on testing (Playwright, Vitest), accessibility (WCAG AA, Lighthouse 100%), and clean code practices.",
-        "Experience with third-party integrations including Stripe payments, Google Calendar API, Resend emails, and AI/RAG systems (OpenAI, pgvector semantic search). Built 7 context providers for state management demonstrating deep React knowledge. Maintained three-branch deployment workflow with GitHub Actions CI/CD, 1,338 commits showing consistent production work.",
-        "Before software, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure."
+        "Full-stack developer with proven experience building production applications at scale. Built e-commerce platform with over 160 React components, over 70 API routes, and over 65 E2E test files covering complete user journeys. Stack: React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Supabase, Redis. Strong focus on testing (Playwright, Vitest), accessibility (WCAG AA, Lighthouse 100%), and clean code practices.",
+        "Experience with third-party integrations including Stripe payments, Google Calendar API, Resend emails, and AI/RAG systems (OpenAI, pgvector semantic search). Built over 5 context providers for state management demonstrating deep React knowledge. Maintained three-branch deployment workflow with GitHub Actions CI/CD, over 1,335 commits showing consistent production work.",
+        "Before software, I worked in sales at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure."
       ],
       "skills_display": [
         {
@@ -853,9 +853,9 @@
       "context": "frontend_react",
       "output_file": "resume-frontend.html",
       "summary_paragraphs": [
-        "Frontend developer specializing in React, Next.js, and TypeScript for production web applications. Built complete e-commerce platform with 160 components, 74 API routes, and comprehensive testing (69 E2E test files + unit tests). Strong focus on accessibility (WCAG AA, Lighthouse 100%), component architecture, and responsive design.",
-        "Hands-on experience with state management using 7 context providers, API integration (Stripe, Google Calendar, OpenAI), and modern CSS frameworks (Tailwind). Maintain CI/CD pipelines with GitHub Actions and follow test-driven development practices. Production deployment on Vercel with three-branch workflow.",
-        "Before software, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure. I've put in the reps: my GitHub shows 1,338 commits and production-grade code."
+        "Frontend developer specializing in React, Next.js, and TypeScript for production web applications. Built complete e-commerce platform with over 160 components, over 70 API routes, and comprehensive testing (over 65 E2E test files + unit tests). Strong focus on accessibility (WCAG AA, Lighthouse 100%), component architecture, and responsive design.",
+        "Hands-on experience with state management using over 5 context providers, API integration (Stripe, Google Calendar, OpenAI), and modern CSS frameworks (Tailwind). Maintain CI/CD pipelines with GitHub Actions and follow test-driven development practices. Production deployment on Vercel with three-branch workflow.",
+        "Before software, I worked in sales at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure. I've put in the reps: my GitHub shows over 1,335 commits and production-grade code."
       ],
       "skills_display": [
         {
