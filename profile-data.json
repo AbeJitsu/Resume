@@ -151,28 +151,6 @@
         "title_progression": "Salesperson → Sales Manager → Finance Manager"
       },
       "variants": {
-        "automotive": {
-          "title": "Finance and Insurance Manager",
-          "bullets": [
-            "Advanced through three positions (Salesperson → Sales Manager → F&I Manager) based on strong customer service and sales performance",
-            "Sold aftermarket products including extended warranties, GAP insurance, window tinting, and maintenance plans while maintaining ethical selling standards",
-            "Worked with both prime and subprime lending, understanding diverse customer financing needs and credit situations",
-            "Built strong customer relationships resulting in repeat business and referrals",
-            "Consistently ranked in top third among sales team peers for performance",
-            "Maintained comprehensive product knowledge across Toyota's new and used vehicle inventory"
-          ]
-        },
-        "general_sales": {
-          "title": "Sales Manager / Finance Specialist",
-          "bullets": [
-            "Progressed through three sales roles (Sales Associate → Sales Manager → Finance Specialist) based on consistent performance and customer service excellence",
-            "Consulted with customers to understand needs, present solutions, and close sales in competitive market",
-            "Built long-term customer relationships resulting in repeat business and referral generation",
-            "Cross-sold complementary products and services, increasing average transaction value",
-            "Managed payment options and financing solutions for customers with diverse credit backgrounds",
-            "Consistently ranked in top third among sales team for performance and customer satisfaction"
-          ]
-        },
         "sales_specialist": {
           "title": "Sales Specialist",
           "bullets": [
@@ -182,27 +160,6 @@
             "Consistently ranked in top third among sales team for performance and customer satisfaction",
             "Maintained comprehensive product knowledge across Toyota's new and used vehicle inventory",
             "Advanced to leadership roles based on strong sales performance and customer service excellence"
-          ]
-        },
-        "tech": {
-          "title": "Finance & Insurance Manager",
-          "bullets": [
-            "Developed strong client communication skills working directly with customers to explain complex products and processes",
-            "Collaborated across departments to resolve customer concerns and deliver exceptional service",
-            "Managed multiple priorities in fast-paced environment while maintaining attention to detail"
-          ]
-        },
-        "frontend_react": {
-          "title": "React Frontend Developer",
-          "bullets": [
-            "Built production e-commerce platform with 160 React components and 74 API routes, demonstrating strong component architecture and reusable design patterns",
-            "Building real-time streaming chat interface for automation dashboard (bridgette-automation) using Next.js 14, TypeScript, React hooks, and server-sent events for responsive streaming responses",
-            "Implemented 7 context providers for application state management (Auth, Cart, Toast, Stripe, ServiceModal, InlineEdit, Theme) showing deep understanding of React hooks and context patterns",
-            "Created comprehensive test suite with 69 Playwright E2E test files covering complete user journeys from browsing to payment, plus Vitest unit tests for components and custom hooks",
-            "Achieved WCAG AA accessibility compliance across all components using semantic HTML, proper ARIA labels, keyboard navigation, and focus management",
-            "Integrated multiple third-party APIs with proper TypeScript interfaces and error handling: Stripe payments with webhooks, Google Calendar API for appointments, Resend for transactional emails, OpenAI for RAG chatbot",
-            "Built responsive interfaces with Tailwind CSS following mobile-first design, implemented optimistic UI updates and caching patterns (pgvector semantic search, Redis) for performance optimization",
-            "Established three-branch deployment workflow (dev → testing → production) with GitHub Actions CI/CD pipeline automatically running full test suite and accessibility checks before each deployment"
           ]
         }
       },
