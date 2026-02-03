@@ -183,11 +183,14 @@ function buildResumeData(variantKey: string): Record<string, unknown> {
 
     const bullets_html = bullets.map((b) => `                        <li>${b}</li>`).join('\n');
 
+    // Handle both schema formats: direct dates or dates in base
+    const datesObj = baseExp.dates || baseExp.base?.dates;
+
     return {
       title,
-      company: expConfig.company_override || baseExp.company,
-      description: expConfig.description_override || baseExp.company_description,
-      dates: baseExp.dates.display,
+      company: expConfig.company_override || baseExp.company || baseExp.base?.company,
+      description: expConfig.description_override || baseExp.company_description || baseExp.base?.company_description,
+      dates: datesObj?.display || '',
       bullets,
       bullets_html,
       page_break: expConfig.page_break || false,

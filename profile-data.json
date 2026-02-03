@@ -21,7 +21,6 @@
       "linkedin": "https://www.linkedin.com/in/weneedthisdone"
     }
   },
-
   "bios": {
     "headline": {
       "content": "Full-stack developer building with React, Next.js, and AI/RAG systems. Army medic discipline + 7 years in automotive finance taught me to solve problems under pressure and deliver results.",
@@ -44,7 +43,6 @@
       "use": "LinkedIn About section"
     }
   },
-
   "work_experience": [
     {
       "id": "needthisdone",
@@ -77,16 +75,24 @@
             "Designed automated workflows eliminating manual processes",
             "Handled data migrations turning multi-day headaches into same-day completions"
           ],
-          "technologies": ["Python", "Puppeteer", "BeautifulSoup", "TinyMCE"]
+          "technologies": [
+            "Python",
+            "Puppeteer",
+            "BeautifulSoup",
+            "TinyMCE"
+          ]
         }
       ],
       "descriptions": {
         "application_description": "Independent consulting practice building production software and solving technical problems for clients. Largest engagement was Acadio (EdTech), where I started as a contractor and expanded into technical operations. Also built my own e-commerce platform (needthisdone.com) and provided data transformation and automation services for business clients.",
         "resume_bullets": [
-          "Built production e-commerce platform with AI chatbot, payment processing, and automated testing (needthisdone.com)",
-          "Client: Acadio (EdTech) — Started as API contractor, proved value, expanded to technical operations over 9 months",
-          "Built automated data extraction workflows using Python (BeautifulSoup, Selenium) to convert PDFs, Excel files, and web content into clean, structured formats. Scraped regulated content (FINRA rules) for RAG systems with validation and quality checks",
-          "Ongoing client services: web development, data automation, and marketing analytics"
+          "Built production e-commerce platform with 160 React components, 74 API routes, 24 public + 18 admin pages using Next.js and TypeScript. Implemented 7 context providers for state management and Tailwind CSS for responsive design",
+          "Building experimental automation dashboard (bridgette-automation) with Next.js 14, TypeScript, and React for custom developer workflow tooling. Implemented real-time streaming chat UI, three-panel responsive layout, task tracking, and scheduled automation via launchd. TypeScript comprises 94.7% of codebase",
+          "Comprehensive testing: 69 Playwright E2E test files covering complete user journeys, Vitest unit tests for components and hooks, Axe Core accessibility tests. Lighthouse scores: 100% SEO, 100% Accessibility, 78% Performance",
+          "Integrated production APIs with proper error handling and TypeScript interfaces: Stripe payments with webhook validation, Google Calendar API for booking, Resend for emails, OpenAI for RAG chatbot using pgvector semantic search",
+          "Built WCAG AA accessible UI following semantic HTML, proper ARIA labels, keyboard navigation, focus management. Component-based architecture with reusable patterns and custom hooks for shared logic",
+          "Maintained three-branch deployment workflow (dev → testing → production) with GitHub Actions CI/CD running tests and accessibility checks on every PR. 1,338 commits demonstrating consistent production work",
+          "Client: Acadio (EdTech) — Started as API contractor, proved value through clean code and reliable delivery, expanded to technical operations over 9 months"
         ],
         "resume_summary": "E-commerce platform: Complete system with shopping flows, user authentication, order management, admin dashboard, and component-based page builder so non-technical users can create pages without code. Built with a layered architecture that handles traffic, business logic, and data separately, making the system faster and easier to maintain. Smart indexing ensures pages load quickly by only updating what's changed.",
         "linkedin": "Independent consulting practice focused on full-stack development, data transformation, and technical problem-solving.\n\nLargest Engagement: Acadio (EdTech)\nApril 2025 - December 2025\n\nStarted as a contractor doing API integration work. Proved value quickly and expanded into technical operations:\n\n• Designed web scraping infrastructure to collect FINRA rules and regulations for AI-powered study content\n• Built Python scripts to convert messy PDFs into clean HTML for the learning platform\n• Transformed unformatted Word docs and Excel files into structured formats\n• Became the person leadership came to with technical questions\n\nOwn Platform: needthisdone.com\n\nProfessional services marketplace with:\n• Next.js + Supabase + Redis architecture\n• AI chatbot using RAG (pgvector + OpenAI)\n• Stripe payment processing and appointment booking\n• Automated test suite with Playwright\n• WCAG AA accessibility compliance\n\nOngoing Services:\n• Data transformation and automation for business clients\n• Web development consulting\n• Technical problem-solving\n\nTech: Next.js 14, TypeScript, React, Python, Supabase, Redis, Medusa, Stripe, Docker, Playwright",
@@ -100,23 +106,95 @@
         "Automated test suite covering full user journey",
         "WCAG AA accessibility compliance"
       ],
-      "technologies": ["Next.js 14", "TypeScript", "React", "Python", "Supabase", "Redis", "Medusa", "Stripe", "Docker", "Playwright", "Vitest", "TailwindCSS", "Puck", "OpenAI API", "Puppeteer", "BeautifulSoup"]
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "React",
+        "Context API",
+        "Python",
+        "Supabase",
+        "Redis",
+        "Upstash",
+        "Medusa",
+        "Stripe",
+        "Google Calendar API",
+        "Resend",
+        "Docker",
+        "Railway",
+        "Playwright",
+        "Vitest",
+        "Jest",
+        "Cypress",
+        "TailwindCSS",
+        "Puck",
+        "OpenAI API",
+        "pgvector",
+        "Puppeteer",
+        "BeautifulSoup",
+        "Axe Core"
+      ]
     },
     {
       "id": "toyota",
-      "company": "Toyota of Orlando",
-      "company_description": "Automotive Sales",
-      "title": "Finance Manager",
-      "title_progression": "Salesperson → Sales Manager → Finance Manager",
-      "employment_type": "Full-time",
-      "location": "Orlando, FL",
-      "location_type": "On-site",
-      "dates": {
-        "start": "2017-03",
-        "end": "2023-12",
-        "display": "Spring 2017 - Winter 2023"
+      "base": {
+        "company": "Toyota of Orlando",
+        "company_description": "Automotive Sales",
+        "employment_type": "Full-time",
+        "location": "Orlando, FL",
+        "location_type": "On-site",
+        "dates": {
+          "start": "2017-03",
+          "end": "2023-12",
+          "display": "Spring 2017 - Winter 2023"
+        },
+        "current": false,
+        "title_progression": "Salesperson → Sales Manager → Finance Manager"
       },
-      "current": false,
+      "variants": {
+        "automotive": {
+          "title": "Finance and Insurance Manager",
+          "bullets": [
+            "Advanced through three positions (Salesperson → Sales Manager → F&I Manager) based on strong customer service and sales performance",
+            "Sold aftermarket products including extended warranties, GAP insurance, window tinting, and maintenance plans while maintaining ethical selling standards",
+            "Worked with both prime and subprime lending, understanding diverse customer financing needs and credit situations",
+            "Built strong customer relationships resulting in repeat business and referrals",
+            "Consistently ranked in top third among sales team peers for performance",
+            "Maintained comprehensive product knowledge across Toyota's new and used vehicle inventory"
+          ]
+        },
+        "general_sales": {
+          "title": "Sales Manager / Finance Specialist",
+          "bullets": [
+            "Progressed through three sales roles (Sales Associate → Sales Manager → Finance Specialist) based on consistent performance and customer service excellence",
+            "Consulted with customers to understand needs, present solutions, and close sales in competitive market",
+            "Built long-term customer relationships resulting in repeat business and referral generation",
+            "Cross-sold complementary products and services, increasing average transaction value",
+            "Managed payment options and financing solutions for customers with diverse credit backgrounds",
+            "Consistently ranked in top third among sales team for performance and customer satisfaction"
+          ]
+        },
+        "tech": {
+          "title": "Finance & Insurance Manager",
+          "bullets": [
+            "Developed strong client communication skills working directly with customers to explain complex products and processes",
+            "Collaborated across departments to resolve customer concerns and deliver exceptional service",
+            "Managed multiple priorities in fast-paced environment while maintaining attention to detail"
+          ]
+        },
+        "frontend_react": {
+          "title": "React Frontend Developer",
+          "bullets": [
+            "Built production e-commerce platform with 160 React components and 74 API routes, demonstrating strong component architecture and reusable design patterns",
+            "Building real-time streaming chat interface for automation dashboard (bridgette-automation) using Next.js 14, TypeScript, React hooks, and server-sent events for responsive streaming responses",
+            "Implemented 7 context providers for application state management (Auth, Cart, Toast, Stripe, ServiceModal, InlineEdit, Theme) showing deep understanding of React hooks and context patterns",
+            "Created comprehensive test suite with 69 Playwright E2E test files covering complete user journeys from browsing to payment, plus Vitest unit tests for components and custom hooks",
+            "Achieved WCAG AA accessibility compliance across all components using semantic HTML, proper ARIA labels, keyboard navigation, and focus management",
+            "Integrated multiple third-party APIs with proper TypeScript interfaces and error handling: Stripe payments with webhooks, Google Calendar API for appointments, Resend for transactional emails, OpenAI for RAG chatbot",
+            "Built responsive interfaces with Tailwind CSS following mobile-first design, implemented optimistic UI updates and caching patterns (pgvector semantic search, Redis) for performance optimization",
+            "Established three-branch deployment workflow (dev → testing → production) with GitHub Actions CI/CD pipeline automatically running full test suite and accessibility checks before each deployment"
+          ]
+        }
+      },
       "descriptions": {
         "resume_bullets": [
           "Earned three promotions over seven years at a high-volume dealership moving 10-30 cars daily",
@@ -135,20 +213,39 @@
     },
     {
       "id": "fullsail_work",
-      "company": "Full Sail University",
-      "company_description": "Higher Education",
-      "title": "Admissions Representative & Military Student Liaison",
-      "title_alt": "Military Enrollment Counselor",
-      "title_progression": "International Admissions Rep → Military Student Liaison",
-      "employment_type": "Full-time",
-      "location": "Winter Park, FL",
-      "location_type": "On-site",
-      "dates": {
-        "start": "2012-01",
-        "end": "2017-12",
-        "display": "2012 - 2017"
+      "base": {
+        "company": "Full Sail University",
+        "company_description": "Higher Education",
+        "employment_type": "Full-time",
+        "location": "Winter Park, FL",
+        "location_type": "On-site",
+        "dates": {
+          "start": "2012-01",
+          "end": "2017-12",
+          "display": "2012 - 2017"
+        },
+        "current": false,
+        "title_progression": "International Admissions Rep → Military Student Liaison"
       },
-      "current": false,
+      "variants": {
+        "automotive": {
+          "title": "Military Enrollment Counselor",
+          "bullets": [
+            "Used Salesforce CRM daily to track prospective students, manage enrollment pipeline, and coordinate with departments",
+            "Guided military service members and families through GI Bill benefits and enrollment processes",
+            "Built trust-based relationships with customers making significant financial decisions"
+          ]
+        },
+        "general_sales": {
+          "title": "Enrollment Counselor",
+          "bullets": [
+            "Used Salesforce CRM daily to manage sales pipeline and track customer interactions",
+            "Guided prospective students through enrollment process, addressing concerns and presenting benefits",
+            "Built trust-based relationships with customers making significant financial decisions",
+            "Met enrollment targets while maintaining high customer satisfaction"
+          ]
+        }
+      },
       "descriptions": {
         "application_description": "Started working with international students, then moved to the Military department because my Army background gave me credibility with veterans navigating the transition to civilian life. Helped service members and their families understand GI Bill benefits, program costs, and how to make education work around military obligations. Same skill set I used in F&I: breaking down complex financial information so people can make confident decisions.",
         "resume_bullets": [
@@ -157,24 +254,41 @@
         ],
         "linkedin": "Started in the International department helping prospective students from around the world navigate the admissions process. These conversations required patience, cultural awareness, and the ability to explain complex US education systems to families making decisions from thousands of miles away.\n\nAfter proving I could connect with diverse audiences, moved to the Military department as a Student Liaison. This role felt personal — I'd served in the Army as a paramedic, so I understood what service members face when transitioning to civilian life.\n\nHelped veterans, active-duty personnel, and their families understand how to use their GI Bill benefits, navigate program requirements, and plan their education around military obligations. These weren't just enrollment conversations — they were career transition conversations.\n\nWhat I learned here shows up in my development work today: listening before talking, translating complex information into plain language, and understanding that behind every question is someone trying to make a better life for themselves.\n\nConsistently met enrollment goals while maintaining integrity. No high-pressure tactics — just honest guidance and genuine support.",
         "brief": "Guided students through educational decisions, specializing in international and military student support"
-      }
+      },
+      "title_alt": "Military Enrollment Counselor"
     },
     {
       "id": "army",
-      "company": "U.S. Army",
-      "company_description": "Military Service",
-      "title": "Paramedic",
-      "title_alt": "Combat Medic",
-      "rank": "Corporal (E-4)",
-      "employment_type": "Full-time",
-      "location": "Fort Hood, TX / Fort Bragg, NC",
-      "location_type": "On-site",
-      "dates": {
-        "start": "1996-01",
-        "end": "2001-03",
-        "display": "1996 - 2001"
+      "base": {
+        "company": "U.S. Army",
+        "company_description": "Military Service",
+        "employment_type": "Full-time",
+        "location": "Fort Hood, TX / Fort Bragg, NC",
+        "location_type": "On-site",
+        "dates": {
+          "start": "1996-01",
+          "end": "2001-03",
+          "display": "1996 - 2001"
+        },
+        "current": false
       },
-      "current": false,
+      "variants": {
+        "automotive": {
+          "title": "Combat Medic, Corporal (E-4)",
+          "bullets": [
+            "Led team of 3 medics and 2 combat lifesavers, demonstrating leadership under pressure",
+            "Developed strong work ethic, attention to detail, and ability to remain calm in high-stress environments"
+          ]
+        },
+        "general_sales": {
+          "title": "Team Leader",
+          "bullets": [
+            "Led team of 5 personnel, demonstrating leadership and accountability under pressure",
+            "Developed strong work ethic, attention to detail, and ability to remain calm in challenging environments",
+            "Promoted to Corporal (E-4) based on leadership and performance"
+          ]
+        }
+      },
       "descriptions": {
         "application_description": "Five years as an Army combat medic, promoted to Corporal. Led a team of 3 medics and 2 combat lifesavers. Delivered emergency care where mistakes cost lives and hesitation wasn't an option. Learned to stay calm under pressure, follow protocols precisely, and take responsibility for my team's performance. That foundation shows up in everything I've done since.",
         "resume_bullets": [
@@ -184,6 +298,7 @@
         "linkedin": "Delivered emergency medical care under high-pressure conditions requiring rapid decision-making and problem-solving. Maintained critical systems and protocols where precision and attention to detail were essential. Developed discipline, systematic thinking, and attention to detail — core skills I now apply to software architecture and testing.",
         "brief": "5 years delivering emergency medical care in high-pressure environments"
       },
+      "title_alt": "Combat Medic",
       "key_accomplishments": [
         "Emergency medical care in high-pressure conditions",
         "Rapid decision-making and problem-solving",
@@ -192,18 +307,35 @@
     },
     {
       "id": "quill",
-      "company": "Quill.com",
-      "company_description": "Office Supplies (Staples)",
-      "title": "B2B Sales Representative",
-      "employment_type": "Full-time",
-      "location": "Orlando, FL",
-      "location_type": "On-site",
-      "dates": {
-        "start": "2009-01",
-        "end": "2011-12",
-        "display": "2009 - 2011"
+      "base": {
+        "company": "Quill.com",
+        "company_description": "Office Supplies (Staples)",
+        "employment_type": "Full-time",
+        "location": "Orlando, FL",
+        "location_type": "On-site",
+        "dates": {
+          "start": "2009-01",
+          "end": "2011-12",
+          "display": "2009 - 2011"
+        },
+        "current": false
       },
-      "current": false,
+      "variants": {
+        "automotive": {
+          "title": "B2B Sales Representative",
+          "bullets": [
+            "Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts",
+            "Built relationships with business owners and office managers to establish ongoing purchasing accounts"
+          ]
+        },
+        "general_sales": {
+          "title": "B2B Sales Representative",
+          "bullets": [
+            "Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts",
+            "Built relationships with business owners and office managers to establish ongoing purchasing accounts"
+          ]
+        }
+      },
       "descriptions": {
         "resume_bullets": [
           "Outbound sales in a high-volume call center, contacting buyers to open Quill.com business accounts",
@@ -213,7 +345,6 @@
       }
     }
   ],
-
   "education": [
     {
       "id": "army_medical",
@@ -300,31 +431,79 @@
       "activities": "Deep dive into Vue.js — components, routing, state management, and the Composition API. Like drilling submissions, repetition made it stick."
     }
   ],
-
   "skills": {
     "frontend_ui": {
       "label": "Frontend & UI Systems",
-      "items": ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind", "Liquid (Shopify)", "Visual Page Builders (Puck)", "WYSIWYG Editors (TipTap)"]
+      "items": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "TypeScript",
+        "Tailwind",
+        "Liquid (Shopify)",
+        "Visual Page Builders (Puck)",
+        "WYSIWYG Editors (TipTap)"
+      ]
     },
     "backend_data": {
       "label": "Backend & Data",
-      "items": ["Node.js", "Python", "REST APIs", "GraphQL", "PostgreSQL", "MongoDB", "Supabase", "Medusa", "Redis", "Schema Design", "Zod"]
+      "items": [
+        "Node.js",
+        "Python",
+        "REST APIs",
+        "GraphQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Supabase",
+        "Medusa",
+        "Redis",
+        "Schema Design",
+        "Zod"
+      ]
     },
     "testing_quality": {
       "label": "Testing & Quality",
-      "items": ["Playwright E2E", "Vitest", "WCAG AA Accessibility", "Storybook", "CI/CD", "Git"]
+      "items": [
+        "Playwright E2E",
+        "Vitest",
+        "WCAG AA Accessibility",
+        "Storybook",
+        "CI/CD",
+        "Git"
+      ]
     },
     "ai_automation": {
       "label": "AI & Automation",
-      "items": ["LLM Integration (OpenAI, Claude)", "Prompt Engineering", "RAG Systems", "Chatbots", "Vector Embeddings", "Web Scraping (BeautifulSoup, Selenium)", "Data Extraction Workflows"]
+      "items": [
+        "LLM Integration (OpenAI, Claude)",
+        "Prompt Engineering",
+        "RAG Systems",
+        "Chatbots",
+        "Vector Embeddings",
+        "Web Scraping (BeautifulSoup, Selenium)",
+        "Data Extraction Workflows"
+      ]
     },
     "architecture": {
       "label": "Architecture",
-      "items": ["Modular Components", "Custom Hooks", "Context Providers", "Optimistic Updates", "Cache-Aside Pattern", "Turborepo", "pnpm Workspaces"]
+      "items": [
+        "Modular Components",
+        "Custom Hooks",
+        "Context Providers",
+        "Optimistic Updates",
+        "Cache-Aside Pattern",
+        "Turborepo",
+        "pnpm Workspaces"
+      ]
     },
     "design_process": {
       "label": "Design & Process",
-      "items": ["Mobile-First", "Figma", "Component Libraries", "Test-Driven Development"]
+      "items": [
+        "Mobile-First",
+        "Figma",
+        "Component Libraries",
+        "Test-Driven Development"
+      ]
     },
     "it_support": {
       "label": "IT & Technical Support",
@@ -340,7 +519,6 @@
       "context": "Years of solo development required self-sufficient troubleshooting across software, hardware, networking, and system administration"
     }
   },
-
   "projects": [
     {
       "id": "needthisdone",
@@ -355,7 +533,18 @@
       "url": "https://needthisdone.com",
       "github": "https://github.com/AbeJitsu/Need_This_Done",
       "description": "E-commerce platform with AI chatbot, appointment booking, and admin dashboards. Full test coverage.",
-      "technologies": ["Next.js 14", "TypeScript", "Supabase", "Redis", "Medusa", "Puck", "Docker", "GitHub Actions", "Playwright", "Vitest"]
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "Supabase",
+        "Redis",
+        "Medusa",
+        "Puck",
+        "Docker",
+        "GitHub Actions",
+        "Playwright",
+        "Vitest"
+      ]
     },
     {
       "id": "flashcard_system",
@@ -368,7 +557,33 @@
       },
       "featured": false,
       "description": "Python/HTML automation for managing flashcard content with Excel/XLSX processing, automated creation scripts, and systematic validation. Foundation for Acadio automation work.",
-      "technologies": ["Python", "HTML", "Excel/XLSX processing"]
+      "technologies": [
+        "Python",
+        "HTML",
+        "Excel/XLSX processing"
+      ]
+    },
+    {
+      "id": "bridgette",
+      "name": "Bridgette Automation Dashboard",
+      "role": "Developer",
+      "dates": {
+        "start": "2026-01",
+        "end": null,
+        "display": "January 2026 - Present"
+      },
+      "featured": false,
+      "url": "https://github.com/AbeJitsu/bridgette-automation",
+      "description": "Next.js dashboard wrapping Claude Code CLI with custom chat UI, streaming responses, task tracking, and automation scheduling. Built for personal developer workflow optimization.",
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Real-time Streaming",
+        "launchd",
+        "Bearer Token Auth"
+      ]
     },
     {
       "id": "merge_52",
@@ -381,10 +596,13 @@
       },
       "featured": false,
       "description": "JavaScript card game featuring organized code architecture, fair randomization algorithms, and an AI opponent that makes strategic decisions.",
-      "technologies": ["JavaScript", "OOP", "Algorithms"]
+      "technologies": [
+        "JavaScript",
+        "OOP",
+        "Algorithms"
+      ]
     }
   ],
-
   "linkedin_posts": [
     {
       "id": "developer_intro",
@@ -393,7 +611,6 @@
       "content": "You probably have a dozen technical problems that aren't getting solved because your team is stretched thin.\n\nI specialize in being the person who takes those problems off your plate.\n\n---\n\nHere's what I do well:\n\n• Build e-commerce platforms (checkout flows, payment processing, order management)\n\n• Automate manual workflows that waste your team's time\n\n• Integrate AI features that add value (RAG systems, semantic search, chatbots)\n\n• Write tests so bugs get caught before customers see them\n\n• Communicate in plain language, no jargon walls\n\n---\n\nRecent work:\n\nComplete e-commerce platform with AI chatbot, appointment booking, and admin dashboards.\n\nComprehensive test coverage with unit, integration, and E2E tests covering the full user journey.\n\n---\n\nWhat makes me different:\n\nMy background (Army paramedic to Toyota Finance Manager to Full-stack developer) means I understand both the technical work and the business reasons behind it.\n\nIf you're tired of developers who over-promise and under-deliver, let's talk. I'd rather show you what I've built than tell you what I can do."
     }
   ],
-
   "cover_letter_elements": {
     "key_accomplishments": {
       "acadio": [
@@ -428,13 +645,19 @@
       "it_support_helpdesk": "Years of solo development have made me a self-sufficient troubleshooter across software, hardware, and systems. When something breaks, I diagnose and fix it. I have hands-on experience with remote support tools like TeamViewer and Remote Desktop, and my background explaining complex technical concepts to non-technical audiences (7 years in automotive finance, 5 years in admissions) means I can communicate clearly with end users while resolving their issues efficiently."
     }
   },
-
   "metadata": {
     "last_updated": "2026-01-21",
     "tone_guidelines": {
       "style": "inviting, focused, considerate, supportive, influential",
       "language": "relatable language most adults can easily understand",
-      "avoid": ["jargon without context", "generic statements", "negative comments", "over-explanation", "em dashes", "overuse of I"]
+      "avoid": [
+        "jargon without context",
+        "generic statements",
+        "negative comments",
+        "over-explanation",
+        "em dashes",
+        "overuse of I"
+      ]
     },
     "career_narrative": {
       "theme": "Over 25 years working with technology in business environments",
@@ -465,23 +688,88 @@
       }
     }
   },
-
   "resume_variants": {
     "dev": {
-      "title": "Full-Stack Developer",
+      "title": "Web Applications Programmer",
       "output_file": "resume-dev.html",
       "summary_paragraphs": [
-        "Full-stack developer specializing in React, Next.js, and TypeScript for building modern web applications. I build complete systems from database design through responsive frontends, with production experience in e-commerce platforms, AI integration, and data automation.",
-        "My approach combines clean code with practical problem-solving. I write tests, document decisions, and build for maintainability. Strong communication skills from years of translating complex information help me collaborate effectively across teams.",
-        "Before software, I earned three promotions at Toyota and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure."
+        "Full-stack developer with proven experience building production applications at scale. Built e-commerce platform with 160 React components, 74 API routes, and 69 E2E test files covering complete user journeys. Stack: React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Supabase, Redis. Strong focus on testing (Playwright, Vitest), accessibility (WCAG AA, Lighthouse 100%), and clean code practices.",
+        "Experience with third-party integrations including Stripe payments, Google Calendar API, Resend emails, and AI/RAG systems (OpenAI, pgvector semantic search). Built 7 context providers for state management demonstrating deep React knowledge. Maintained three-branch deployment workflow with GitHub Actions CI/CD, 1,338 commits showing consistent production work.",
+        "Before software, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure."
       ],
       "skills_display": [
-        { "label": "Frontend & UI", "items": ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Responsive Design", "Component Libraries"] },
-        { "label": "Backend & Data", "items": ["Node.js", "PostgreSQL", "Supabase", "REST APIs", "Redis", "Python", "Database Design", "Third-Party APIs"] },
-        { "label": "Testing & Quality", "items": ["Playwright E2E", "Vitest", "Unit Testing", "Integration Testing", "WCAG AA Accessibility", "CI/CD"] },
-        { "label": "Tools & DevOps", "items": ["Git", "Docker", "GitHub Actions", "Vercel", "pnpm/npm", "Linux"] },
-        { "label": "AI & Automation", "items": ["OpenAI API", "RAG Systems", "Vector Embeddings", "Web Scraping", "Data Transformation"] },
-        { "label": "Soft Skills", "items": ["Technical Writing", "Code Reviews", "Problem Solving", "Cross-Functional Collaboration"] }
+        {
+          "key": "frontend_core",
+          "label": "Frontend Development",
+          "items": [
+            "React & React Hooks",
+            "Next.js 14",
+            "Vue.js",
+            "JavaScript (ES6+)",
+            "TypeScript",
+            "CSS",
+            "Tailwind CSS",
+            "Component Architecture",
+            "State Management (Context API, Redux patterns)"
+          ]
+        },
+        {
+          "key": "backend_apis",
+          "label": "Backend & APIs",
+          "items": [
+            "Node.js",
+            "Express",
+            "REST APIs",
+            "PostgreSQL",
+            "Supabase",
+            "Third-Party Integrations"
+          ]
+        },
+        {
+          "key": "testing_quality",
+          "label": "Testing & Quality",
+          "items": [
+            "Playwright E2E (Cypress equivalent)",
+            "Jest Unit Testing (Vitest equivalent)",
+            "React Testing Library",
+            "Integration Testing",
+            "WCAG AA Accessibility",
+            "Axe Core",
+            "Lighthouse Optimization"
+          ]
+        },
+        {
+          "key": "dev_tools",
+          "label": "Development Tools",
+          "items": [
+            "Git",
+            "CI/CD Pipelines",
+            "Code Reviews",
+            "Development Standards",
+            "Storybook"
+          ]
+        },
+        {
+          "key": "problem_solving",
+          "label": "Problem-Solving",
+          "items": [
+            "Tier 3 Support",
+            "Debugging",
+            "Analytical Skills",
+            "Root Cause Analysis",
+            "Performance Analysis"
+          ]
+        },
+        {
+          "key": "communication",
+          "label": "Communication Skills",
+          "items": [
+            "Requirements Gathering",
+            "Cross-Functional Teams",
+            "Mentoring",
+            "Technical Documentation"
+          ]
+        }
       ],
       "experience": [
         {
@@ -510,18 +798,40 @@
       ],
       "featured_projects": [
         {
+          "id": "vue-ecommerce",
+          "name": "E-Commerce Platform (Vue.js)",
+          "role_override": "Personal Project",
+          "bullets": [
+            "Full-stack e-commerce application with Vue.js frontend and Express/Node.js backend",
+            "RESTful API design with proper error handling and validation",
+            "Database schema design for products, orders, and user management"
+          ],
+          "technologies_override": [
+            "Vue.js",
+            "Express",
+            "Node.js",
+            "REST APIs",
+            "MongoDB"
+          ]
+        },
+        {
           "id": "needthisdone",
           "role_override": "Live Production Platform",
           "bullets": [
-            "Full-stack e-commerce platform with Next.js, TypeScript, and React serving real customers",
-            "Complete feature set: shopping cart, Stripe payments, appointment booking, user authentication, admin dashboards",
-            "AI chatbot using RAG (Supabase pgvector + OpenAI) for context-aware customer support",
-            "Redis caching layer and optimistic UI updates for fast, responsive user experience",
-            "Comprehensive test coverage with Playwright E2E and Vitest unit tests running in CI/CD pipeline",
-            "WCAG AA accessibility compliance across all components",
-            "Component-based page builder (Puck) allowing content updates without code changes"
+            "Architecture: 160 React components, 74 API routes, 24 public + 18 admin pages. Seven context providers managing Auth, Cart, Toast, Stripe, ServiceModal, InlineEdit, and Theme",
+            "Testing: 69 Playwright E2E test files covering full user journeys (browsing → checkout → payment), Vitest unit tests for components and custom hooks, Axe Core accessibility tests",
+            "Performance: Lighthouse 100% SEO, 100% Accessibility, 78% Performance. Redis caching (Upstash), optimistic UI updates, pgvector semantic search for RAG chatbot",
+            "APIs: Integrated Stripe payments with webhook validation, Google Calendar API for appointment booking, Resend for transactional emails, OpenAI for context-aware chatbot",
+            "Accessibility: WCAG AA compliant with semantic HTML, proper ARIA labels, keyboard navigation, focus management across all components",
+            "Deployment: Three-branch workflow (dev → testing → production) with GitHub Actions CI/CD running full test suite and accessibility checks before each merge"
           ],
-          "technologies_override": ["Next.js 14", "React", "TypeScript", "Supabase", "Redis", "Stripe", "Docker", "Playwright", "OpenAI"]
+          "technologies_override": [
+            "React", "Next.js 14", "TypeScript", "Tailwind CSS",
+            "Context API", "Playwright", "Vitest", "Axe Core",
+            "Node.js", "Supabase", "PostgreSQL", "Redis (Upstash)",
+            "Stripe", "Google Calendar API", "Resend", "OpenAI",
+            "pgvector", "Docker", "Railway", "GitHub Actions"
+          ]
         }
       ],
       "education": [
@@ -536,9 +846,9 @@
           "description": "Seven years of consistent skill development while working full-time. Progressed from tutorials to building production applications."
         },
         {
-          "school": "Continuous Professional Development",
-          "dates": "2023 - 2026",
-          "description": "Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code, ongoing learning through documentation, technical blogs, and hands-on project work."
+          "school": "Structured Coursework",
+          "dates": "2023 - Present",
+          "description": "freeCodeCamp Responsive Web Design Certification, freeCodeCamp Full Stack Developer Certification (in progress), Khan Academy CS Principles (100% mastery), Vue.js Complete Guide, 100 Days of Code."
         },
         {
           "school": "U.S. Army Medical Department Center & School",
@@ -567,9 +877,189 @@
           "author": "John Gottman",
           "impact": "What keeps marriages together keeps teams together: fix things fast, assume good intent, stay curious about the people you work with."
         }
-      ]
+      ],
+      "context": "tech"
     },
-
+    "frontend": {
+      "title": "React Frontend Developer",
+      "context": "frontend_react",
+      "output_file": "resume-frontend.html",
+      "summary_paragraphs": [
+        "Frontend developer specializing in React, Next.js, and TypeScript for production web applications. Built complete e-commerce platform with 160 components, 74 API routes, and comprehensive testing (69 E2E test files + unit tests). Strong focus on accessibility (WCAG AA, Lighthouse 100%), component architecture, and responsive design.",
+        "Hands-on experience with state management using 7 context providers, API integration (Stripe, Google Calendar, OpenAI), and modern CSS frameworks (Tailwind). Maintain CI/CD pipelines with GitHub Actions and follow test-driven development practices. Production deployment on Vercel with three-branch workflow.",
+        "Before software, I earned three promotions at Toyota over seven years and led a medic team in the Army. That background taught me discipline, ownership, and how to deliver under pressure. I've put in the reps: my GitHub shows 1,338 commits and production-grade code."
+      ],
+      "skills_display": [
+        {
+          "key": "frontend_core",
+          "label": "Frontend & UI",
+          "items": [
+            "React & React Hooks",
+            "Next.js 14",
+            "TypeScript",
+            "CSS & Tailwind CSS",
+            "Component Architecture",
+            "Custom Hooks",
+            "State Management (Context API, Redux patterns)"
+          ]
+        },
+        {
+          "key": "react_specific",
+          "label": "React Mastery",
+          "items": [
+            "Context Providers (7 in production app)",
+            "Component Library Design",
+            "React Testing Library",
+            "Performance Optimization",
+            "Optimistic UI Updates",
+            "Code Splitting & Lazy Loading"
+          ]
+        },
+        {
+          "key": "testing_quality",
+          "label": "Testing & Quality",
+          "items": [
+            "Playwright E2E (69 test files in production)",
+            "Jest Unit Testing",
+            "React Testing Library",
+            "Vitest",
+            "WCAG AA Accessibility",
+            "Axe Core",
+            "Lighthouse Optimization"
+          ]
+        },
+        {
+          "key": "api_integration",
+          "label": "API Integration & Services",
+          "items": [
+            "REST API Design",
+            "Third-party APIs (Stripe, Google Calendar, Resend)",
+            "Error Handling & Validation",
+            "TypeScript Interfaces",
+            "Webhook Handling",
+            "Data Fetching & Caching"
+          ]
+        },
+        {
+          "key": "dev_tools",
+          "label": "Development Tools & Workflow",
+          "items": [
+            "Git & GitHub",
+            "GitHub Actions CI/CD",
+            "Docker",
+            "Three-branch Deployment Workflow",
+            "Code Reviews",
+            "Test-Driven Development",
+            "Storybook"
+          ]
+        },
+        {
+          "key": "tools_services",
+          "label": "Tools & Services",
+          "items": [
+            "Supabase (PostgreSQL + Auth)",
+            "Redis (Upstash)",
+            "Stripe Payments",
+            "Google Calendar API",
+            "Resend Emails",
+            "OpenAI Integration",
+            "Vercel Deployment"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "id": "needthisdone",
+          "title_override": "React Frontend Developer",
+          "company_override": "needthisdone.com",
+          "description_override": "Production E-Commerce Platform",
+          "show_client_engagements": false
+        },
+        {
+          "id": "toyota",
+          "page_break": true,
+          "title_override": "Finance and Insurance Manager",
+          "description_override": "Salesperson → Sales Manager → F&I Manager"
+        },
+        {
+          "id": "fullsail_work",
+          "title_override": "Military Enrollment Counselor",
+          "description_override": "International Admissions → Military Student Services"
+        },
+        {
+          "id": "army",
+          "title_override": "Combat Medic, Corporal (E-4)",
+          "description_override": "Fort Hood, TX & Fort Bragg, NC"
+        }
+      ],
+      "featured_projects": [
+        {
+          "id": "needthisdone",
+          "role_override": "Live Production Platform at needthisdone.com",
+          "bullets": [
+            "React component architecture: 160 components organized by feature with reusable patterns. Seven context providers (Auth, Cart, Toast, Stripe, ServiceModal, InlineEdit, Theme) managing application state across entire platform",
+            "Full-stack implementation: 74 API routes with Next.js App Router, built as RESTful services with proper error handling and TypeScript interfaces. Frontend consumes these routes using React hooks and custom data fetching patterns",
+            "Comprehensive testing: 69 Playwright E2E test files covering complete user journeys from initial browse through payment completion. Vitest unit tests for every component and custom hook. Axe Core accessibility validation on every change",
+            "Accessibility first: WCAG AA compliant across all 160 components. Semantic HTML, proper ARIA labels, keyboard navigation, focus management, color contrast compliance. Achieves Lighthouse 100% accessibility score",
+            "Performance optimized: Lighthouse 100% SEO, 78% Performance. Implemented Redis caching (Upstash) for frequently accessed data, optimistic UI updates for instant feedback, code splitting and lazy loading for faster page loads",
+            "Production deployment: Three-branch workflow (dev → testing → production) with GitHub Actions CI/CD. Every PR runs full test suite and accessibility checks before merge. Deployed to Vercel with automatic previews"
+          ],
+          "technologies_override": [
+            "React", "Next.js 14", "TypeScript", "Tailwind CSS",
+            "Context API", "Custom Hooks", "React Testing Library",
+            "Playwright", "Vitest", "Axe Core",
+            "Stripe API", "Google Calendar API", "Resend",
+            "OpenAI", "pgvector", "Supabase", "PostgreSQL",
+            "Redis", "Docker", "GitHub Actions", "Vercel"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "Full Sail University",
+          "dates": "2016 - 2017",
+          "description": "Web Design & Development coursework with focus on frontend technologies and responsive design. Earned straight A's while working full-time, demonstrating commitment to continuous learning."
+        },
+        {
+          "school": "Independent Study",
+          "dates": "2016 - 2023",
+          "description": "Seven years of self-directed learning building projects and studying documentation. Progressed from following tutorials to shipping production applications with 1,338 commits on GitHub."
+        },
+        {
+          "school": "Production Development Experience",
+          "dates": "2023 - Present",
+          "description": "Shipped needthisdone.com from concept to live production. Real-world experience with component architecture, API integration, testing at scale, accessibility compliance, and deployment pipelines."
+        },
+        {
+          "school": "U.S. Army Medical Department Center & School",
+          "dates": "1996 - 2001",
+          "description": "Combat Medic certification. Graduated top 10% of class. Training emphasized decision-making under pressure and attention to detail, skills that transfer directly to careful, deliberate software engineering."
+        }
+      ],
+      "influences": [
+        {
+          "title": "The Pragmatic Programmer",
+          "author": "David Thomas & Andrew Hunt",
+          "impact": "Why I write tests first and fix bugs before they compound. Small oversights become big problems fast."
+        },
+        {
+          "title": "Refactoring: Improving the Design of Existing Code",
+          "author": "Martin Fowler",
+          "impact": "How clean code is built incrementally through continuous improvement, not grand rewrites."
+        },
+        {
+          "title": "Web Accessibility by the Numbers",
+          "author": "WebAIM Resources",
+          "impact": "Accessibility isn't an afterthought. It's part of crafting interfaces people can actually use."
+        },
+        {
+          "title": "Never Split the Difference",
+          "author": "Chris Voss",
+          "impact": "Communication skills matter as much as technical skills. Understanding people makes you a better teammate."
+        }
+      ],
+      "context": "frontend_react"
+    },
     "sales": {
       "title": "Sales & Customer Success Professional",
       "output_file": "resume-sales.html",
@@ -581,27 +1071,69 @@
       "skills_display": [
         {
           "label": "Sales & Revenue",
-          "items": ["Consultative Selling", "Needs Assessment", "Objection Handling", "Closing Techniques", "Pipeline Management", "CRM Systems", "Upselling & Cross-selling"]
+          "items": [
+            "Consultative Selling",
+            "Needs Assessment",
+            "Objection Handling",
+            "Closing Techniques",
+            "Pipeline Management",
+            "CRM Systems",
+            "Upselling & Cross-selling"
+          ]
         },
         {
           "label": "Customer Success",
-          "items": ["Account Management", "Relationship Building", "Problem Resolution", "Client Retention", "Onboarding", "Escalation Management", "Customer Advocacy"]
+          "items": [
+            "Account Management",
+            "Relationship Building",
+            "Problem Resolution",
+            "Client Retention",
+            "Onboarding",
+            "Escalation Management",
+            "Customer Advocacy"
+          ]
         },
         {
           "label": "Communication",
-          "items": ["Complex Concept Translation", "Active Listening", "Written Communication", "Presentation Skills", "Conflict Resolution", "Cross-functional Collaboration"]
+          "items": [
+            "Complex Concept Translation",
+            "Active Listening",
+            "Written Communication",
+            "Presentation Skills",
+            "Conflict Resolution",
+            "Cross-functional Collaboration"
+          ]
         },
         {
           "label": "Technical Proficiency",
-          "items": ["CRM Platforms", "Microsoft Office Suite", "Remote Support Tools", "Data Entry & Management", "Basic Troubleshooting", "Documentation"]
+          "items": [
+            "CRM Platforms",
+            "Microsoft Office Suite",
+            "Remote Support Tools",
+            "Data Entry & Management",
+            "Basic Troubleshooting",
+            "Documentation"
+          ]
         },
         {
           "label": "Finance & Compliance",
-          "items": ["F&I Product Knowledge", "Lending Guidelines", "Regulatory Compliance", "Deal Structuring", "Contract Processing"]
+          "items": [
+            "F&I Product Knowledge",
+            "Lending Guidelines",
+            "Regulatory Compliance",
+            "Deal Structuring",
+            "Contract Processing"
+          ]
         },
         {
           "label": "Leadership",
-          "items": ["Team Mentoring", "Process Improvement", "Training Development", "Performance Under Pressure", "Decision Making"]
+          "items": [
+            "Team Mentoring",
+            "Process Improvement",
+            "Training Development",
+            "Performance Under Pressure",
+            "Decision Making"
+          ]
         }
       ],
       "experience": [
@@ -670,7 +1202,8 @@
           "author": "Chris Voss",
           "impact": "Changed how I handle objections and difficult conversations. Tactical empathy isn't manipulation. It's genuinely trying to understand the other person's perspective."
         }
-      ]
+      ],
+      "context": "general_sales"
     },
     "telesales": {
       "title": "Call Center Sales Professional",
