@@ -5,13 +5,9 @@ https://needthisdone.com | https://github.com/AbeJitsu
 
 ---
 
-[Company Name - from job posting]
-[Address]
-Orlando, FL
-
 Dear Hiring Manager,
 
-I'm writing about the React UI Frontend Developer position (12+ month contract, onsite in Orlando). I don't have 8+ years of professional frontend experience, but I've put in the reps building production software and would welcome the chance to demonstrate my capabilities through a demo project.
+I'm writing about the React UI Frontend Developer position. I don't have 8+ years of professional frontend experience, but I've put in the reps building production software and would welcome the chance to demonstrate my capabilities through a demo project.
 
 My best work is at needthisdone.com (live production site with public GitHub repo at github.com/AbeJitsu/Need_This_Done). I built it from scratch with React, Next.js, and TypeScript: over 160 components, over 70 API routes, over 65 E2E test files covering full user journeys. The code shows I understand component architecture, state management (over 5 context providers), API integration, and accessibility. The platform achieves Lighthouse scores of 100% SEO, 100% Accessibility, and 75%+ Performance. GitHub Actions runs my CI/CD pipeline with automated testing and accessibility checks before each deployment.
 
