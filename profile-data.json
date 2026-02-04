@@ -1310,11 +1310,11 @@
       "experience": [
         {
           "id": "needthisdone",
-          "title_override": "Operations Consultant",
-          "company_override": "Acadio (Primary Client)",
-          "description_override": "April 2025 - Present",
+          "title_override": "Founder & Operations Consultant",
+          "company_override": "needthisdone.com (Acadio primary client engagement)",
+          "description_override": "November 2023 - Present",
           "bullets_override": [
-            "Partner directly with CEO/President: take operational direction and deliver solutions independently, resulting in adopted processes and scaled automation",
+            "Partner directly with Acadio CEO/President: take operational direction and deliver solutions independently, resulting in adopted processes and scaled automation",
             "Built Python automation for PDF conversion, data migrations, content processing—transforming weeks of manual work into hours of automated execution"
           ]
         },
