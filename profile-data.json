@@ -1269,6 +1269,186 @@
         }
       ],
       "influences": []
+    },
+    "operations_ai": {
+      "title": "Special Projects Director",
+      "context": "tech",
+      "output_file": "resume-operations-ai.html",
+      "summary_paragraphs": [
+        "Operations professional with 19 years delivering results from ambiguous ideas. At Acadio, expanded from API contractor to primary problem-solver, building Python automation that transformed weeks into minutes. AI Native: daily Claude and Claude Code for automation, code generation, workflow optimization. Built Next.js dashboard wrapping Claude Code CLI with task tracking and automation scheduling.",
+        "Seven years at Toyota solving operational problems. Five years military leadership managing teams under pressure. Proven track record taking incomplete ideas from leadership, filling gaps, delivering working solutions. Strong force multiplier mindset: automate repetitive tasks, document, scale. Orlando-based, hybrid-ready."
+      ],
+      "skills_display": [
+        {
+          "key": "ai_automation",
+          "label": "AI & Automation (Primary Focus)",
+          "items": [
+            "Claude for Code Generation",
+            "Claude Code Automation",
+            "Python Scripting & Automation",
+            "RAG Systems (OpenAI + pgvector)",
+            "Process Automation & Workflows"
+          ]
+        },
+        {
+          "key": "backend_data",
+          "label": "Backend & Data Systems",
+          "items": [
+            "Node.js APIs",
+            "PostgreSQL",
+            "Data Migrations",
+            "Redis Caching",
+            "Supabase"
+          ]
+        },
+        {
+          "key": "testing_quality",
+          "label": "Testing & Quality Assurance",
+          "items": [
+            "Playwright E2E Testing",
+            "Test-Driven Development",
+            "Accessibility Testing (WCAG AA)",
+            "Code Quality Standards"
+          ]
+        },
+        {
+          "label": "Development Tools & Workflow",
+          "items": [
+            "Git & GitHub",
+            "GitHub Actions CI/CD",
+            "Three-branch Deployment",
+            "Docker"
+          ]
+        },
+        {
+          "label": "Operations & Process",
+          "items": [
+            "Process Automation",
+            "Data Migration",
+            "Workflow Design",
+            "Project Execution",
+            "Cross-functional Collaboration"
+          ]
+        },
+        {
+          "label": "Tools & Services",
+          "items": [
+            "PostgreSQL",
+            "Redis",
+            "Stripe API",
+            "Google Calendar API",
+            "Resend",
+            "OpenAI API",
+            "Railway",
+            "Vercel"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "id": "needthisdone",
+          "title_override": "Full-Stack Developer & Operations Consultant",
+          "company_override": "needthisdone.com",
+          "description_override": "Independent Consulting Practice (Acadio primary client)",
+          "show_client_engagements": true
+        },
+        {
+          "id": "toyota",
+          "page_break": true,
+          "title_override": "Operations & Process Manager",
+          "description_override": "Finance Manager | 7 years increasing responsibility",
+          "bullets_override": [
+            "Solved operational problems earning recognition and responsibility: streamlined workflows, trained team members, became go-to resource for complex deal structuring",
+            "Managed 300-600 units monthly while maintaining compliance, identifying process improvements and building systems that made operations smoother",
+            "Foundation for current automation mindset: solve repeatable problems once, document, and scale"
+          ]
+        },
+        {
+          "id": "fullsail_work",
+          "title_override": "Operations Coordinator",
+          "description_override": "Military Student Services | International Admissions",
+          "bullets_override": [
+            "Coordinated multi-department operations: enrollment, GI Bill processing, financial aid coordination, academic scheduling",
+            "Managed complex workflows and built relationships across departments to solve student issues requiring cross-functional collaboration",
+            "Used Salesforce CRM daily to track pipeline, manage workflows, and coordinate handoffs"
+          ]
+        },
+        {
+          "id": "army",
+          "title_override": "Medical Operations Team Leader, Corporal (E-4)",
+          "description_override": "Fort Hood, TX & Fort Bragg, NC",
+          "bullets_override": [
+            "Led team of 5 personnel managing medical operations and emergency response; promoted to Corporal (E-4) for leadership and operational execution",
+            "Developed protocols, trained team members, and delivered results from incomplete guidance under pressure",
+            "Foundation of discipline, systems thinking, and accountability driving current approach"
+          ]
+        }
+      ],
+      "featured_projects": [
+        {
+          "id": "bridgette",
+          "role_override": "Workflow Automation Dashboard",
+          "bullets": [
+            "Next.js dashboard wrapping Claude Code CLI with custom chat UI, task tracking, and automation scheduling via launchd",
+            "Real-world example of 'work yourself out of a job' philosophy: automated repetitive tasks eliminating manual work"
+          ],
+          "technologies_override": [
+            "Next.js 14",
+            "TypeScript",
+            "React",
+            "Tailwind CSS",
+            "Real-time Streaming",
+            "launchd Automation"
+          ]
+        },
+        {
+          "id": "flashcard_system",
+          "role_override": "Automation Foundation",
+          "bullets": [
+            "Python system for automating flashcard content management: Excel processing, script generation, validation",
+            "Built to learn automation patterns before applying skills to Acadio engagement"
+          ],
+          "technologies_override": [
+            "Python",
+            "Excel/XLSX Automation",
+            "BeautifulSoup"
+          ]
+        },
+        {
+          "id": "needthisdone",
+          "role_override": "Production E-Commerce Platform",
+          "bullets": [
+            "Full-stack platform with AI chatbot using RAG (pgvector + OpenAI) for context-aware responses grounded in actual service data",
+            "Three-tier architecture: Next.js frontend (160+ components), Node.js API (70+ routes), PostgreSQL + Redis. GitHub Actions CI/CD with full test suite on every PR",
+            "Integrated Stripe payments, Google Calendar, Resend emails, and OpenAI chatbot for complete business automation"
+          ],
+          "technologies_override": [
+            "Next.js 14",
+            "TypeScript",
+            "Node.js",
+            "PostgreSQL",
+            "Redis",
+            "OpenAI API",
+            "pgvector",
+            "Stripe",
+            "GitHub Actions",
+            "Playwright"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "Full Sail University",
+          "dates": "2016 - 2017",
+          "description": "Web Design & Development. Straight A's while working full-time, demonstrating ability to learn complex technical material while managing operational responsibilities."
+        },
+        {
+          "school": "Self-Directed Learning",
+          "dates": "2016 - 2023",
+          "description": "Seven years while working full-time: Khan Academy CS Principles, Udemy full-stack courses, freeCodeCamp certifications. Built projects progressively to production applications."
+        }
+      ],
+      "influences": []
     }
   }
 }
