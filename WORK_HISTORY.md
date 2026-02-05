@@ -212,7 +212,6 @@ Title: Full Stack Developer & Consultant
 - 20+ public pages, 15+ admin pages
 - RAG chatbot with pgvector semantic search
 - Stripe payment processing with webhooks
-- Google Calendar API integration
 - Resend email service
 - Redis caching for performance
 - Docker containerization

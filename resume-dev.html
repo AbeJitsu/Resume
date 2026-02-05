@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Full Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            background: #fff;
+            padding: 100px 150px 60px 150px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        @page {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media print {
+            body {
+                padding: 50px 50px 60px 50px;
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 28px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 16px;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            color: #0066cc;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .contact {
+            font-size: 12px;
+            color: #555;
+            letter-spacing: 0.3px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #0066cc;
+            letter-spacing: 1.2px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+        }
+
+        .job {
+            margin-bottom: 16px;
+            page-break-inside: avoid;
+        }
+
+        .job-acadio {
+            padding-top: 96px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .job-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0066cc;
+        }
+
+        .job-dates {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .company {
+            font-size: 13px;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        .job-description {
+            font-size: 12px;
+            color: #444;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+
+        .metrics {
+            background: #f5f8ff;
+            padding: 8px 12px;
+            border-left: 3px solid #0066cc;
+            font-size: 12px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .accomplishments {
+            font-size: 12px;
+            color: #444;
+            margin: 6px 0;
+            line-height: 1.5;
+        }
+
+        .accomplishments li {
+            margin-left: 20px;
+            margin-bottom: 4px;
+        }
+
+        .subsection-title {
+            font-weight: 600;
+            color: #0066cc;
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        .tech-stack {
+            font-size: 12px;
+            color: #444;
+            margin: 4px 0 4px 20px;
+            line-height: 1.4;
+        }
+
+        .education {
+            margin-bottom: 10px;
+        }
+
+        .education-school {
+            font-size: 13px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .education-detail {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            font-size: 12px;
+        }
+
+        .skill-category {
+            margin-bottom: 4px;
+        }
+
+        .skill-label {
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 2px;
+        }
+
+        .skill-items {
+            color: #444;
+            line-height: 1.4;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .job-header {
+                flex-direction: column;
+            }
+
+            .job-dates {
+                margin-top: 4px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">ABIEZER "ABE" REYES</div>
+            <div class="title">Full Stack Developer & AI Systems Builder</div>
+            <div class="contact">
+                Orlando, FL 32839 | 407-873-6713 | abe.raise@gmail.com<br>
+                <a href="https://needthisdone.com">needthisdone.com</a> | <a href="https://github.com/AbeJitsu">github.com/AbeJitsu</a> | <a href="https://www.linkedin.com/in/weneedthisdone/">linkedin.com/in/weneedthisdone</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Overview</div>
+            <div class="job-description">
+                Full-stack developer shipping production systems. Claude Code max subscriber using LLM-driven development daily. Built complete e-commerce platform with AI/RAG. Python automation specialist who transformed months of manual work into hours. Comfortable from database schema to deployment pipelines.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Experience</div>
+
+            <div class="job job-needthisdone">
+                <div class="job-header">
+                    <div class="job-title">Full Stack Developer</div>
+                    <div class="job-dates">2023 - Present</div>
+                </div>
+                <div class="company">needthisdone.com (Own Platform)</div>
+
+                <div class="metrics">
+                    150+ React components | 70+ API routes | 20+ public pages | 15+ admin pages | 1,300+ commits | 50+ E2E tests
+                </div>
+
+                <div class="subsection-title">Features</div>
+                <ul class="accomplishments">
+                    <li>RAG chatbot with pgvector semantic search</li>
+                    <li>Appointment booking system</li>
+                    <li>Stripe payment processing (refunds, disputes, subscriptions)</li>
+                    <li>Visual page builder for non-technical users</li>
+                    <li>Redis caching layer</li>
+                    <li>7 Context providers for state management</li>
+                    <li>WCAG AA accessibility (100% Lighthouse)</li>
+                </ul>
+
+                <div class="subsection-title">Testing & Quality</div>
+                <ul class="accomplishments">
+                    <li>50+ Playwright E2E tests covering checkout, booking, account flows</li>
+                    <li>Vitest unit tests with business logic isolation</li>
+                    <li>Storybook documentation for component API reference</li>
+                    <li>GitHub Actions CI/CD: Dev → Testing → Production</li>
+                </ul>
+
+                <div class="subsection-title">Built With</div>
+                <div class="tech-stack">
+                    Payment processing (Stripe with webhooks) | Real-time notifications (Resend email)<br>
+                    Caching layer | Semantic search (pgvector)<br>
+                    CI/CD pipeline for three environments | Comprehensive test coverage
+                </div>
+            </div>
+
+            <div class="job job-acadio">
+                <div class="job-header">
+                    <div class="job-title">Technical Operations Developer</div>
+                    <div class="job-dates">Apr 2025 - Dec 2025</div>
+                </div>
+                <div class="company">Acadio (EdTech Platform)</div>
+
+                <div class="metrics">
+                    10+ Python automation scripts | Multiple data migration pipelines | Weeks of work converted to hours
+                </div>
+
+                <ul class="accomplishments">
+                    <li>PDF to clean HTML conversion pipeline handling variable formatting</li>
+                    <li>Multi-phase validation systems with auto-correction</li>
+                    <li>FINRA web scraping infrastructure for AI study content generation</li>
+                    <li>Excel macros and VBA scripts automating client data entry</li>
+                </ul>
+
+                <div class="tech-stack">
+                    Python, Puppeteer, BeautifulSoup, PDF processing, HTML generation, TinyMCE
+                </div>
+            </div>
+
+            <div class="job job-bridgette">
+                <div class="job-header">
+                    <div class="job-title">Founder & Developer</div>
+                    <div class="job-dates">2023 - Present</div>
+                </div>
+                <div class="company">Bridgette Automation Dashboard</div>
+
+                <ul class="accomplishments">
+                    <li>Claude Code CLI wrapper with real-time streaming chat UI</li>
+                    <li>Next.js 14 with three-panel responsive layout</li>
+                    <li>Task automation scheduling via launchd</li>
+                    <li>TypeScript 90%+ of codebase</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-label">Frontend</div>
+                    <div class="skill-items">React, Next.js 14, TypeScript, Tailwind, Storybook, state management</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Backend</div>
+                    <div class="skill-items">API design, middleware, authentication, rate limiting, webhooks</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Databases</div>
+                    <div class="skill-items">PostgreSQL, Supabase, Redis, pgvector, semantic search</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">DevOps</div>
+                    <div class="skill-items">Docker, GitHub Actions, CI/CD, Railway, Vercel</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">AI & Automation</div>
+                    <div class="skill-items">Claude/OpenAI APIs, RAG systems, Python, data transformation</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Testing</div>
+                    <div class="skill-items">Playwright E2E, Vitest, accessibility (WCAG AA)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education & Learning</div>
+            <div class="education">
+                <div class="education-school">Self-Directed Development</div>
+                <div class="education-detail">2016-Present | 10 years building software through deliberate practice and production experience</div>
+            </div>
+            <div class="education">
+                <div class="education-school">freeCodeCamp Full Stack Track</div>
+                <div class="education-detail">Responsive Web Design (completed) | Full Stack Developer (in progress)</div>
+            </div>
+            <div class="education">
+                <div class="education-school">Khan Academy - AP Computer Science Principles</div>
+                <div class="education-detail">100% mastery | Algorithms, data structures, networking, cybersecurity</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
