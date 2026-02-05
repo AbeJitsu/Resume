@@ -1,5 +1,10 @@
 # Complete Work History - Abiezer "Abe" Reyes
 
+**Contact Information:**
+- Phone: 407-873-6713
+- Email: abe.raise@gmail.com
+- Location: Orlando, FL 32839
+
 **Timeline Overview:** 1996 - Present (28 years of work experience)
 
 ---
@@ -128,7 +133,7 @@ Title Progression: International Admissions Rep → Military Student Liaison
 **2017 - 2023** (6 years)
 Location: Orlando, FL
 Title Progression: Product Sales → Sales Specialist → Financial Services Specialist
-High-volume dealership (10-30 vehicles daily)
+High-volume dealership environment
 
 ### Period 1: Product Sales (2017-2020, 3 years)
 - Worked on sales floor with customers
@@ -136,47 +141,54 @@ High-volume dealership (10-30 vehicles daily)
 - Guided through complete purchase process
 - Closed sales deals by presenting vehicle features and financing options
 - Built strong customer relationships
-- Maintained consistent sales performance
+- Specialized in same-day closing (closing customers during their first visit instead of losing them to "think it over" cycle)
+- Maintained consistent sales performance across all market conditions and customer backgrounds
+
+**Performance Metrics:**
+- 25-30 vehicles per month average
+- Peak performance: 35 vehicles in best month
+- Top 25% performer in sales volume
+- Direct customer requests to work with you again
 
 ### Period 2: Sales Specialist (2020-2021, 1 year)
-- Specialized sales role focusing on customer consultation
-- Handled complex customer interactions
-- Presented vehicle options and financing solutions
-- Worked with diverse customer backgrounds and credit situations
+- Specialized sales role focusing on complex customer interactions
+- Handled diverse customer backgrounds and situations
 - Built trust with customers by explaining options clearly
-- Became go-to person when teammates had complicated deals
+
+**Performance Metrics:**
+- Up to 25 vehicles per month
+- CSI: Consistently met goals
 
 ### Period 3: Financial Services Specialist (2021-2023, 2+ years)
-- Managed F&I (Finance & Insurance) transactions
-- **Personally executed 80-100 financial deals monthly** navigating legal compliance, technical requirements, and complex negotiations
-- Handled 3-7 F&I deals daily:
-  - Vehicle Service Contracts (VSC)
-  - GAP insurance
-  - Maintenance plans
-  - Ancillary protection products
-- Structured complex financing across different lenders
-- Maintained compliance while keeping transactions smooth
-- Mentored teammates on complicated deals
-- Maintained top-third performance rankings in both sales and customer satisfaction
-- Built systems and processes that made complex operations repeatable
-- Identified and solved operational bottlenecks with simple, scalable solutions
+- Handled legal and financial paperwork as final customer touchpoint before delivery
+- Processed 3-5 transactions daily (average), 7-8 at busy times
+- Specialized in customer recovery: transformed subpar purchase experiences by making customers feel heard and understood
+- Bonus structure tied to customer satisfaction (CSI/reviews): no good CSI score meant no bonus for that transaction
+
+**Performance Metrics:**
+- 80-100 transactions monthly
+- Top two performer most weeks
+- Paid on positive Google reviews (CSI metric)
 
 ### Key Accomplishments
-- Three role progressions in 6 years (Product Sales → Sales Specialist → Financial Services)
-- Maintained top-third performance rankings in both sales volume and customer satisfaction
-- Successfully explained complex financial concepts to customers
-- Became go-to person for complicated transactions and deals
-- Built trust through transparency instead of pressure tactics
-- Consistent high-performance across all three roles
+- Three role progressions in 6 years (Product Sales → Sales Specialist → Financial Services Specialist)
+- Mastered same-day closing in Product Sales: ability to move customers from greeting to purchase decision in single visit
+- Consistent top 25% performer in sales volume during Product Sales role
+- Handled high-volume transaction processing (3-5 daily average, 7-8 at peak times) while maintaining customer satisfaction focus
+- Built strong customer relationships and specialized in customer recovery
+- Successfully explained vehicle features and financing options using clarity and transparency, not pressure tactics
 
 ### Key Skills Developed
+- Same-day closing and customer conversion
+- Customer qualification and needs assessment
+- Building trust and strong customer relationships
+- Handling complex customer interactions and difficult deals
+- High-pressure sales closing and objection handling
+- Team mentoring and leadership in sales environment
+- Translating vehicle features and financing options for non-experts
+- Customer relationship building in high-stakes financial decisions
 - Complex financial transaction structuring
 - Multi-lender deal management and compliance
-- F&I product knowledge and presentation
-- High-pressure sales closing
-- Team mentoring and leadership
-- Translating complex information for non-experts
-- Customer relationship building in high-stakes decisions
 
 ---
 
@@ -237,13 +249,14 @@ Title: Full Stack Developer & Consultant
 - Bearer token authentication
 - TypeScript comprises 90%+ of codebase
 
-### Ongoing Services
-- Data transformation and automation for business clients
-- Web development consulting
-- Technical problem-solving for various clients
-- Self-employed consultant acquiring clients through networking and relationship building
-- Consultative sales approach identifying client needs and presenting technical solutions
-- 100% commission-based structure with self-directed business development
+### Business Development & Client Acquisition
+- Self-employed business owner building client base through direct outreach, networking, and relationship building
+- Conducted needs assessments with potential clients and presented customized solutions
+- 100% commission-based revenue model requiring prospecting, relationship building, and closing
+- Built client base through networking and direct outreach (no marketing budget, no outside funding)
+- Maintained financial stability through consistent client acquisition and service delivery
+- Currently taking on new clients
+- Note: Seeking higher revenue opportunity in automotive sales after demonstrating sales and entrepreneurship capabilities
 
 ### Key Skills Developed
 - Full-stack architecture (frontend, backend, database, deployment)
