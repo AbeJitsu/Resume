@@ -44,172 +44,99 @@ Use these alternatives:
 
 Keep charts simple, use box-drawing characters, and label each step clearly.
 
-## Resume System - Creating Variants
+## Git Workflow
 
-This resume system uses **context-based variants** to maintain one source of truth while generating resumes for different audiences.
+Write code, build features, test, and refactor **without asking permission**. But always pause for explicit user approval before:
+- Staging changes (`git add`)
+- Committing changes (`git commit`)
+- Pushing to remote
+
+Git checkpoints are save points that require user review and approval. Do not auto-stage or auto-commit.
+
+## Resume System - One Source of Truth
+
+The resume system is intentionally simple: **WORK_HISTORY.md is the single source of truth**.
 
 ### Core Concept
 
-All resume content lives in `profile-data-v2.json`. Jobs can have different content for different contexts:
-- **tech**: Developer/technical positions
-- **general_sales**: Sales roles (consultative, relationship-focused)
-- **automotive**: Automotive industry sales (F&I, aftermarket products)
+All resume content lives in `WORK_HISTORY.md`:
+- Complete work history (9 jobs, all roles)
+- Detailed accomplishments and metrics
+- Technical skills and tools
+- Education and continuous learning
+- Role narratives (for cover letters, interviews)
+- Timeline verification
 
 ### File Structure
 
 ```
-profile-data-v2.json         Source of truth (edit this)
+WORK_HISTORY.md              Source of truth (edit this)
   ↓
-build-resume.ts              Context-aware generator
+Generate resumes on demand using Claude Code
   ↓
-resume-dev.html              Generated tech resume (uses "tech" context)
-resume-sales.html            Generated sales resume (uses "general_sales" context)
+resume-dev.html              Tech resume (AI-generated from markdown)
+resume-sales.html            Sales resume (AI-generated from markdown)
+resume-ats.html              ATS-optimized (AI-generated from markdown)
 ```
 
-### Creating a New Resume Variant
+### Creating a Resume
 
-When user needs a resume for a different audience:
+**Step 1: Edit WORK_HISTORY.md**
 
-**Step 1: Add context variant to existing jobs**
+Update content directly in the markdown file:
+- Add accomplishments to the relevant job section
+- Update education and skills
+- Modify role narratives as needed
 
-Find the job in `profile-data-v2.json` → `work_experience` array:
+**Step 2: Generate a resume**
 
-```json
-{
-  "id": "toyota",
-  "base": { ... },
-  "variants": {
-    "tech": { "title": "...", "bullets": [...] },
-    "general_sales": { "title": "...", "bullets": [...] },
-    "new_context": {
-      "title": "Job Title for New Audience",
-      "bullets": [
-        "Bullet point emphasizing relevant skills",
-        "Another bullet focused on this context"
-      ]
-    }
-  }
-}
-```
+Use Claude Code to generate a resume for a specific audience:
+- Request a tech resume highlighting needthisdone.com and Acadio
+- Request a sales resume emphasizing Toyota progression
+- Request an ATS-optimized variant for automated screening
 
-**Step 2: Create resume variant configuration**
+Claude Code reads WORK_HISTORY.md and generates clean HTML with:
+- Proper typography (unique font sizes, 12px minimum)
+- Professional spacing and layout
+- Content tailored to the audience
+- Ready to convert to PDF
 
-Add to `profile-data-v2.json` → `resume_variants`:
-
-```json
-{
-  "resume_variants": {
-    "new_variant": {
-      "title": "Resume Title",
-      "context": "new_context",
-      "output_file": "resume-new.html",
-      "summary_paragraphs": ["Professional summary..."],
-      "skills_display": [...],
-      "experience": [
-        { "id": "needthisdone" },
-        { "id": "toyota" },
-        { "id": "fullsail_work" }
-      ],
-      "featured_projects": [],
-      "education": [...],
-      "influences": [...]
-    }
-  }
-}
-```
-
-**Step 3: Generate the resume**
+**Step 3: Convert to PDF (if needed)**
 
 ```bash
-npx tsx build-resume.ts new_variant
+npx tsx html-to-pdf.ts resume-dev.html Resume.pdf
 ```
 
-This creates `resume-new.html` using the "new_context" content for each job.
+### Why This Approach
 
-### Content Selection Priority
+- **Single source of truth**: Everything lives in one markdown file
+- **Version control friendly**: Markdown is easy to track in git
+- **No build complexity**: No JSON configs or template engines
+- **Easy to update**: Edit markdown, regenerate resumes
+- **Flexible**: AI can adapt content for any audience
+- **Maintainable**: Clear structure, easy to find sections
 
-The build system uses this fallback chain:
+### Example Workflow
 
 ```
-1. Explicit override in experience config
+1. You have a job opportunity for healthcare sales
    ↓
-2. Context-specific variant
+2. Edit WORK_HISTORY.md - add healthcare-specific accomplishments
+   (or ask Claude to generate a healthcare-focused variant)
    ↓
-3. Base content (if no variant exists)
+3. Claude generates resume-healthcare.html
+   emphasizing trust-building and complex transactions
    ↓
-4. Defaults
-```
-
-This allows gradual migration and temporary overrides.
-
-### When to Create New Context vs New Variant
-
-**New Context** (add to job variants):
-- Different industry focus (healthcare, finance, logistics)
-- Different role type (management vs IC, technical vs non-technical)
-- Different emphasis on same experience (leadership vs execution)
-
-**New Variant** (new resume config):
-- Different job application using existing context
-- Same content, different ordering/selection of jobs
-- Different summary or skills presentation
-
-### Example: Adding Healthcare Context
-
-User wants resume for healthcare sales:
-
-```json
-// In work_experience → toyota job
-"variants": {
-  "healthcare": {
-    "title": "Client Success Manager",
-    "bullets": [
-      "Managed complex transactions in high-stakes environment",
-      "Built trust with clients making significant financial decisions",
-      "Maintained detailed records and compliance with regulations"
-    ]
-  }
-}
-
-// In resume_variants
-"healthcare_sales": {
-  "title": "Healthcare Sales Professional",
-  "context": "healthcare",
-  "output_file": "resume-healthcare-sales.html",
-  ...
-}
-```
-
-### Workflow
-
-```
-User requests resume for X audience
-  ↓
-Identify context (existing or new)
-  ↓
-If new context:
-  • Add variants to relevant jobs
-  • Create resume variant config
-  ↓
-Generate:
-  npx tsx build-resume.ts variant_name
-  ↓
-Convert to PDF:
-  npx tsx html-to-pdf.ts resume-X.html Resume.pdf
+4. Convert to PDF:
+   npx tsx html-to-pdf.ts resume-healthcare.html Resume.pdf
 ```
 
 ### Important Notes
 
-- Each job can have unlimited context variants
-- Not all jobs need variants for every context
-- Missing variant = falls back to base content
-- Update `profile-data-v2.json` directly (no separate HTML editing)
-- All generated HTML files can be recreated anytime
+- WORK_HISTORY.md is the only file you need to maintain
+- Generated HTML files can be recreated anytime
 - Don't store generated PDFs in git (regenerate as needed)
-
-### Reference Documents
-
-- `QUICK_START.md` - Day-to-day usage guide
-- `IMPLEMENTATION_COMPLETE.md` - Full technical details
-- `MIGRATION_SUMMARY.md` - How the system was built
+- Edit WORK_HISTORY.md directly, no intermediate files
+- Use role narratives section for cover letter content
+- All metrics and accomplishments go in WORK_HISTORY.md
 
