@@ -204,7 +204,7 @@ Title: Full Stack Developer & Consultant
 - Admin dashboard for site management
 - Full test coverage
 
-**Tech Stack:** Next.js 14, TypeScript, React, Context API, Supabase, PostgreSQL, Redis (Upstash), Medusa, Stripe, Docker, Railway, Vercel, GitHub Actions, Playwright, Vitest, Storybook
+**Tech Stack:** Next.js 14, Node.js, Express.js, TypeScript, React, Context API, Supabase, PostgreSQL, MongoDB, Redis (Upstash), Medusa, Stripe, Docker, Railway, Vercel, GitHub Actions, Playwright, Vitest, Storybook
 
 **Key Features:**
 - 160+ React components (organized by feature with reusable patterns)
