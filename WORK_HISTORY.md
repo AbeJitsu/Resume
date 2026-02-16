@@ -62,6 +62,7 @@ Company: Cable/telecommunications provider
 - Inbound customer calls for cable/internet services
 - Sold cable and internet packages
 - Handled customer inquiries and service upgrades
+- Ranked in top 25% of salespeople
 
 ---
 
