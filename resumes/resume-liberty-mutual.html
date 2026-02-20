@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiezer Reyes - Inside Sales Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.45;
+            background: #fff;
+            padding: 40px 50px 40px 50px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 620px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        @page {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media print {
+            body {
+                padding: 55px 50px 50px 50px;
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            color: #0066cc;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .contact {
+            font-size: 12px;
+            color: #555;
+            letter-spacing: 0.3px;
+        }
+
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #0066cc;
+            letter-spacing: 1.2px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+        }
+
+        .job {
+            margin-bottom: 10px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .job-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0066cc;
+        }
+
+        .job-dates {
+            font-size: 12px;
+            color: #666;
+            white-space: nowrap;
+        }
+
+        .company {
+            font-size: 13px;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .job-description {
+            font-size: 12px;
+            color: #444;
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+
+        .metrics {
+            background: #f5f8ff;
+            padding: 6px 10px;
+            border-left: 3px solid #0066cc;
+            font-size: 12px;
+            color: #1a1a1a;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        .accomplishments {
+            font-size: 12px;
+            color: #444;
+            margin: 5px 0;
+            line-height: 1.4;
+        }
+
+        .accomplishments li {
+            margin-left: 20px;
+            margin-bottom: 2px;
+        }
+
+        .page-two-start.page-two-start {
+            page-break-before: always;
+            padding-top: 80px;
+        }
+
+        .sub-role {
+            margin-top: 4px;
+            padding: 4px 0;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .sub-role-title {
+            font-weight: 600;
+            color: #0066cc;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .education {
+            margin-bottom: 10px;
+        }
+
+        .education-school {
+            font-size: 13px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .education-detail {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .skill-category {
+            margin-bottom: 2px;
+        }
+
+        .skill-label {
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 2px;
+        }
+
+        .skill-items {
+            color: #444;
+            line-height: 1.4;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .early-roles {
+            font-size: 12px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .early-roles .role-line {
+            margin-bottom: 2px;
+        }
+
+        .early-roles .role-title {
+            font-weight: 600;
+        }
+
+        .page-break {
+            page-break-before: always;
+            padding-top: 60px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .job-header {
+                flex-direction: column;
+            }
+
+            .job-dates {
+                margin-top: 4px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">ABIEZER "ABE" REYES</div>
+            <div class="title">Inside Sales Professional</div>
+            <div class="contact">
+                Orlando, FL 32839 | 407-873-6713 | abe.raise@gmail.com
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div class="job-description">
+                Inside sales professional with 20+ years of customer-facing experience, including four call center roles and extensive financial product sales. Six-year progression at Toyota of Orlando, culminating in a Financial Services role where I presented protection products, warranty packages, and financing plans to 80-100 customers monthly with bonus tied directly to satisfaction scores. Consultative, integrity-based approach to closing: when you genuinely solve someone's problem first, the numbers take care of themselves. Strong PC proficiency and proven track record in remote work environments.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Core Competencies</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-label">Consultative Sales & Closing</div>
+                    <div class="skill-items">Same-day closing, objection handling, needs-based recommendations, high-volume inbound sales</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Financial Product Knowledge</div>
+                    <div class="skill-items">Protection products, financing packages, warranty programs, complex transaction structuring</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Customer Needs Assessment</div>
+                    <div class="skill-items">Active listening, solution matching, trust-building, customer recovery</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Inbound/Phone-Based Sales</div>
+                    <div class="skill-items">Warm lead conversion, service upgrades, call documentation, high call volume</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">CRM & Technology</div>
+                    <div class="skill-items">Salesforce CRM, pipeline management, Google Workspace, strong PC proficiency</div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-label">Communication & Teamwork</div>
+                    <div class="skill-items">Complex financial explanations, cross-cultural communication, remote collaboration, mentoring</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Founder & Business Developer</div>
+                    <div class="job-dates">2023 - Present</div>
+                </div>
+                <div class="company">needthisdone.com, Orlando, FL (Remote)</div>
+                <div class="job-description">
+                    Self-employed business owner acquiring clients through direct prospecting, networking, and relationship building. 100% commission-based revenue model requiring full sales cycle management in a remote work environment.
+                </div>
+                <ul class="accomplishments">
+                    <li>Built paying client base entirely through outbound prospecting and referrals</li>
+                    <li>Landed 8-month engagement with EdTech company through relationship-based selling</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Product Sales / Sales Specialist / Financial Services Specialist</div>
+                    <div class="job-dates">2017 - 2023</div>
+                </div>
+                <div class="company">Toyota of Orlando, Orlando, FL</div>
+                <div class="job-description">
+                    Six-year, three-role progression at a high-volume dealership. Advanced from floor sales to Financial Services, presenting protection products, warranty packages, and financial plans with bonus tied to customer satisfaction scores.
+                </div>
+
+                <div class="sub-role">
+                    <div class="sub-role-title">PRODUCT SALES (2017-2020)</div>
+                    <div class="metrics" style="margin-bottom: 6px;">
+                        25-30 vehicles monthly | Peak: 35 units | Top 25% performer
+                    </div>
+                    <ul class="accomplishments">
+                        <li>Specialized in same-day closing: moved customers from greeting to signed deal in a single visit</li>
+                        <li>Earned repeat and referral business through transparent, no-pressure approach</li>
+                    </ul>
+                </div>
+
+                <div class="sub-role">
+                    <div class="sub-role-title">SALES SPECIALIST (2020-2021)</div>
+                    <div class="metrics" style="margin-bottom: 6px;">
+                        Up to 25 vehicles monthly | CSI goals consistently met
+                    </div>
+                    <ul class="accomplishments">
+                        <li>Go-to person for difficult deals involving unusual credit or complex customer situations</li>
+                    </ul>
+                </div>
+
+                <div class="sub-role page-two-start">
+                    <div class="sub-role-title">FINANCIAL SERVICES SPECIALIST (2021-2023)</div>
+                    <div class="metrics" style="margin-bottom: 6px;">
+                        80-100 transactions monthly | Top two performer most weeks
+                    </div>
+                    <ul class="accomplishments">
+                        <li>Presented protection products, warranty packages, and financing plans to 3-5 customers daily (7-8 at peak)</li>
+                        <li>Specialized in customer recovery: transformed negative experiences into positive reviews</li>
+                        <li>Bonus structure tied directly to customer satisfaction (CSI/Google reviews)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">International Admissions Rep / Military Student Liaison</div>
+                    <div class="job-dates">2012 - 2017</div>
+                </div>
+                <div class="company">Full Sail University, Winter Park, FL</div>
+                <div class="job-description">
+                    Five years of phone-based enrollment sales. Helped prospective students and families navigate program options, costs, and financial aid decisions exceeding $50K. Used Salesforce CRM daily to manage pipeline and track interactions.
+                </div>
+                <ul class="accomplishments">
+                    <li>Consistently met enrollment targets through integrity-based, relationship-first approach</li>
+                    <li>Guided service members and families through GI Bill benefits and enrollment options</li>
+                    <li>Built trust across language and cultural barriers with international prospects</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">B2B Sales Representative</div>
+                    <div class="job-dates">2010 - 2011</div>
+                </div>
+                <div class="company">Quill.com (Staples), Orlando, FL</div>
+                <div class="job-description">
+                    High-volume outbound call center sales. Contacted business owners and office managers to open purchasing accounts and build ongoing B2B relationships.
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Inbound Sales Representative</div>
+                    <div class="job-dates">2006 - 2007</div>
+                </div>
+                <div class="company">Adelphia Communications, Orlando, FL</div>
+                <div class="job-description">
+                    Inbound call center sales for cable and internet services. Handled customer inquiries, recommended service upgrades, and closed package sales for telecommunications provider.
+                </div>
+                <div class="metrics">
+                    Ranked in top 25% of salespeople
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Earlier Sales Roles</div>
+                    <div class="job-dates">2002 - 2009</div>
+                </div>
+                <div class="early-roles">
+                    <div class="role-line"><span class="role-title">Mortgage Broker</span> | Florida Home Equity (2008-2009)</div>
+                    <div class="role-line"><span class="role-title">Outbound Sales Rep</span> | DialAmerica Marketing (2003-2005)</div>
+                    <div class="role-line"><span class="role-title">Vacation Package Sales</span> | Marriott Vacation Club (2002)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Military Service</div>
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Combat Medic, Corporal (E-4)</div>
+                    <div class="job-dates">1996 - 2001</div>
+                </div>
+                <div class="company">U.S. Army, Fort Hood, TX / Fort Bragg, NC</div>
+                <div class="job-description">
+                    Led team of 3 medics and 2 combat lifesavers. Delivered emergency medical care in high-pressure conditions requiring rapid decision-making and precision. Graduated top 10% of class at Army Medical Department Center & School.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education">
+                <div class="education-school">Web Design & Development Coursework</div>
+                <div class="education-detail">Full Sail University, 2016-2017 | Completed while maintaining full-time sales position</div>
+            </div>
+            <div class="education">
+                <div class="education-school">Combat Medic Certification</div>
+                <div class="education-detail">U.S. Army Medical Department Center & School, 1996 | Graduated top 10% of class</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -124,6 +124,7 @@ Title Progression: International Admissions Rep → Military Student Liaison
 
 ### Key Skills Developed
 - Complex financial explanations to non-experts
+- Helped families navigate financial aid decisions exceeding $50K
 - Cultural awareness and international communication
 - Trust-building in high-stakes educational/financial decisions
 - Military transition support and mentoring
@@ -162,7 +163,7 @@ High-volume dealership environment
 
 ### Period 3: Financial Services Specialist (2021-2023, 2+ years)
 - Handled legal and financial paperwork as final customer touchpoint before delivery
-- Processed 3-5 transactions daily (average), 7-8 at busy times
+- Presented protection products, warranty packages, and financing plans to 3-5 customers daily (7-8 at peak)
 - Specialized in customer recovery: transformed subpar purchase experiences by making customers feel heard and understood
 - Bonus structure tied to customer satisfaction (CSI/reviews): no good CSI score meant no bonus for that transaction
 
@@ -232,10 +233,11 @@ Title: Full Stack Developer & Consultant
 - Became primary technical problem-solver
 
 **Key Accomplishments:**
+- Served as bridge between engineering team and non-technical CEO, enabling faster product decisions
 - Designed web scraping infrastructure for FINRA regulations
 - Built Python scripts to convert PDFs to clean HTML
 - Transformed unformatted Word documents to structured formats
-- Automated flashcard generation (reducing weeks of manual work to hours)
+- Transformed weeks of manual data processing into hours through automation (flashcard generation, content pipelines)
 - Multi-phase validation pipelines with auto-correction
 - Led technical decision-making for platform
 
@@ -357,6 +359,12 @@ Focus on: Toyota progression, Quill experience, Full Sail customer/student relat
 ### For Operations/PM Roles
 Focus on: Toyota progression through three roles, Acadio technical operations transition, system design, automation, process improvement, team mentoring
 
+### Reusable Phrases (for cover letters and narratives)
+- "When you genuinely solve someone's problem first, the numbers take care of themselves"
+- "Whether it's in the job description or not"
+- "I own what I build. No finger-pointing, no excuses"
+- "Fix the problem and close the sale, not one or the other"
+
 ---
 
 ---
@@ -368,7 +376,7 @@ Focus on: Toyota progression through three roles, Acadio technical operations tr
 - **U.S. Army Medical Department Center & School** (1996-2001): Combat Medic certification. Graduated top 10% of class.
 
 ### Self-Directed Learning
-- **Independent Study** (2016-2023): Seven years of consistent skill development while working full-time. Progressed from tutorials to building production applications.
+- **Independent Study** (2016-2026): Ten years of consistent skill development, much of it while working full-time. Progressed from tutorials to building production applications.
 
 ### Online Certifications & Structured Courses
 - **freeCodeCamp** (2023-2026): Responsive Web Design Certification (completed), Full Stack Developer Certification (in progress)

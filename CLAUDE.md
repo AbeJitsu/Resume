@@ -71,12 +71,16 @@ All resume content lives in `WORK_HISTORY.md`:
 
 ```
 WORK_HISTORY.md              Source of truth (edit this)
-  ↓
+  |
 Generate resumes on demand using Claude Code
-  ↓
-resume-dev.html              Tech resume (AI-generated from markdown)
-resume-sales.html            Sales resume (AI-generated from markdown)
-resume-ats.html              ATS-optimized (AI-generated from markdown)
+  |
+resumes/
+  resume-dev.html            Tech resume
+  resume-sales.html          Sales resume
+  resume-ats.html            ATS-optimized
+cover-letters/
+  cover-letter-*.html        Cover letters
+  cover-letter-*.txt         Plain text cover letters
 ```
 
 ### Creating a Resume
@@ -104,7 +108,7 @@ Claude Code reads WORK_HISTORY.md and generates clean HTML with:
 **Step 3: Convert to PDF (if needed)**
 
 ```bash
-npx tsx html-to-pdf.ts resume-dev.html Resume.pdf
+npx tsx html-to-pdf.ts resumes/resume-dev.html resumes/Resume.pdf
 ```
 
 ### Why This Approach
@@ -120,15 +124,15 @@ npx tsx html-to-pdf.ts resume-dev.html Resume.pdf
 
 ```
 1. You have a job opportunity for healthcare sales
-   ↓
+   |
 2. Edit WORK_HISTORY.md - add healthcare-specific accomplishments
    (or ask Claude to generate a healthcare-focused variant)
-   ↓
-3. Claude generates resume-healthcare.html
+   |
+3. Claude generates resumes/resume-healthcare.html
    emphasizing trust-building and complex transactions
-   ↓
+   |
 4. Convert to PDF:
-   npx tsx html-to-pdf.ts resume-healthcare.html Resume.pdf
+   npx tsx html-to-pdf.ts resumes/resume-healthcare.html resumes/Resume.pdf
 ```
 
 ### Important Notes
